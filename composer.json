@@ -1,0 +1,27 @@
+{
+    "name": "khsing/world",
+    "description": "provide countries, states, and cities relations and database.",
+    "keywords": [ "world", "country", "city" ],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework" : "5.x"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master",
+        "illuminate/filesystem": "5.x"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Khsing\\World\\": "src/"
+    	}
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Guixing Bai",
+            "email": "khsing.cn@gmail.com"
+        }
+    ]
+}
