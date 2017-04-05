@@ -1,15 +1,15 @@
 {
     "name": "khsing/world",
-    "description": "provide countries, states, and cities relations and database.",
-    "keywords": [ "world", "country", "city" ],
+    "description": "Provide countries, states, and cities relations database.",
+    "keywords": [ "world", "country", "city", "region" ],
     "type": "library",
     "license": "MIT",
     "require": {
-        "php": ">=5.5.9",
-        "laravel/framework" : "5.x"
+        "php": ">=5.6.4",
+        "laravel/framework" : "~5.4"
     },
     "require-dev": {
-        "mockery/mockery": "dev-master",
+        "mockery/mockery": "~0.9",
         "phpunit/phpunit": "~5.0",
         "orangehill/iseed": "2.x"
     },
