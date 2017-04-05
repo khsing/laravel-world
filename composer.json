@@ -10,8 +10,8 @@
     },
     "require-dev": {
         "mockery/mockery": "dev-master",
-        "illuminate/filesystem": "5.x"
-    },
+        "orangehill/iseed": "2.x",
+},
     "autoload": {
     	"psr-4": {
     		"Khsing\\World\\": "src/"

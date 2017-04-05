@@ -42,5 +42,6 @@ class InitCommand extends Command
         $this->call('migrate');
         $this->info('Seeding datas');
         $this->call('db:seed',["--class"=>"WorldTablesSeeder"]);
+        $this->info('Done!');
     }
 }
