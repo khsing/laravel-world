@@ -10,6 +10,7 @@
     },
     "require-dev": {
         "mockery/mockery": "dev-master",
+        "phpunit/phpunit": "~5.0",
         "orangehill/iseed": "2.x"
     },
     "autoload": {
