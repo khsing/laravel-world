@@ -15,7 +15,7 @@ class AddForeignKeysToWorldCitiesTable extends Migration {
 		Schema::table('world_cities', function(Blueprint $table)
 		{
 			$table->foreign('country_id', 'world_cities_ibfk_1')->references('id')->on('world_countries')->onUpdate('RESTRICT')->onDelete('CASCADE');
-			$table->foreign('region_id', 'world_cities_ibfk_2')->references('id')->on('world_regions')->onUpdate('RESTRICT')->onDelete('CASCADE');
+			$table->foreign('division_id', 'world_cities_ibfk_2')->references('id')->on('world_divisions')->onUpdate('RESTRICT')->onDelete('CASCADE');
 		});
 	}
 

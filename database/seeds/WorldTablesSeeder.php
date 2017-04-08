@@ -16,8 +16,8 @@ class WorldTablesSeeder extends Seeder
         $this->call(WorldContinentsLocaleTableSeeder::class);
         $this->call(WorldCountriesTableSeeder::class);
         $this->call(WorldCountriesLocaleTableSeeder::class);
-        $this->call(WorldRegionsTableSeeder::class);
-        $this->call(WorldRegionsLocaleTableSeeder::class);
+        $this->call(WorldDivisionsTableSeeder::class);
+        $this->call(WorldDivisionsLocaleTableSeeder::class);
         $this->call(WorldCitiesTableSeeder::class);
         $this->call(WorldCitiesLocaleTableSeeder::class);
     }

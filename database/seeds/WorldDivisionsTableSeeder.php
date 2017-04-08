@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class WorldRegionsTableSeeder extends Seeder
+class WorldDivisionsTableSeeder extends Seeder
 {
 
     /**
@@ -14,9 +14,9 @@ class WorldRegionsTableSeeder extends Seeder
     {
         
 
-        \DB::table('world_regions')->delete();
+        \DB::table('world_divisions')->delete();
         
-        \DB::table('world_regions')->insert(array (
+        \DB::table('world_divisions')->insert(array (
             0 => 
             array (
                 'id' => 1,
@@ -104,7 +104,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 87,
                 'name' => 'Johor',
                 'full_name' => NULL,
-                'code' => 'JH',
+                'code' => 'jh',
                 'has_city' => 1,
             ),
             10 => 
@@ -113,7 +113,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 87,
                 'name' => 'Kedah',
                 'full_name' => NULL,
-                'code' => 'KD',
+                'code' => 'kd',
                 'has_city' => 1,
             ),
             11 => 
@@ -122,7 +122,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 87,
                 'name' => 'Kelantan',
                 'full_name' => NULL,
-                'code' => 'KN',
+                'code' => 'kn',
                 'has_city' => 1,
             ),
             12 => 
@@ -131,7 +131,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 87,
                 'name' => 'Kuala Lumpur',
                 'full_name' => NULL,
-                'code' => 'KL',
+                'code' => 'kl',
                 'has_city' => 1,
             ),
             13 => 
@@ -140,7 +140,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 87,
                 'name' => 'Labuan',
                 'full_name' => NULL,
-                'code' => 'LB',
+                'code' => 'lb',
                 'has_city' => 1,
             ),
             14 => 
@@ -149,7 +149,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 87,
                 'name' => 'Malacca',
                 'full_name' => NULL,
-                'code' => 'ML',
+                'code' => 'ml',
                 'has_city' => 1,
             ),
             15 => 
@@ -158,7 +158,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 87,
                 'name' => 'Negeri Sembilan',
                 'full_name' => NULL,
-                'code' => 'NS',
+                'code' => 'ns',
                 'has_city' => 1,
             ),
             16 => 
@@ -167,7 +167,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 87,
                 'name' => 'Pahang',
                 'full_name' => NULL,
-                'code' => 'PG',
+                'code' => 'pg',
                 'has_city' => 1,
             ),
             17 => 
@@ -176,7 +176,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 87,
                 'name' => 'Perak',
                 'full_name' => NULL,
-                'code' => 'PK',
+                'code' => 'pk',
                 'has_city' => 1,
             ),
             18 => 
@@ -185,7 +185,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 87,
                 'name' => 'Perlis',
                 'full_name' => NULL,
-                'code' => 'PS',
+                'code' => 'ps',
                 'has_city' => 1,
             ),
             19 => 
@@ -194,7 +194,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 87,
                 'name' => 'Pulau Pinang',
                 'full_name' => NULL,
-                'code' => 'PH',
+                'code' => 'ph',
                 'has_city' => 1,
             ),
             20 => 
@@ -203,7 +203,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 87,
                 'name' => 'Sabah',
                 'full_name' => NULL,
-                'code' => 'SB',
+                'code' => 'sb',
                 'has_city' => 1,
             ),
             21 => 
@@ -212,7 +212,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 87,
                 'name' => 'Sarawak',
                 'full_name' => NULL,
-                'code' => 'SR',
+                'code' => 'sr',
                 'has_city' => 1,
             ),
             22 => 
@@ -221,7 +221,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 87,
                 'name' => 'Selangor',
                 'full_name' => NULL,
-                'code' => 'SL',
+                'code' => 'sl',
                 'has_city' => 1,
             ),
             23 => 
@@ -230,7 +230,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 87,
                 'name' => 'Terengganu',
                 'full_name' => NULL,
-                'code' => 'TR',
+                'code' => 'tr',
                 'has_city' => 1,
             ),
             24 => 
@@ -527,7 +527,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 148,
                 'name' => 'England',
                 'full_name' => NULL,
-                'code' => 'ENG',
+                'code' => 'eng',
                 'has_city' => 1,
             ),
             57 => 
@@ -536,7 +536,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 148,
                 'name' => 'Northern Ireland',
                 'full_name' => NULL,
-                'code' => 'NIR',
+                'code' => 'nir',
                 'has_city' => 1,
             ),
             58 => 
@@ -545,7 +545,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 148,
                 'name' => 'Scotland',
                 'full_name' => NULL,
-                'code' => 'SCT',
+                'code' => 'sct',
                 'has_city' => 1,
             ),
             59 => 
@@ -554,7 +554,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 148,
                 'name' => 'Wales',
                 'full_name' => NULL,
-                'code' => 'WLS',
+                'code' => 'wls',
                 'has_city' => 1,
             ),
             60 => 
@@ -563,7 +563,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Alabama',
                 'full_name' => NULL,
-                'code' => 'AL',
+                'code' => 'al',
                 'has_city' => 1,
             ),
             61 => 
@@ -572,7 +572,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Alaska',
                 'full_name' => NULL,
-                'code' => 'AK',
+                'code' => 'ak',
                 'has_city' => 1,
             ),
             62 => 
@@ -581,7 +581,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Arizona',
                 'full_name' => NULL,
-                'code' => 'AZ',
+                'code' => 'az',
                 'has_city' => 1,
             ),
             63 => 
@@ -590,7 +590,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Arkansas',
                 'full_name' => NULL,
-                'code' => 'AR',
+                'code' => 'ar',
                 'has_city' => 1,
             ),
             64 => 
@@ -599,7 +599,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'California',
                 'full_name' => NULL,
-                'code' => 'CA',
+                'code' => 'ca',
                 'has_city' => 1,
             ),
             65 => 
@@ -608,7 +608,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Colorado',
                 'full_name' => NULL,
-                'code' => 'CO',
+                'code' => 'co',
                 'has_city' => 1,
             ),
             66 => 
@@ -617,7 +617,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Connecticut',
                 'full_name' => NULL,
-                'code' => 'CT',
+                'code' => 'ct',
                 'has_city' => 1,
             ),
             67 => 
@@ -626,7 +626,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Delaware',
                 'full_name' => NULL,
-                'code' => 'DE',
+                'code' => 'de',
                 'has_city' => 1,
             ),
             68 => 
@@ -635,7 +635,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'District of Columbia',
                 'full_name' => NULL,
-                'code' => 'DC',
+                'code' => 'dc',
                 'has_city' => 1,
             ),
             69 => 
@@ -644,7 +644,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Florida',
                 'full_name' => NULL,
-                'code' => 'FL',
+                'code' => 'fl',
                 'has_city' => 1,
             ),
             70 => 
@@ -653,7 +653,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Georgia',
                 'full_name' => NULL,
-                'code' => 'GA',
+                'code' => 'ga',
                 'has_city' => 1,
             ),
             71 => 
@@ -662,7 +662,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Hawaii',
                 'full_name' => NULL,
-                'code' => 'HI',
+                'code' => 'hi',
                 'has_city' => 1,
             ),
             72 => 
@@ -671,7 +671,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Idaho',
                 'full_name' => NULL,
-                'code' => 'ID',
+                'code' => 'id',
                 'has_city' => 1,
             ),
             73 => 
@@ -680,7 +680,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Illinois',
                 'full_name' => NULL,
-                'code' => 'IL',
+                'code' => 'il',
                 'has_city' => 1,
             ),
             74 => 
@@ -689,7 +689,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Indiana',
                 'full_name' => NULL,
-                'code' => 'IN',
+                'code' => 'in',
                 'has_city' => 1,
             ),
             75 => 
@@ -698,7 +698,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Iowa',
                 'full_name' => NULL,
-                'code' => 'IA',
+                'code' => 'ia',
                 'has_city' => 1,
             ),
             76 => 
@@ -707,7 +707,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Kansas',
                 'full_name' => NULL,
-                'code' => 'KS',
+                'code' => 'ks',
                 'has_city' => 1,
             ),
             77 => 
@@ -716,7 +716,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Kentucky',
                 'full_name' => NULL,
-                'code' => 'KY',
+                'code' => 'ky',
                 'has_city' => 1,
             ),
             78 => 
@@ -725,7 +725,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Louisiana',
                 'full_name' => NULL,
-                'code' => 'LA',
+                'code' => 'la',
                 'has_city' => 1,
             ),
             79 => 
@@ -734,7 +734,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Maine',
                 'full_name' => NULL,
-                'code' => 'ME',
+                'code' => 'me',
                 'has_city' => 1,
             ),
             80 => 
@@ -743,7 +743,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Maryland',
                 'full_name' => NULL,
-                'code' => 'MD',
+                'code' => 'md',
                 'has_city' => 1,
             ),
             81 => 
@@ -752,7 +752,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Massachusetts',
                 'full_name' => NULL,
-                'code' => 'MA',
+                'code' => 'ma',
                 'has_city' => 1,
             ),
             82 => 
@@ -761,7 +761,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Michigan',
                 'full_name' => NULL,
-                'code' => 'MI',
+                'code' => 'mi',
                 'has_city' => 1,
             ),
             83 => 
@@ -770,7 +770,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Minnesota',
                 'full_name' => NULL,
-                'code' => 'MN',
+                'code' => 'mn',
                 'has_city' => 1,
             ),
             84 => 
@@ -779,7 +779,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Mississippi',
                 'full_name' => NULL,
-                'code' => 'MS',
+                'code' => 'ms',
                 'has_city' => 1,
             ),
             85 => 
@@ -788,7 +788,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Missouri',
                 'full_name' => NULL,
-                'code' => 'MO',
+                'code' => 'mo',
                 'has_city' => 1,
             ),
             86 => 
@@ -797,7 +797,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Montana',
                 'full_name' => NULL,
-                'code' => 'MT',
+                'code' => 'mt',
                 'has_city' => 1,
             ),
             87 => 
@@ -806,7 +806,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Nebraska',
                 'full_name' => NULL,
-                'code' => 'NE',
+                'code' => 'ne',
                 'has_city' => 1,
             ),
             88 => 
@@ -815,7 +815,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Nevada',
                 'full_name' => NULL,
-                'code' => 'NV',
+                'code' => 'nv',
                 'has_city' => 1,
             ),
             89 => 
@@ -824,7 +824,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'New Hampshire',
                 'full_name' => NULL,
-                'code' => 'NH',
+                'code' => 'nh',
                 'has_city' => 1,
             ),
             90 => 
@@ -833,7 +833,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'New Jersey',
                 'full_name' => NULL,
-                'code' => 'NJ',
+                'code' => 'nj',
                 'has_city' => 1,
             ),
             91 => 
@@ -842,7 +842,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'New Mexico',
                 'full_name' => NULL,
-                'code' => 'NM',
+                'code' => 'nm',
                 'has_city' => 1,
             ),
             92 => 
@@ -851,7 +851,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'New York',
                 'full_name' => NULL,
-                'code' => 'NY',
+                'code' => 'ny',
                 'has_city' => 1,
             ),
             93 => 
@@ -860,7 +860,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'North Carolina',
                 'full_name' => NULL,
-                'code' => 'NC',
+                'code' => 'nc',
                 'has_city' => 1,
             ),
             94 => 
@@ -869,7 +869,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'North Dakota',
                 'full_name' => NULL,
-                'code' => 'ND',
+                'code' => 'nd',
                 'has_city' => 1,
             ),
             95 => 
@@ -878,7 +878,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Ohio',
                 'full_name' => NULL,
-                'code' => 'OH',
+                'code' => 'oh',
                 'has_city' => 1,
             ),
             96 => 
@@ -887,7 +887,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Oklahoma',
                 'full_name' => NULL,
-                'code' => 'OK',
+                'code' => 'ok',
                 'has_city' => 1,
             ),
             97 => 
@@ -896,7 +896,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Oregon',
                 'full_name' => NULL,
-                'code' => 'OR',
+                'code' => 'or',
                 'has_city' => 1,
             ),
             98 => 
@@ -905,7 +905,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Pennsylvania',
                 'full_name' => NULL,
-                'code' => 'PA',
+                'code' => 'pa',
                 'has_city' => 1,
             ),
             99 => 
@@ -914,7 +914,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Rhode Island',
                 'full_name' => NULL,
-                'code' => 'RI',
+                'code' => 'ri',
                 'has_city' => 1,
             ),
             100 => 
@@ -923,7 +923,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'South Carolina',
                 'full_name' => NULL,
-                'code' => 'SC',
+                'code' => 'sc',
                 'has_city' => 1,
             ),
             101 => 
@@ -932,7 +932,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'South Dakota',
                 'full_name' => NULL,
-                'code' => 'SD',
+                'code' => 'sd',
                 'has_city' => 1,
             ),
             102 => 
@@ -941,7 +941,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Tennessee',
                 'full_name' => NULL,
-                'code' => 'TN',
+                'code' => 'tn',
                 'has_city' => 1,
             ),
             103 => 
@@ -950,7 +950,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Texas',
                 'full_name' => NULL,
-                'code' => 'TX',
+                'code' => 'tx',
                 'has_city' => 1,
             ),
             104 => 
@@ -959,7 +959,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Utah',
                 'full_name' => NULL,
-                'code' => 'UT',
+                'code' => 'ut',
                 'has_city' => 1,
             ),
             105 => 
@@ -968,7 +968,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Vermont',
                 'full_name' => NULL,
-                'code' => 'VT',
+                'code' => 'vt',
                 'has_city' => 1,
             ),
             106 => 
@@ -977,7 +977,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Virginia',
                 'full_name' => NULL,
-                'code' => 'VA',
+                'code' => 'va',
                 'has_city' => 1,
             ),
             107 => 
@@ -986,7 +986,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Washington',
                 'full_name' => NULL,
-                'code' => 'WA',
+                'code' => 'wa',
                 'has_city' => 1,
             ),
             108 => 
@@ -995,7 +995,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'West Virginia',
                 'full_name' => NULL,
-                'code' => 'WV',
+                'code' => 'wv',
                 'has_city' => 1,
             ),
             109 => 
@@ -1004,7 +1004,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Wisconsin',
                 'full_name' => NULL,
-                'code' => 'WI',
+                'code' => 'wi',
                 'has_city' => 1,
             ),
             110 => 
@@ -1013,7 +1013,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 167,
                 'name' => 'Wyoming',
                 'full_name' => NULL,
-                'code' => 'WY',
+                'code' => 'wy',
                 'has_city' => 1,
             ),
             111 => 
@@ -1022,7 +1022,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 170,
                 'name' => 'Canberra',
                 'full_name' => NULL,
-                'code' => 'ACT',
+                'code' => 'act',
                 'has_city' => 1,
             ),
             112 => 
@@ -1031,7 +1031,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 170,
                 'name' => 'New South Wales',
                 'full_name' => NULL,
-                'code' => 'NSW',
+                'code' => 'nsw',
                 'has_city' => 1,
             ),
             113 => 
@@ -1040,7 +1040,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 170,
                 'name' => 'Northern Territory',
                 'full_name' => NULL,
-                'code' => 'NT',
+                'code' => 'nt',
                 'has_city' => 1,
             ),
             114 => 
@@ -1049,7 +1049,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 170,
                 'name' => 'Queensland',
                 'full_name' => NULL,
-                'code' => 'QLD',
+                'code' => 'qld',
                 'has_city' => 1,
             ),
             115 => 
@@ -1058,7 +1058,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 170,
                 'name' => 'South Australia',
                 'full_name' => NULL,
-                'code' => 'SA',
+                'code' => 'sa',
                 'has_city' => 1,
             ),
             116 => 
@@ -1067,7 +1067,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 170,
                 'name' => 'Tasmania',
                 'full_name' => NULL,
-                'code' => 'TAS',
+                'code' => 'tas',
                 'has_city' => 1,
             ),
             117 => 
@@ -1076,7 +1076,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 170,
                 'name' => 'Victoria',
                 'full_name' => NULL,
-                'code' => 'VIC',
+                'code' => 'vic',
                 'has_city' => 1,
             ),
             118 => 
@@ -1085,7 +1085,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 170,
                 'name' => 'Western Australia',
                 'full_name' => NULL,
-                'code' => 'WA',
+                'code' => 'wa',
                 'has_city' => 1,
             ),
             119 => 
@@ -1094,7 +1094,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 101,
                 'name' => 'Hongkong',
                 'full_name' => NULL,
-                'code' => 'HK',
+                'code' => 'hk',
                 'has_city' => 0,
             ),
             120 => 
@@ -1103,7 +1103,7 @@ class WorldRegionsTableSeeder extends Seeder
                 'country_id' => 101,
                 'name' => 'Macau',
                 'full_name' => NULL,
-                'code' => 'MO',
+                'code' => 'mo',
                 'has_city' => 0,
             ),
         ));

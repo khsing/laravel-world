@@ -22,16 +22,16 @@ class City extends Model
      *
      * @var array
      */
-    protected $appends = ['name','full_name','alias'];
-
+    protected $appends = ['local_name','local_full_name','local_alias', 'local_abbr'];
+    
     public function country()
     {
         return $this->belongsTo(Country::class);
     }
     
-    public function region()
+    public function division()
     {
-        return $this->belongsTo(Region::class);
+        return $this->belongsTo(division::class);
     }
 
     public function children()
@@ -41,10 +41,10 @@ class City extends Model
 
     public function parent()
     {
-        if ($this->region_id === null) {
+        if ($this->division_id === null) {
             return $this->country;
         } else {
-            return $this->region;
+            return $this->division;
         }
     }
 

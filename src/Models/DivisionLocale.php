@@ -5,9 +5,9 @@ namespace Khsing\World\Models;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Region
+ * Division Locale
  */
-class RegionLocale extends Model
+class DivisionLocale extends Model
 {
 
     /**
@@ -15,11 +15,10 @@ class RegionLocale extends Model
      *
      * @var string
      */
-    protected $table = 'world_regions_locale';
+    protected $table = 'world_divisions_locale';
 
-    public function region()
+    public function division()
     {
-        return $this->belongsTo(Region::class);
+        return $this->belongsTo(Division::class);
     }
-
 }

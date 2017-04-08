@@ -21,43 +21,43 @@ class WorldContinentsTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'name' => 'Asia',
-                'code' => 'AS',
+                'code' => 'as',
             ),
             1 => 
             array (
                 'id' => 2,
                 'name' => 'Europe',
-                'code' => 'EU',
+                'code' => 'eu',
             ),
             2 => 
             array (
                 'id' => 3,
                 'name' => 'Africa',
-                'code' => 'AF',
+                'code' => 'af',
             ),
             3 => 
             array (
                 'id' => 4,
                 'name' => 'Oceania',
-                'code' => 'OC',
+                'code' => 'oc',
             ),
             4 => 
             array (
                 'id' => 5,
                 'name' => 'Antarctica',
-                'code' => 'AN',
+                'code' => 'an',
             ),
             5 => 
             array (
                 'id' => 6,
                 'name' => 'North America',
-                'code' => 'NA',
+                'code' => 'na',
             ),
             6 => 
             array (
                 'id' => 7,
                 'name' => 'South America',
-                'code' => 'SA',
+                'code' => 'sa',
             ),
         ));
         

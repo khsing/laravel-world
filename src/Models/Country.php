@@ -23,7 +23,7 @@ class Country extends Model
      * @var array
      */
     protected $casts = [
-        'has_region' => 'boolean',
+        'has_division' => 'boolean',
     ];
 
     /**
@@ -31,11 +31,11 @@ class Country extends Model
      *
      * @var array
      */
-    protected $appends = ['name','full_name','alias'];
+    protected $appends = ['local_name','local_full_name','local_alias', 'local_abbr'];
 
-    public function regions()
+    public function divisions()
     {
-        return $this->hasMany(Region::class);
+        return $this->hasMany(Division::class);
     }
 
     public function cities()
@@ -43,20 +43,34 @@ class Country extends Model
         return $this->hasMany(City::class);
     }
 
-    
+    /**
+     * Continent of country
+     *
+     * @return Continent
+     */
     public function continent()
     {
         return $this->belongsTo(Continent::class);
     }
 
+    /**
+     * Get next level
+     *
+     * @return collection
+     */
     public function children()
     {
-        if ($this->has_region == true) {
-            return $this->regions;
+        if ($this->has_division == true) {
+            return $this->divisions;
         }
         return $this->cities;
     }
 
+    /**
+     * Get up level
+     *
+     * @return Continent
+     */
     public function parent()
     {
         return $this->continent;
@@ -74,11 +88,11 @@ class Country extends Model
      */
     public static function getByName($name)
     {
-        $localed = CountryLocale::where('name', $name)->first();
-        if (is_null($localed)) {
-            return $localed;
+        $localized = CountryLocale::where('name', $name)->first();
+        if (is_null($localized)) {
+            return $localized;
         } else {
-            return $localed->country;
+            return $localized->country;
         }
     }
 

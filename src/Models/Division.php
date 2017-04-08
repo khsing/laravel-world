@@ -6,9 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 use Khsing\World\WorldTrait;
 
 /**
- * Region
+ * Division
  */
-class Region extends Model
+class Division extends Model
 {
     use WorldTrait;
 
@@ -17,14 +17,14 @@ class Region extends Model
      *
      * @var string
      */
-    protected $table = 'world_regions';
+    protected $table = 'world_divisions';
 
     /**
      * append names
      *
      * @var array
      */
-    protected $appends = ['name','full_name','alias'];
+    protected $appends = ['local_name','local_full_name','local_alias', 'local_abbr'];
 
     public function country()
     {
@@ -48,35 +48,35 @@ class Region extends Model
 
     public function locales()
     {
-        return $this->hasMany(RegionLocale::class);
+        return $this->hasMany(DivisionLocale::class);
     }
     /**
-     * Get Region by name
+     * Get Division by name
      *
      * @param string $name
      * @return collection
      */
     public static function getByName($name)
     {
-        $localed = RegionLocale::where('name', $name)->first();
-        if (is_null($localed)) {
-            return $localed;
+        $localized = DivisionLocale::where('name', $name)->first();
+        if (is_null($localized)) {
+            return $localized;
         } else {
-            return $localed->region;
+            return $localized->region;
         }
     }
 
     /**
-     * Search Region by name
+     * Search Division by name
      *
      * @param string $name
      * @return collection
      */
     public static function searchByName($name)
     {
-        return RegionLocale::where('name', 'like', "%".$name."%")
+        return DivisionLocale::where('name', 'like', "%".$name."%")
             ->get()->map(function ($item) {
-                return $item->region;
+                return $item->division;
             });
     }
 }
