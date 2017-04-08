@@ -34,8 +34,12 @@ class World
     public static function getByCode($code)
     {
         $code = strtolower($code);
-        list($country_code, $code) = explode('-', $code);
-        $country = self::getCountryByCode($country_code);
+        if (strpos($code, '-')) {
+            list($country_code, $code) = explode('-', $code);
+            $country = self::getCountryByCode($country_code);
+        } else {
+            return self::getCountryByCode($code);
+        }
         if ($country->has_division) {
             return Division::where([
                 ['country_id', $country->id],

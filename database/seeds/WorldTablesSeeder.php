@@ -12,6 +12,7 @@ class WorldTablesSeeder extends Seeder
      */
     public function run()
     {
+        \DB::statement('SET FOREIGN_KEY_CHECKS=0');
         $this->call(WorldContinentsTableSeeder::class);
         $this->call(WorldContinentsLocaleTableSeeder::class);
         $this->call(WorldCountriesTableSeeder::class);
@@ -20,5 +21,6 @@ class WorldTablesSeeder extends Seeder
         $this->call(WorldDivisionsLocaleTableSeeder::class);
         $this->call(WorldCitiesTableSeeder::class);
         $this->call(WorldCitiesLocaleTableSeeder::class);
+        \DB::statement('SET FOREIGN_KEY_CHECKS=1');
     }
 }

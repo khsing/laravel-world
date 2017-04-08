@@ -14,7 +14,7 @@ class WorldContinentsLocaleTableSeeder extends Seeder
     {
         
 
-        \DB::table('world_continents_locale')->delete();
+        \DB::table('world_continents_locale')->truncate();
         
         \DB::table('world_continents_locale')->insert(array (
             0 => 

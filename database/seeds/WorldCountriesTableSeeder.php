@@ -13,8 +13,8 @@ class WorldCountriesTableSeeder extends Seeder
     public function run()
     {
         
-
-        \DB::table('world_countries')->delete();
+        
+        \DB::table('world_countries')->truncate();
         
         \DB::table('world_countries')->insert(array (
             0 => 
@@ -2684,8 +2684,8 @@ class WorldCountriesTableSeeder extends Seeder
                 'code_alpha3' => 'usa',
                 'emoji' => '🇺🇸',
                 'has_division' => 1,
-                'currency_code' => 'USN',
-            'currency_name' => 'United States dollar (next day) (funds code)',
+                'currency_code' => 'USD',
+            'currency_name' => 'United Dollar',
                 'tld' => '.us',
                 'callingcode' => '1',
             ),
@@ -2988,8 +2988,8 @@ class WorldCountriesTableSeeder extends Seeder
                 'code_alpha3' => 'chl',
                 'emoji' => '🇨🇱',
                 'has_division' => 0,
-                'currency_code' => 'CLF',
-            'currency_name' => 'Unidad de Fomento (funds code)',
+                'currency_code' => 'CLP',
+                'currency_name' => 'Chilean Peso',
                 'tld' => '.cl',
                 'callingcode' => '56',
             ),
@@ -3100,8 +3100,8 @@ class WorldCountriesTableSeeder extends Seeder
                 'code_alpha3' => 'ury',
                 'emoji' => '🇺🇾',
                 'has_division' => 0,
-                'currency_code' => 'UYI',
-            'currency_name' => 'Uruguay Peso en Unidades Indexadas (URUIURUI) (funds code)',
+                'currency_code' => 'UYU',
+                'currency_name' => 'Peso Uruguayo',
                 'tld' => '.uy',
                 'callingcode' => '598',
             ),
@@ -3372,8 +3372,8 @@ class WorldCountriesTableSeeder extends Seeder
                 'code_alpha3' => 'bol',
                 'emoji' => '🇧🇴',
                 'has_division' => 0,
-                'currency_code' => 'BOV',
-            'currency_name' => 'Bolivian Mvdol (funds code)',
+                'currency_code' => 'BOB',
+                'currency_name' => 'Boliviano',
                 'tld' => '.bo',
                 'callingcode' => '591',
             ),
