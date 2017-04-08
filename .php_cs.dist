@@ -1,0 +1,40 @@
+<?php
+
+$finder = PhpCsFixer\Finder::create()
+    ->exclude('vendor')
+    ->in(__DIR__)
+;
+
+/**
+ * PHP CS Fixer Config
+ */
+return PhpCsFixer\Config::create()
+    ->setIndent('    ')
+    ->setUsingCache(true)
+    ->setCacheFile(__DIR__ . '/.php_cs.cache')
+    ->setRules([
+    '@PSR2' => true,
+    'array_syntax' => ['syntax' => 'short'],
+    // 'operators_spaces'=>true,
+    'binary_operator_spaces' => [
+        'align_double_arrow' => false,
+        'align_equals' => false,
+    ],
+    'no_unused_imports' => true,
+    'concat_space' => [
+        'spacing' => 'one',
+    ],
+    'no_extra_consecutive_blank_lines' => ['break', 'continue', 'extra', 'return', 'throw', 'use', 'parenthesis_brace_block', 'square_brace_block', 'curly_brace_block'],
+    'declare_equal_normalize' => [
+        'space' => 'single',
+    ],
+    'ordered_imports' => true,
+    'phpdoc_order' => true,
+    'phpdoc_add_missing_param_annotation' => true,
+    'no_useless_else' => true,
+    'no_useless_return' => true,
+    'heredoc_to_nowdoc' => true,
+    'trim_array_spaces' => true,
+    ])
+    ->setFinder($finder)
+;
