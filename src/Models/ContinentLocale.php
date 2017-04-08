@@ -18,12 +18,11 @@ class ContinentLocale extends Model
 
     /**
      * return belonged Continent
-     * 
+     *
      * @return void
      */
     public function continent()
     {
         return $this->belongsTo(Continent::class);
     }
-
 }

@@ -4,37 +4,43 @@ namespace Khsing\World;
 
 use Khsing\World\Exceptions\InvalidCodeException;
 
-trait WorldTrait{
-    
+trait WorldTrait
+{
     /**
      * default locale setting
-     * 
+     *
      * @var string
      */
     protected $defaultLocale = "en";
 
     /**
      * current locale setting
-     * 
+     *
      * @var string
      */
     protected $locale = "en";
 
-    function __construct(array $attributes = []) {
+    public function __construct($locale = null, array $attributes = [])
+    {
         parent::__construct($attributes);
-        $this->setLocale(config('app.locale'));
+
+        if (is_null($locale)) {
+            $this->setLocale(config('app.locale'));
+        } else {
+            $this->setLocale($locale);
+        }
     }
 
     /**
      * setting locale
-     * 
+     *
      * @param string $locale
      * @return void
      */
     public function setLocale($locale)
     {
-        $locale = str_replace('_','-', strtolower($locale));
-        if (starts_with($locale,'en')){
+        $locale = str_replace('_', '-', strtolower($locale));
+        if (starts_with($locale, 'en')) {
             $locale = 'en';
         }
         $this->locale = $locale;
@@ -42,7 +48,7 @@ trait WorldTrait{
  
     /**
      * get locale
-     * 
+     *
      * @return string
      */
     protected function getLocale()
@@ -50,12 +56,23 @@ trait WorldTrait{
         return $this->locale;
     }
 
-    protected function getLocaled(){
+    /**
+     * Get localed instance
+     *
+     * @return object
+     */
+    protected function getLocaled()
+    {
         return $this->locales()->where('locale', $this->locale)->first();
     }
 
-    public function getNameAttribute()
-    {   
+    /**
+     * Get localed name of instance
+     *
+     * @return string
+     */
+    public function getLocaleNameAttribute()
+    {
         if ($this->locale == $this->defaultLocale) {
             return $this->name;
         }
@@ -63,7 +80,12 @@ trait WorldTrait{
         return !is_null($localed)? $localed->name: $this->name;
     }
 
-    public function getFullNameAttribute()
+    /**
+     * Get Localed Full Name of instance
+     *
+     * @return string
+     */
+    public function getLocaleFullNameAttribute()
     {
         if ($this->locale == $this->defaultLocale) {
             return $this->full_name;
@@ -72,23 +94,58 @@ trait WorldTrait{
         return !is_null($localed)? $localed->full_name: $this->full_name;
     }
 
+    /**
+     * Get alias of locale
+     *
+     * @return string
+     */
     public function getAliasAttribute()
     {
-        if ($this->locale==$this->defaultLocale) {
+        if ($this->locale == $this->defaultLocale) {
             return $this->name;
         }
         $localed = $this->getLocaled();
         return !is_null($localed)? $localed->alias: $this->name;
     }
-
+    /**
+     * Get instance by code like country code etc.
+     *
+     * @param string $code
+     * @return instance
+     */
     public static function getByCode($code)
     {
         $code = strtoupper($code);
         $world = self::where('code', $code)->first();
-        if (is_null($world)){
+        if (is_null($world)) {
             throw new InvalidCodeException("${code} does not exist");
-        } else {
-            return $world;
         }
+        return $world;
+    }
+
+    /**
+     * Get instance by name
+     *
+     * @param string $name
+     * @return collection
+     */
+    public function getByName($name)
+    {
+        return $this->locales()->where('name', $name)->first()->parent();
+    }
+
+    /**
+     * Search instance by name
+     *
+     * @param string $name
+     * @return collection
+     */
+    public function searchByName($name)
+    {
+        return self::locales()
+            ->where('name', 'like', "%{$name}%")
+            ->each(function ($item) {
+                return $item->parent();
+            });
     }
 }

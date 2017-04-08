@@ -19,7 +19,7 @@ class Country extends Model
 
     /**
      * The attributes that should be casted to native types.
-     * 
+     *
      * @var array
      */
     protected $casts = [
@@ -28,11 +28,10 @@ class Country extends Model
 
     /**
      * append names
-     * 
+     *
      * @var array
      */
     protected $appends = ['name','full_name','alias'];
-
 
     public function regions()
     {
@@ -52,11 +51,10 @@ class Country extends Model
 
     public function children()
     {
-        if ($this->has_region == true){
+        if ($this->has_region == true) {
             return $this->regions;
-        } else {
-            return $this->cities;
         }
+        return $this->cities;
     }
 
     public function parent()
@@ -64,10 +62,8 @@ class Country extends Model
         return $this->continent;
     }
 
-
     public function locales()
     {
         return $this->hasMany(CountryLocale::class);
     }
-
 }

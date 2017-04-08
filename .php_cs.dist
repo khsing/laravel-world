@@ -20,7 +20,8 @@ return PhpCsFixer\Config::create()
         'align_double_arrow' => false,
         'align_equals' => false,
     ],
-    'no_unused_imports' => true,
+    // 'no_unused_imports' => true,
+    'ordered_imports' => true,
     'concat_space' => [
         'spacing' => 'one',
     ],
@@ -28,7 +29,6 @@ return PhpCsFixer\Config::create()
     'declare_equal_normalize' => [
         'space' => 'single',
     ],
-    'ordered_imports' => true,
     'phpdoc_order' => true,
     'phpdoc_add_missing_param_annotation' => true,
     'no_useless_else' => true,

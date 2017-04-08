@@ -64,14 +64,14 @@ php artisan world:init
 ```php
 use Khsing\World\World;
 
-World::getContinents()
+World::Continents()
 
 ```
 - get all Countries
 ```php
 use Khsing\World\World;
 
-World::getCountries()
+World::Countries()
 ```
 - get country by code
 ```php
