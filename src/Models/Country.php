@@ -31,7 +31,7 @@ class Country extends Model
      *
      * @var array
      */
-    protected $appends = ['local_name','local_full_name','local_alias', 'local_abbr'];
+    protected $appends = ['local_name','local_full_name','local_alias', 'local_abbr', 'local_currency_name'];
 
     public function divisions()
     {
@@ -79,6 +79,24 @@ class Country extends Model
     public function locales()
     {
         return $this->hasMany(CountryLocale::class);
+    }
+
+    /**
+     * Get alias of locale
+     *
+     * @return string
+     */
+    public function getLocalCurrencyNameAttribute()
+    {
+        if ($this->locale == $this->defaultLocale) {
+            return $this->currency_name;
+        }
+        $localized = $this->getLocalized();
+        if (is_null($localized)){
+            return !is_null($localized->currency_name) ? $localized->currency_name: $this->currency_name;
+        } else {
+            return $this->currency_name;
+        }
     }
     /**
      * Get country by name
