@@ -1,5 +1,6 @@
 <?php
 namespace Khsing\World;
+
 use Illuminate\Support\ServiceProvider;
 
 class WorldServiceProvider extends ServiceProvider
@@ -37,7 +38,8 @@ class WorldServiceProvider extends ServiceProvider
      */
     private function publishMigrations()
     {
-        $this->publishes([__DIR__ . '/../database/migrations/' => base_path('database/migrations')], 'migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/../database/migrations/');
+        // $this->publishes([__DIR__ . '/../database/migrations/' => base_path('database/migrations')], 'migrations');
     }
 
     /**
