@@ -21,7 +21,7 @@ class Region extends Model
 
     /**
      * append names
-     * 
+     *
      * @var array
      */
     protected $appends = ['name','full_name','alias'];
@@ -49,5 +49,34 @@ class Region extends Model
     public function locales()
     {
         return $this->hasMany(RegionLocale::class);
+    }
+    /**
+     * Get Region by name
+     *
+     * @param string $name
+     * @return collection
+     */
+    public static function getByName($name)
+    {
+        $localed = RegionLocale::where('name', $name)->first();
+        if (is_null($localed)) {
+            return $localed;
+        } else {
+            return $localed->region;
+        }
+    }
+
+    /**
+     * Search Region by name
+     *
+     * @param string $name
+     * @return collection
+     */
+    public static function searchByName($name)
+    {
+        return RegionLocale::where('name', 'like', "%".$name."%")
+            ->get()->map(function ($item) {
+                return $item->region;
+            });
     }
 }

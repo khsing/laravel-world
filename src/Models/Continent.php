@@ -20,14 +20,14 @@ class Continent extends Model
 
     /**
      * append names
-     * 
+     *
      * @var array
      */
     protected $appends = ['name','full_name','alias'];
 
     /**
      * return Countries
-     * 
+     *
      * @return void
      */
     public function countries()
@@ -47,11 +47,41 @@ class Continent extends Model
 
     /**
      * return Continent locales
-     * 
+     *
      * @return void
      */
     public function locales()
     {
         return $this->hasMany(ContinentLocale::class);
+    }
+
+    /**
+     * Get Continent by name
+     *
+     * @param string $name
+     * @return collection
+     */
+    public static function getByName($name)
+    {
+        $localed = ContinentLocale::where('name', $name)->first();
+        if (is_null($localed)) {
+            return $localed;
+        } else {
+            return $localed->Continent;
+        }
+    }
+
+    /**
+     * Search Continent by name
+     *
+     * @param string $name
+     * @return collection
+     */
+    public static function searchByName($name)
+    {
+        return ContinentLocale::where('name', 'like', "%".$name."%")
+            ->get()->map(function ($item) {
+                return $item->Continent;
+            });
     }
 }

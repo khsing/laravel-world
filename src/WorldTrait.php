@@ -20,15 +20,10 @@ trait WorldTrait
      */
     protected $locale = "en";
 
-    public function __construct($locale = null, array $attributes = [])
+    public function __construct(array $attributes = [])
     {
         parent::__construct($attributes);
-
-        if (is_null($locale)) {
-            $this->setLocale(config('app.locale'));
-        } else {
-            $this->setLocale($locale);
-        }
+        $this->setLocale(config('app.locale'));
     }
 
     /**
@@ -121,31 +116,5 @@ trait WorldTrait
             throw new InvalidCodeException("${code} does not exist");
         }
         return $world;
-    }
-
-    /**
-     * Get instance by name
-     *
-     * @param string $name
-     * @return collection
-     */
-    public function getByName($name)
-    {
-        return $this->locales()->where('name', $name)->first()->parent();
-    }
-
-    /**
-     * Search instance by name
-     *
-     * @param string $name
-     * @return collection
-     */
-    public function searchByName($name)
-    {
-        return self::locales()
-            ->where('name', 'like', "%{$name}%")
-            ->each(function ($item) {
-                return $item->parent();
-            });
     }
 }

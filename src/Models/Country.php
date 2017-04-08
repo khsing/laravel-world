@@ -66,4 +66,33 @@ class Country extends Model
     {
         return $this->hasMany(CountryLocale::class);
     }
+    /**
+     * Get country by name
+     *
+     * @param string $name
+     * @return collection
+     */
+    public static function getByName($name)
+    {
+        $localed = CountryLocale::where('name', $name)->first();
+        if (is_null($localed)) {
+            return $localed;
+        } else {
+            return $localed->country;
+        }
+    }
+
+    /**
+     * Search country by name
+     *
+     * @param string $name
+     * @return collection
+     */
+    public static function searchByName($name)
+    {
+        return CountryLocale::where('name', 'like', "%".$name."%")
+            ->get()->map(function ($item) {
+                return $item->country;
+            });
+    }
 }
