@@ -92,7 +92,7 @@ class Country extends Model
             return $this->currency_name;
         }
         $localized = $this->getLocalized();
-        if (is_null($localized)){
+        if (!is_null($localized)){
             return !is_null($localized->currency_name) ? $localized->currency_name: $this->currency_name;
         } else {
             return $this->currency_name;

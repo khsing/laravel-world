@@ -45,9 +45,13 @@ $china->local_name; // 中国
 $china->full_name; // People's Republic of China
 $china->local_full_name; // 中华人民共和国
 $china->emoji; // 🇨🇳
+$china->callingcode; // 86
 $china->code; // CN
 $china->code_alpha3; // CHN
 $china->has_division; // true
+$china->currency_code; // CNY
+$china->currency_name; // Yuan Renminbi
+$china->local_currency_name; // 人民币
 
 ```
 
@@ -97,7 +101,7 @@ World::Countries()
 ```php
 use Khsing\World\World;
 
-World::getByCode('cn');
+Country::getByCode('cn');
 ```
 - get countries belong to a continent
 ```php

@@ -13,8 +13,8 @@ class WorldCountriesTableSeeder extends Seeder
     public function run()
     {
         
-        
-        \DB::table('world_countries')->truncate();
+
+        \DB::table('world_countries')->delete();
         
         \DB::table('world_countries')->insert(array (
             0 => 
@@ -2685,7 +2685,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'emoji' => '🇺🇸',
                 'has_division' => 1,
                 'currency_code' => 'USD',
-            'currency_name' => 'United Dollar',
+                'currency_name' => 'US Dollar',
                 'tld' => '.us',
                 'callingcode' => '1',
             ),
