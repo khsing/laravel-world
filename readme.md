@@ -119,20 +119,20 @@ $china = Country::getByCode('cn');
 $asia = $china->parent();
 
 ```
-- get region/state/province via Conutry
+- get division/state/province via Conutry
 
 ```php
 $china = Country::getByCode('cn');
-$provinces = $china->regions()->get()
+$provinces = $china->divisions()->get()
 // or use children method
 $provinces = $china->children();
 ```
 
-- get cities via Country or Region.
+- get cities via Country or Division.
 ```php
 $china = Country::getByCode('cn');
-// check has_region to determine next level is region or city.
-$china->has_region; // true, otherwise is false
+// check has_division to determine next level is division or city.
+$china->has_division; // true, otherwise is false
 $regsions = $china->children();
 
 ```
