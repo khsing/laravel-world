@@ -16,9 +16,9 @@ class CreateWorldCountriesTable extends Migration {
 		{
 			$table->increments('id')->comment('Auto increase ID');
 			$table->integer('continent_id')->unsigned()->comment('Continent ID');
-			$table->string('name', 256)->default('')->comment('Country Common Name');
-			$table->string('full_name', 256)->nullable()->comment('Country Fullname');
-			$table->string('capital', 256)->nullable()->comment('Capital Common Name');
+			$table->string('name', 255)->default('')->comment('Country Common Name');
+			$table->string('full_name', 255)->nullable()->comment('Country Fullname');
+			$table->string('capital', 255)->nullable()->comment('Capital Common Name');
 			$table->string('code', 4)->nullable()->comment('ISO3166-1-Alpha-2');
 			$table->string('code_alpha3', 6)->nullable()->comment('ISO3166-1-Alpha-3');
 			$table->string('emoji', 16)->nullable()->comment('Country Emoji');

@@ -16,8 +16,8 @@ class CreateWorldDivisionsTable extends Migration {
 		{
 			$table->increments('id')->comment('Auto Increase ID');
 			$table->integer('country_id')->unsigned()->comment('Country ID');
-			$table->string('name', 256)->default('')->comment('Division Common Name');
-			$table->string('full_name', 256)->nullable()->comment('Division Full Name');
+			$table->string('name', 255)->default('')->comment('Division Common Name');
+			$table->string('full_name', 255)->nullable()->comment('Division Full Name');
 			$table->string('code', 64)->nullable()->comment('ISO 3166-2 Code');
 			$table->boolean('has_city')->default(0)->comment('Has city?');
 			$table->unique(['country_id','name'], 'uniq_division');
