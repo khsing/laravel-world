@@ -64,7 +64,7 @@ Right now, only English(default and fallback) and Chinese-Simp `zh-cn` are suppo
 - `composer require`
 
 ```php
-composer require 'khsing/laravel-world:dev-master'
+composer require khsing/world
 ```
 
 - Add Service Provider into `config/app.php`
