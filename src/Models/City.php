@@ -31,7 +31,7 @@ class City extends Model
     
     public function division()
     {
-        return $this->belongsTo(division::class);
+        return $this->belongsTo(Division::class);
     }
 
     public function children()
