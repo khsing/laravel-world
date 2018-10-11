@@ -22,7 +22,7 @@ class CreateWorldCountriesLocaleTable extends Migration
             $table->string('full_name', 255)->nullable()->comment('Localized Country Fullname');
             $table->string('currency_name', 255)->nullable()->comment('Localized Country Currency Name');
             $table->string('locale', 6)->nullable()->comment('locale');
-            $table->unique(['country_id','locale'], 'uniq_locale');
+            $table->unique(['country_id','locale'], 'uniq_country_id_locale');
         });
     }
 

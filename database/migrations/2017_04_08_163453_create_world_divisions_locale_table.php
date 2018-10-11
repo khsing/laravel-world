@@ -21,7 +21,7 @@ class CreateWorldDivisionsLocaleTable extends Migration
             $table->string('alias', 255)->nullable()->comment('Localized Division Alias');
             $table->string('full_name', 255)->nullable()->comment('Localized Division Fullname');
             $table->string('locale', 6)->nullable()->comment('locale');
-            $table->unique(['division_id','locale'], 'uniq_locale');
+            $table->unique(['division_id','locale'], 'uniq_division_id_locale');
         });
     }
 
