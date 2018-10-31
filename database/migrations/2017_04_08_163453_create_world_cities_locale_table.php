@@ -20,7 +20,7 @@ class CreateWorldCitiesLocaleTable extends Migration
             $table->string('alias', 255)->nullable()->comment('Localized city alias');
             $table->string('full_name', 255)->nullable()->comment('Localized city fullname');
             $table->string('locale', 6)->nullable()->comment('locale name');
-            $table->unique(['city_id','locale'], 'uniq_locale');
+            $table->unique(['city_id','locale'], 'uniq_city_id_locale');
         });
     }
 

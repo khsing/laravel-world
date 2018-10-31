@@ -21,7 +21,7 @@ class CreateWorldContinentsLocaleTable extends Migration
             $table->string('abbr', 16)->nullable()->comment('Localized Abbr name');
             $table->string('full_name', 255)->nullable()->comment('Localized Fullname');
             $table->string('locale', 6)->nullable()->comment('Locale');
-            $table->unique(['continent_id','locale'], 'uniq_locale');
+            $table->unique(['continent_id','locale'], 'uniq_continent_id_locale');
         });
     }
 
