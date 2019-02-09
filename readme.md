@@ -159,6 +159,18 @@ If you want contribute to this library, issue and pr are welcome. please followi
 6. copy seeds files into library.
 7. commit your work. ;)
 
+## TODO
+
+- change the way to seed data, eg. loading data from json?
+- add front-end support
+- find a way to update dataset
+
+## Thanks
+
+- [moolighty/geo](https://github.com/moolighty/geo)
+- [mledoze/countries](https://github.com/mledoze/countries)
+- [cn/GB2260](https://github.com/cn/GB2260)
+
 ## About
 
 This package published under MIT license. If you have any question or suggestion, please feel free to submit a issue, or email me Guixing<khsing.cn(AT)gmail.com>.
