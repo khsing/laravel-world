@@ -24,7 +24,7 @@ class Continent extends Model
      * @var array
      */
     protected $appends = ['local_name','local_full_name','local_alias', 'local_abbr'];
-    
+
     /**
      * return Countries
      *
@@ -66,20 +66,20 @@ class Continent extends Model
         $localized = ContinentLocale::where('name', $name)->first();
         if (is_null($localized)) {
             return $localized;
-        } else {
-            return $localized->Continent;
         }
+        return $localized->Continent;
     }
 
     /**
      * Search Continent by name
      *
      * @param string $names
+     * @param mixed $name
      * @return collection
      */
     public static function searchByName($name)
     {
-        return ContinentLocale::where('name', 'like', "%".$name."%")
+        return ContinentLocale::where('name', 'like', "%" . $name . "%")
             ->get()->map(function ($item) {
                 return $item->Continent;
             });

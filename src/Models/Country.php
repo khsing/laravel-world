@@ -92,11 +92,10 @@ class Country extends Model
             return $this->currency_name;
         }
         $localized = $this->getLocalized();
-        if (!is_null($localized)){
+        if (!is_null($localized)) {
             return !is_null($localized->currency_name) ? $localized->currency_name: $this->currency_name;
-        } else {
-            return $this->currency_name;
         }
+        return $this->currency_name;
     }
     /**
      * Get country by name
@@ -109,9 +108,8 @@ class Country extends Model
         $localized = CountryLocale::where('name', $name)->first();
         if (is_null($localized)) {
             return $localized;
-        } else {
-            return $localized->country;
         }
+        return $localized->country;
     }
 
     /**
@@ -122,7 +120,7 @@ class Country extends Model
      */
     public static function searchByName($name)
     {
-        return CountryLocale::where('name', 'like', "%".$name."%")
+        return CountryLocale::where('name', 'like', "%" . $name . "%")
             ->get()->map(function ($item) {
                 return $item->country;
             });

@@ -3,7 +3,6 @@ namespace Khsing\World\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-
 /**
  * City
  */
@@ -18,7 +17,7 @@ class CityLocale extends Model
 
     /**
      * return belonged City
-     * 
+     *
      * @return void
      */
     public function city()

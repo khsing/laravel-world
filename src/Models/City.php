@@ -1,11 +1,12 @@
 <?php
+
 namespace Khsing\World\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Khsing\World\WorldTrait;
 
 /**
- * City
+ * City.
  */
 class City extends Model
 {
@@ -18,17 +19,17 @@ class City extends Model
     protected $table = 'world_cities';
 
     /**
-     * append names
+     * append names.
      *
      * @var array
      */
-    protected $appends = ['local_name','local_full_name','local_alias', 'local_abbr'];
-    
+    protected $appends = ['local_name', 'local_full_name', 'local_alias', 'local_abbr'];
+
     public function country()
     {
         return $this->belongsTo(Country::class);
     }
-    
+
     public function division()
     {
         return $this->belongsTo(Division::class);
@@ -43,9 +44,8 @@ class City extends Model
     {
         if ($this->division_id === null) {
             return $this->country;
-        } else {
-            return $this->division;
         }
+        return $this->division;
     }
 
     public function locales()
@@ -54,9 +54,10 @@ class City extends Model
     }
 
     /**
-     * Get City by name
+     * Get City by name.
      *
      * @param string $name
+     *
      * @return collection
      */
     public static function getByName($name)
@@ -64,20 +65,20 @@ class City extends Model
         $localed = CityLocale::where('name', $name)->first();
         if (is_null($localed)) {
             return $localed;
-        } else {
-            return $localed->city;
         }
+        return $localed->city;
     }
 
     /**
-     * Search City by name
+     * Search City by name.
      *
      * @param string $name
+     *
      * @return collection
      */
     public static function searchByName($name)
     {
-        return CityLocale::where('name', 'like', "%".$name."%")
+        return CityLocale::where('name', 'like', '%' . $name . '%')
             ->get()->map(function ($item) {
                 return $item->city;
             });

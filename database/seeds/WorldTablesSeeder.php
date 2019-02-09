@@ -5,7 +5,6 @@ use Illuminate\Database\SQLiteConnection;
 
 class WorldTablesSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *

@@ -61,9 +61,8 @@ class Division extends Model
         $localized = DivisionLocale::where('name', $name)->first();
         if (is_null($localized)) {
             return $localized;
-        } else {
-            return $localized->region;
         }
+        return $localized->region;
     }
 
     /**
@@ -74,7 +73,7 @@ class Division extends Model
      */
     public static function searchByName($name)
     {
-        return DivisionLocale::where('name', 'like', "%".$name."%")
+        return DivisionLocale::where('name', 'like', "%" . $name . "%")
             ->get()->map(function ($item) {
                 return $item->division;
             });

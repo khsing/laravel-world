@@ -43,14 +43,14 @@ class World
         if ($country->has_division) {
             return Division::where([
                 ['country_id', $country->id],
-                ['code', $code ],
+                ['code', $code],
             ])->first();
-        } else {
-            return City::where([
-                ['country_id', $country->id],
-                ['code', $code ],
-            ]);
         }
+        return City::where([
+                ['country_id', $country->id],
+                ['code', $code],
+            ]);
+
         throw new \Khsing\World\Exceptions\InvalidCodeException("Code is invalid");
     }
 }

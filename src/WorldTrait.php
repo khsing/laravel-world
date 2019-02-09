@@ -49,7 +49,7 @@ trait WorldTrait
         $this->locale = $locale;
         return $this;
     }
- 
+
     /**
      * get locale
      *
@@ -135,7 +135,8 @@ trait WorldTrait
     public static function getByCode($code)
     {
         $code = strtolower($code);
-        $world = self::where('code', $code)->first();
+        $col = \mb_strlen($code) == 3 ? 'code_alpha3' : 'code';
+        $world = self::where($col, $code)->first();
         if (is_null($world)) {
             throw new InvalidCodeException("${code} does not exist");
         }

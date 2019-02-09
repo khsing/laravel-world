@@ -9,7 +9,6 @@ use Illuminate\Database\Eloquent\Model;
  */
 class DivisionLocale extends Model
 {
-
     /**
      * The database table used by the model.
      *
