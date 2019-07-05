@@ -23,5 +23,12 @@
             "name": "Guixing Bai",
             "email": "khsing.cn@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Khsing\World\WorldServiceProvider"
+            ]
+        }
+    },
 }
