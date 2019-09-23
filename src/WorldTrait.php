@@ -3,6 +3,7 @@
 namespace Khsing\World;
 
 use Khsing\World\Exceptions\InvalidCodeException;
+use Illuminate\Support\Str;
 
 trait WorldTrait
 {
@@ -40,7 +41,7 @@ trait WorldTrait
     public function setLocale($locale)
     {
         $locale = str_replace('_', '-', strtolower($locale));
-        if (starts_with($locale, 'en')) {
+        if (Str::startsWith($locale, 'en')) {
             $locale = 'en';
         }
         if (!in_array($locale, $this->supported_locales)) {
