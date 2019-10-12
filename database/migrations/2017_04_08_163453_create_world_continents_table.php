@@ -14,7 +14,7 @@ class CreateWorldContinentsTable extends Migration {
 	{
 		Schema::create('world_continents', function(Blueprint $table)
 		{
-			$table->increments('id')->comment('Auto increase ID');
+			$table->bigIncrements('id')->comment('Auto increase ID');
 			$table->string('name', 16)->default('')->index('uniq_continent')->comment('Continent Name');
 			$table->string('code', 2)->default('')->comment('Continent Code');
 		});

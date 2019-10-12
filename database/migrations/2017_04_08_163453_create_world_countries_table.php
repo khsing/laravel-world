@@ -14,8 +14,8 @@ class CreateWorldCountriesTable extends Migration {
 	{
 		Schema::create('world_countries', function(Blueprint $table)
 		{
-			$table->increments('id')->comment('Auto increase ID');
-			$table->integer('continent_id')->unsigned()->comment('Continent ID');
+			$table->bigIncrements('id')->comment('Auto increase ID');
+			$table->bigInteger('continent_id')->unsigned()->comment('Continent ID');
 			$table->string('name', 255)->default('')->comment('Country Common Name');
 			$table->string('full_name', 255)->nullable()->comment('Country Fullname');
 			$table->string('capital', 255)->nullable()->comment('Capital Common Name');

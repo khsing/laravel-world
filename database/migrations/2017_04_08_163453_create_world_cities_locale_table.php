@@ -14,8 +14,8 @@ class CreateWorldCitiesLocaleTable extends Migration
     public function up()
     {
         Schema::create('world_cities_locale', function (Blueprint $table) {
-            $table->increments('id')->comment('Auto increase ID');
-            $table->integer('city_id')->unsigned()->comment('City ID');
+            $table->bigIncrements('id')->comment('Auto increase ID');
+            $table->bigInteger('city_id')->unsigned()->comment('City ID');
             $table->string('name', 255)->default('')->comment('Localized city name');
             $table->string('alias', 255)->nullable()->comment('Localized city alias');
             $table->string('full_name', 255)->nullable()->comment('Localized city fullname');

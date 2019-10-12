@@ -14,8 +14,8 @@ class CreateWorldDivisionsTable extends Migration {
 	{
 		Schema::create('world_divisions', function(Blueprint $table)
 		{
-			$table->increments('id')->comment('Auto Increase ID');
-			$table->integer('country_id')->unsigned()->comment('Country ID');
+			$table->bigIncrements('id')->comment('Auto Increase ID');
+			$table->bigInteger('country_id')->unsigned()->comment('Country ID');
 			$table->string('name', 255)->default('')->comment('Division Common Name');
 			$table->string('full_name', 255)->nullable()->comment('Division Full Name');
 			$table->string('code', 64)->nullable()->comment('ISO 3166-2 Code');
