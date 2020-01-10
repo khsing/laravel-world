@@ -14,8 +14,8 @@ class CreateWorldDivisionsLocaleTable extends Migration
     public function up()
     {
         Schema::create('world_divisions_locale', function (Blueprint $table) {
-            $table->increments('id')->comment('Auto Increase ID');
-            $table->integer('division_id')->unsigned()->comment('Division ID');
+            $table->bigIncrements('id')->comment('Auto Increase ID');
+            $table->bigInteger('division_id')->unsigned()->comment('Division ID');
             $table->string('name', 255)->default('')->comment('Localized Division Name');
             $table->string('abbr', 16)->nullable()->comment('Localized Division Abbr');
             $table->string('alias', 255)->nullable()->comment('Localized Division Alias');

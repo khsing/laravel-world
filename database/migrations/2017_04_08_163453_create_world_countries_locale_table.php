@@ -14,8 +14,8 @@ class CreateWorldCountriesLocaleTable extends Migration
     public function up()
     {
         Schema::create('world_countries_locale', function (Blueprint $table) {
-            $table->increments('id')->comment('Auto increase ID');
-            $table->integer('country_id')->unsigned()->comment('Country ID');
+            $table->bigIncrements('id')->comment('Auto increase ID');
+            $table->bigInteger('country_id')->unsigned()->comment('Country ID');
             $table->string('name', 255)->default('')->comment('Localized Country Name');
             $table->string('alias', 255)->nullable()->comment('Localized Country Alias');
             $table->string('abbr', 16)->nullable()->comment('Localized Country Abbr Name');

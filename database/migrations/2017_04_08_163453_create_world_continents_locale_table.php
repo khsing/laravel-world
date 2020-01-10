@@ -14,8 +14,8 @@ class CreateWorldContinentsLocaleTable extends Migration
     public function up()
     {
         Schema::create('world_continents_locale', function (Blueprint $table) {
-            $table->increments('id')->comment('Auto increase ID');
-            $table->integer('continent_id')->unsigned()->comment('Continent ID');
+            $table->bigIncrements('id')->comment('Auto increase ID');
+            $table->bigInteger('continent_id')->unsigned()->comment('Continent ID');
             $table->string('name', 255)->nullable()->comment('Localized Name');
             $table->string('alias', 255)->nullable()->comment('Localized Alias');
             $table->string('abbr', 16)->nullable()->comment('Localized Abbr name');
