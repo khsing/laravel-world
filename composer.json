@@ -27,8 +27,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Khsing\World\WorldServiceProvider"
+                "Khsing\\World\\WorldServiceProvider"
             ]
         }
-    },
+    }
 }
