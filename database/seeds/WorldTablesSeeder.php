@@ -26,6 +26,7 @@ class WorldTablesSeeder extends Seeder
         $this->call(WorldDivisionsLocaleTableSeeder::class);
         $this->call(WorldCitiesTableSeeder::class);
         $this->call(WorldCitiesLocaleTableSeeder::class);
+        $this->call(WorldLanguagesTableSeeder::class);
 
         if (DB::connection() instanceof SQLiteConnection) {
             DB::statement('PRAGMA FOREIGN_KEYS=1');
