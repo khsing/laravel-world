@@ -1023,7 +1023,7 @@ class WorldDivisionsTableSeeder extends Seeder
                 'full_name' => NULL,
                 'has_city' => 1,
                 'id' => 112,
-                'name' => 'Canberra',
+                'name' => 'Australian Capital Territory',
             ),
             112 => 
             array (
