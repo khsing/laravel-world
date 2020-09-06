@@ -2345,7 +2345,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
                 'full_name' => NULL,
                 'id' => 233,
                 'locale' => 'en',
-                'name' => 'Canberra',
+                'name' => 'Australian Capital Territory',
             ),
             233 => 
             array (
