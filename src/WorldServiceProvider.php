@@ -47,7 +47,7 @@ class WorldServiceProvider extends ServiceProvider
      */
     private function publishSeeds()
     {
-        $this->publishes([__DIR__ . '/../database/seeds/' => base_path('database/seeds')], 'seeds');
+        $this->publishes([__DIR__ . '/../database/seeders/' => base_path('database/seeders')], 'seeders');
     }
 
     private function registerCommands()
