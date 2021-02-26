@@ -49,7 +49,7 @@ class World
         return City::where([
                 ['country_id', $country->id],
                 ['code', $code],
-            ]);
+            ])->first();
 
         throw new \Khsing\World\Exceptions\InvalidCodeException("Code is invalid");
     }
