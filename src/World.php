@@ -2,12 +2,13 @@
 
 namespace Khsing\World;
 
+use Khsing\World\Models\City;
 use Khsing\World\Models\Continent;
 use Khsing\World\Models\Country;
 use Khsing\World\Models\Division;
 
 /**
- * World
+ * World.
  */
 class World
 {
@@ -46,11 +47,10 @@ class World
                 ['code', $code],
             ])->first();
         }
-        return City::where([
-                ['country_id', $country->id],
-                ['code', $code],
-            ]);
 
-        throw new \Khsing\World\Exceptions\InvalidCodeException("Code is invalid");
+        return City::where([
+            ['country_id', $country->id],
+            ['code', $code],
+        ])->first();
     }
 }
