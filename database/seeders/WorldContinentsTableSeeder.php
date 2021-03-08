@@ -21,45 +21,45 @@ class WorldContinentsTableSeeder extends Seeder
         \DB::table('world_continents')->insert(array (
             0 => 
             array (
-                'code' => 'as',
                 'id' => 1,
                 'name' => 'Asia',
+                'code' => 'as',
             ),
             1 => 
             array (
-                'code' => 'eu',
                 'id' => 2,
                 'name' => 'Europe',
+                'code' => 'eu',
             ),
             2 => 
             array (
-                'code' => 'af',
                 'id' => 3,
                 'name' => 'Africa',
+                'code' => 'af',
             ),
             3 => 
             array (
-                'code' => 'oc',
                 'id' => 4,
                 'name' => 'Oceania',
+                'code' => 'oc',
             ),
             4 => 
             array (
-                'code' => 'an',
                 'id' => 5,
                 'name' => 'Antarctica',
+                'code' => 'an',
             ),
             5 => 
             array (
-                'code' => 'na',
                 'id' => 6,
                 'name' => 'North America',
+                'code' => 'na',
             ),
             6 => 
             array (
-                'code' => 'sa',
                 'id' => 7,
                 'name' => 'South America',
+                'code' => 'sa',
             ),
         ));
         

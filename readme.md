@@ -65,7 +65,7 @@ Right now, only English(default and fallback) and Chinese-Simp `zh-cn` are suppo
 composer require khsing/world
 ```
 
-- Add Service Provider into `config/app.php`
+- Add Service Provider into `config/app.php`, (Only required before Laravel 5.5)
 
 ```php
 'providers' => [
@@ -155,7 +155,7 @@ If you want contribute to this library, issue and pr are welcome. please followi
 2. install [orangehill/iseed](https://github.com/orangehill/iseed).
 3. modify datas via sql.
 4. generate seeds via `artisan iseed world_cities,world_cities_locale,world_continents,world_continents_locale,world_countries,world_countries_locale,world_divisions,world_divisions_locale`
-5. replace `delete()` with `truncat()`, `cd database/seeds/ && sed -i 's/->delete()/->truncat()/g' World*.php`
+5. replace `delete()` with `truncate()`, `cd database/seeders/ && sed -i 's/->delete()/->truncate()/g' World*.php`
 6. copy seeds files into library.
 7. commit your work. ;)
 
@@ -164,6 +164,13 @@ If you want contribute to this library, issue and pr are welcome. please followi
 - change the way to seed data, eg. loading data from json?
 - add front-end support
 - find a way to update dataset
+
+## Data Sources
+
+- [ISO 639-1 Standard Language Codes](https://www.knowledgebase-script.com/kb/article/iso-639-1-standard-language-codes-255.html): language codes
+- [ISO 639-1 standard language codes](https://www.andiamo.co.uk/resources/iso-language-codes/): language codes
+- [United Nations Statistics Division: Standard country or area codes for statistical use (M49)](https://unstats.un.org/unsd/methodology/m49/overview/): ISO-3166-alpha3 code and country list.
+- [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2): main data source
 
 ## Thanks
 
