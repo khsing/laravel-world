@@ -6,7 +6,7 @@
     "license": "MIT",
     "require": {
         "php": ">=7.1",
-        "laravel/framework" : "^6.20"
+        "laravel/framework" : "^8.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
@@ -18,7 +18,9 @@
         "optimize-autoloader": true
     },
     "autoload": {
-        "psr-4": { "Khsing\\World\\": "src/" }
+        "psr-4": {
+            "Khsing\\World\\": "src/"
+        }
     },
     "minimum-stability": "stable",
     "authors": [

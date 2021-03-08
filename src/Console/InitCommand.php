@@ -5,7 +5,7 @@ namespace Khsing\World\Console;
 use Illuminate\Console\Command;
 
 /**
- * Init Command
+ * Init Command.
  */
 class InitCommand extends Command
 {
@@ -21,6 +21,7 @@ class InitCommand extends Command
      * @var string
      */
     protected $description = 'Initialize';
+
     /**
      * Create a new command instance.
      *
@@ -41,7 +42,7 @@ class InitCommand extends Command
         $this->info('Execute migrate first, migrating...');
         $this->call('migrate');
         $this->info('Seeding datas');
-        $this->call('db:seed',["--class"=>"WorldTablesSeeder"]);
+        $this->call('db:seed', ['--class'=>'WorldTablesSeeder']);
         $this->info('Done!');
     }
 }
