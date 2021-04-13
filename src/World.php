@@ -13,12 +13,12 @@ class World
 {
     public static function Continents()
     {
-        return Continent::get();
+        return Continent::orderBy('name', 'asc')->get();
     }
 
     public static function Countries()
     {
-        return Country::get();
+        return Country::orderBy('name', 'asc')->get();
     }
 
     public static function getContinentByCode($code)
