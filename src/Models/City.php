@@ -4,6 +4,8 @@ namespace Khsing\World\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Khsing\World\WorldTrait;
+use DateTime;
+use DateTimeZone;
 
 /**
  * City.
@@ -11,6 +13,14 @@ use Khsing\World\WorldTrait;
 class City extends Model
 {
     use WorldTrait;
+
+    /**
+     * The database table doesn't use 'created_at' and 'updated_at' so we disable it from Inserts/Updates.
+     *
+     * @var bool
+     */
+    public $timestamps = false;
+
     /**
      * The database table used by the model.
      *
@@ -51,6 +61,43 @@ class City extends Model
     public function locales()
     {
         return $this->hasMany(CityLocale::class);
+    }
+
+    /**
+     * Get timezone abbreviation.
+     *
+     * @param string $iana_timezone
+     *
+     * @return string
+     */
+    public static function timezoneAbbrev($iana_timezone)
+    {
+        if (empty($iana_timezone)) return '';
+        if (!in_array($iana_timezone, timezone_identifiers_list(),true)) return '';
+
+        $dateTime = new DateTime();
+        $dateTime->setTimeZone(new DateTimeZone($iana_timezone));
+        return $dateTime->format('T');
+    }
+
+    /**
+     * Get GMT timezone offset.
+     *
+     * @param string $iana_timezone
+     *
+     * @return string
+     */
+    public static function timezoneOffset($iana_timezone)
+    {
+        if (empty($iana_timezone)) return '';
+        if (!in_array($iana_timezone, timezone_identifiers_list(),true)) return '';
+
+        $zones = timezone_identifiers_list();
+
+        $dateTimeZone = new DateTimeZone($iana_timezone);
+        $timeInCity = new DateTime('now', $dateTimeZone);
+        $offset = $dateTimeZone->getOffset( $timeInCity ) / 3600;
+        return "GMT" . ($offset < 0 ? $offset : "+".$offset);
     }
 
     /**
