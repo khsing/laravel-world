@@ -14,12 +14,12 @@ class WorldCountriesLocaleTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('world_countries_locale')->truncate();
-        
+
         \DB::table('world_countries_locale')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1,
                 'country_id' => 1,
@@ -30,7 +30,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '中非法郎',
                 'locale' => 'zh-cn',
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 2,
                 'country_id' => 2,
@@ -41,7 +41,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '西非法郎',
                 'locale' => 'zh-cn',
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 3,
                 'country_id' => 3,
@@ -52,7 +52,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '马达加斯加阿里亚里',
                 'locale' => 'zh-cn',
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 4,
                 'country_id' => 4,
@@ -63,7 +63,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '卢旺达法郎',
                 'locale' => 'zh-cn',
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 5,
                 'country_id' => 5,
@@ -74,7 +74,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '塞舌尔卢比',
                 'locale' => 'zh-cn',
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 6,
                 'country_id' => 6,
@@ -85,7 +85,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '西非法郎',
                 'locale' => 'zh-cn',
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 7,
                 'country_id' => 7,
@@ -96,7 +96,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '埃及镑',
                 'locale' => 'zh-cn',
             ),
-            7 => 
+            7 =>
             array (
                 'id' => 8,
                 'country_id' => 8,
@@ -107,7 +107,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '毛里求斯卢比',
                 'locale' => 'zh-cn',
             ),
-            8 => 
+            8 =>
             array (
                 'id' => 9,
                 'country_id' => 9,
@@ -118,7 +118,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '西非法郎',
                 'locale' => 'zh-cn',
             ),
-            9 => 
+            9 =>
             array (
                 'id' => 10,
                 'country_id' => 10,
@@ -129,7 +129,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '厄立特里亚纳克法',
                 'locale' => 'zh-cn',
             ),
-            10 => 
+            10 =>
             array (
                 'id' => 11,
                 'country_id' => 11,
@@ -140,7 +140,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '圣多美和普林西比多布拉',
                 'locale' => 'zh-cn',
             ),
-            11 => 
+            11 =>
             array (
                 'id' => 12,
                 'country_id' => 12,
@@ -151,7 +151,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '安哥拉宽扎',
                 'locale' => 'zh-cn',
             ),
-            12 => 
+            12 =>
             array (
                 'id' => 13,
                 'country_id' => 13,
@@ -162,7 +162,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '利比亚第纳尔',
                 'locale' => 'zh-cn',
             ),
-            13 => 
+            13 =>
             array (
                 'id' => 14,
                 'country_id' => 14,
@@ -173,7 +173,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '津巴布韦元',
                 'locale' => 'zh-cn',
             ),
-            14 => 
+            14 =>
             array (
                 'id' => 15,
                 'country_id' => 15,
@@ -184,7 +184,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '几内亚法郎',
                 'locale' => 'zh-cn',
             ),
-            15 => 
+            15 =>
             array (
                 'id' => 16,
                 'country_id' => 16,
@@ -195,7 +195,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '塞拉利昂利昂',
                 'locale' => 'zh-cn',
             ),
-            16 => 
+            16 =>
             array (
                 'id' => 17,
                 'country_id' => 17,
@@ -206,7 +206,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            17 => 
+            17 =>
             array (
                 'id' => 18,
                 'country_id' => 18,
@@ -217,7 +217,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '中非法郎',
                 'locale' => 'zh-cn',
             ),
-            18 => 
+            18 =>
             array (
                 'id' => 19,
                 'country_id' => 19,
@@ -228,7 +228,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '加纳塞地',
                 'locale' => 'zh-cn',
             ),
-            19 => 
+            19 =>
             array (
                 'id' => 20,
                 'country_id' => 20,
@@ -239,7 +239,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '坦桑尼亚先令',
                 'locale' => 'zh-cn',
             ),
-            20 => 
+            20 =>
             array (
                 'id' => 21,
                 'country_id' => 21,
@@ -250,7 +250,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '西非法郎',
                 'locale' => 'zh-cn',
             ),
-            21 => 
+            21 =>
             array (
                 'id' => 22,
                 'country_id' => 22,
@@ -261,7 +261,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '索马里先令',
                 'locale' => 'zh-cn',
             ),
-            22 => 
+            22 =>
             array (
                 'id' => 23,
                 'country_id' => 23,
@@ -272,7 +272,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '毛里塔尼亚乌吉亚',
                 'locale' => 'zh-cn',
             ),
-            23 => 
+            23 =>
             array (
                 'id' => 24,
                 'country_id' => 24,
@@ -283,7 +283,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '乌干达先令',
                 'locale' => 'zh-cn',
             ),
-            24 => 
+            24 =>
             array (
                 'id' => 25,
                 'country_id' => 25,
@@ -294,7 +294,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '中非法郎',
                 'locale' => 'zh-cn',
             ),
-            25 => 
+            25 =>
             array (
                 'id' => 26,
                 'country_id' => 26,
@@ -305,7 +305,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            26 => 
+            26 =>
             array (
                 'id' => 27,
                 'country_id' => 27,
@@ -316,7 +316,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '科摩罗法郎',
                 'locale' => 'zh-cn',
             ),
-            27 => 
+            27 =>
             array (
                 'id' => 28,
                 'country_id' => 28,
@@ -327,7 +327,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '博茨瓦纳普拉',
                 'locale' => 'zh-cn',
             ),
-            28 => 
+            28 =>
             array (
                 'id' => 29,
                 'country_id' => 29,
@@ -338,7 +338,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '西非法郎',
                 'locale' => 'zh-cn',
             ),
-            29 => 
+            29 =>
             array (
                 'id' => 30,
                 'country_id' => 30,
@@ -349,7 +349,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '斯威士兰里兰吉尼',
                 'locale' => 'zh-cn',
             ),
-            30 => 
+            30 =>
             array (
                 'id' => 31,
                 'country_id' => 31,
@@ -360,7 +360,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '西非法郎',
                 'locale' => 'zh-cn',
             ),
-            31 => 
+            31 =>
             array (
                 'id' => 32,
                 'country_id' => 32,
@@ -371,7 +371,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '刚果法郎',
                 'locale' => 'zh-cn',
             ),
-            32 => 
+            32 =>
             array (
                 'id' => 33,
                 'country_id' => 33,
@@ -382,7 +382,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '中非法郎',
                 'locale' => 'zh-cn',
             ),
-            33 => 
+            33 =>
             array (
                 'id' => 34,
                 'country_id' => 34,
@@ -393,7 +393,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '莱索托洛蒂',
                 'locale' => 'zh-cn',
             ),
-            34 => 
+            34 =>
             array (
                 'id' => 35,
                 'country_id' => 35,
@@ -404,7 +404,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '中非法郎',
                 'locale' => 'zh-cn',
             ),
-            35 => 
+            35 =>
             array (
                 'id' => 36,
                 'country_id' => 36,
@@ -415,7 +415,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '南非兰特',
                 'locale' => 'zh-cn',
             ),
-            36 => 
+            36 =>
             array (
                 'id' => 37,
                 'country_id' => 37,
@@ -426,7 +426,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '利比里亚元',
                 'locale' => 'zh-cn',
             ),
-            37 => 
+            37 =>
             array (
                 'id' => 38,
                 'country_id' => 38,
@@ -437,7 +437,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '突尼斯第纳尔',
                 'locale' => 'zh-cn',
             ),
-            38 => 
+            38 =>
             array (
                 'id' => 39,
                 'country_id' => 39,
@@ -448,7 +448,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '赞比亚克瓦查',
                 'locale' => 'zh-cn',
             ),
-            39 => 
+            39 =>
             array (
                 'id' => 40,
                 'country_id' => 40,
@@ -459,7 +459,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '西非法郎',
                 'locale' => 'zh-cn',
             ),
-            40 => 
+            40 =>
             array (
                 'id' => 41,
                 'country_id' => 41,
@@ -470,7 +470,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '阿尔及利亚第纳尔',
                 'locale' => 'zh-cn',
             ),
-            41 => 
+            41 =>
             array (
                 'id' => 42,
                 'country_id' => 42,
@@ -481,7 +481,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '西非法郎',
                 'locale' => 'zh-cn',
             ),
-            42 => 
+            42 =>
             array (
                 'id' => 43,
                 'country_id' => 43,
@@ -492,7 +492,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '纳米比亚元',
                 'locale' => 'zh-cn',
             ),
-            43 => 
+            43 =>
             array (
                 'id' => 44,
                 'country_id' => 44,
@@ -503,7 +503,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '莫桑比克梅蒂卡尔',
                 'locale' => 'zh-cn',
             ),
-            44 => 
+            44 =>
             array (
                 'id' => 45,
                 'country_id' => 45,
@@ -514,7 +514,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '埃塞俄比亚比尔',
                 'locale' => 'zh-cn',
             ),
-            45 => 
+            45 =>
             array (
                 'id' => 46,
                 'country_id' => 46,
@@ -525,7 +525,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '摩洛哥迪尔汗',
                 'locale' => 'zh-cn',
             ),
-            46 => 
+            46 =>
             array (
                 'id' => 47,
                 'country_id' => 47,
@@ -536,7 +536,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '马拉维克瓦查',
                 'locale' => 'zh-cn',
             ),
-            47 => 
+            47 =>
             array (
                 'id' => 48,
                 'country_id' => 48,
@@ -547,7 +547,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '尼日利亚奈拉',
                 'locale' => 'zh-cn',
             ),
-            48 => 
+            48 =>
             array (
                 'id' => 49,
                 'country_id' => 49,
@@ -558,7 +558,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '佛得角埃斯库多',
                 'locale' => 'zh-cn',
             ),
-            49 => 
+            49 =>
             array (
                 'id' => 50,
                 'country_id' => 50,
@@ -569,7 +569,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '布隆迪法郎',
                 'locale' => 'zh-cn',
             ),
-            50 => 
+            50 =>
             array (
                 'id' => 51,
                 'country_id' => 51,
@@ -580,7 +580,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '阿尔及利亚第纳尔',
                 'locale' => 'zh-cn',
             ),
-            51 => 
+            51 =>
             array (
                 'id' => 52,
                 'country_id' => 52,
@@ -591,7 +591,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '吉布提法郎',
                 'locale' => 'zh-cn',
             ),
-            52 => 
+            52 =>
             array (
                 'id' => 53,
                 'country_id' => 53,
@@ -602,7 +602,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            53 => 
+            53 =>
             array (
                 'id' => 54,
                 'country_id' => 54,
@@ -613,7 +613,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '中非法郎',
                 'locale' => 'zh-cn',
             ),
-            54 => 
+            54 =>
             array (
                 'id' => 55,
                 'country_id' => 55,
@@ -624,7 +624,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '苏丹镑',
                 'locale' => 'zh-cn',
             ),
-            55 => 
+            55 =>
             array (
                 'id' => 56,
                 'country_id' => 56,
@@ -635,7 +635,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '肯尼亚先令',
                 'locale' => 'zh-cn',
             ),
-            56 => 
+            56 =>
             array (
                 'id' => 57,
                 'country_id' => 57,
@@ -646,7 +646,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '新加坡元',
                 'locale' => 'zh-cn',
             ),
-            57 => 
+            57 =>
             array (
                 'id' => 58,
                 'country_id' => 58,
@@ -657,7 +657,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '韩圆',
                 'locale' => 'zh-cn',
             ),
-            58 => 
+            58 =>
             array (
                 'id' => 59,
                 'country_id' => 59,
@@ -668,7 +668,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '叙利亚镑',
                 'locale' => 'zh-cn',
             ),
-            59 => 
+            59 =>
             array (
                 'id' => 60,
                 'country_id' => 60,
@@ -679,7 +679,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '乌兹别克斯坦索姆',
                 'locale' => 'zh-cn',
             ),
-            60 => 
+            60 =>
             array (
                 'id' => 61,
                 'country_id' => 61,
@@ -690,7 +690,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '巴林第纳尔',
                 'locale' => 'zh-cn',
             ),
-            61 => 
+            61 =>
             array (
                 'id' => 62,
                 'country_id' => 62,
@@ -701,7 +701,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '日圆',
                 'locale' => 'zh-cn',
             ),
-            62 => 
+            62 =>
             array (
                 'id' => 63,
                 'country_id' => 63,
@@ -712,7 +712,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '约旦第纳尔',
                 'locale' => 'zh-cn',
             ),
-            63 => 
+            63 =>
             array (
                 'id' => 64,
                 'country_id' => 64,
@@ -723,7 +723,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '越南盾',
                 'locale' => 'zh-cn',
             ),
-            64 => 
+            64 =>
             array (
                 'id' => 65,
                 'country_id' => 65,
@@ -734,7 +734,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '吉尔吉斯斯坦索姆',
                 'locale' => 'zh-cn',
             ),
-            65 => 
+            65 =>
             array (
                 'id' => 66,
                 'country_id' => 66,
@@ -745,7 +745,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '泰铢',
                 'locale' => 'zh-cn',
             ),
-            66 => 
+            66 =>
             array (
                 'id' => 67,
                 'country_id' => 67,
@@ -756,7 +756,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '斯里兰卡卢比',
                 'locale' => 'zh-cn',
             ),
-            67 => 
+            67 =>
             array (
                 'id' => 68,
                 'country_id' => 68,
@@ -767,7 +767,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '阿联酋迪拉姆',
                 'locale' => 'zh-cn',
             ),
-            68 => 
+            68 =>
             array (
                 'id' => 69,
                 'country_id' => 69,
@@ -778,7 +778,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '老挝基普',
                 'locale' => 'zh-cn',
             ),
-            69 => 
+            69 =>
             array (
                 'id' => 70,
                 'country_id' => 70,
@@ -789,7 +789,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '阿富汗尼',
                 'locale' => 'zh-cn',
             ),
-            70 => 
+            70 =>
             array (
                 'id' => 71,
                 'country_id' => 71,
@@ -800,7 +800,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '澳门币',
                 'locale' => 'zh-cn',
             ),
-            71 => 
+            71 =>
             array (
                 'id' => 72,
                 'country_id' => 72,
@@ -811,7 +811,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '塔吉克斯坦索莫尼',
                 'locale' => 'zh-cn',
             ),
-            72 => 
+            72 =>
             array (
                 'id' => 73,
                 'country_id' => 73,
@@ -822,7 +822,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '朝鲜圆',
                 'locale' => 'zh-cn',
             ),
-            73 => 
+            73 =>
             array (
                 'id' => 74,
                 'country_id' => 74,
@@ -833,7 +833,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '以色列新谢克尔',
                 'locale' => 'zh-cn',
             ),
-            74 => 
+            74 =>
             array (
                 'id' => 75,
                 'country_id' => 75,
@@ -844,7 +844,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '港元',
                 'locale' => 'zh-cn',
             ),
-            75 => 
+            75 =>
             array (
                 'id' => 76,
                 'country_id' => 76,
@@ -855,7 +855,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '伊拉克第纳尔',
                 'locale' => 'zh-cn',
             ),
-            76 => 
+            76 =>
             array (
                 'id' => 77,
                 'country_id' => 77,
@@ -866,7 +866,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '黎巴嫩镑',
                 'locale' => 'zh-cn',
             ),
-            77 => 
+            77 =>
             array (
                 'id' => 78,
                 'country_id' => 78,
@@ -877,7 +877,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '科威特第纳尔',
                 'locale' => 'zh-cn',
             ),
-            78 => 
+            78 =>
             array (
                 'id' => 79,
                 'country_id' => 79,
@@ -888,7 +888,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '汶莱元',
                 'locale' => 'zh-cn',
             ),
-            79 => 
+            79 =>
             array (
                 'id' => 80,
                 'country_id' => 80,
@@ -899,7 +899,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '马尔代夫拉菲亚',
                 'locale' => 'zh-cn',
             ),
-            80 => 
+            80 =>
             array (
                 'id' => 81,
                 'country_id' => 81,
@@ -910,7 +910,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '印尼盾',
                 'locale' => 'zh-cn',
             ),
-            81 => 
+            81 =>
             array (
                 'id' => 82,
                 'country_id' => 82,
@@ -921,7 +921,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '以色列新谢克尔',
                 'locale' => 'zh-cn',
             ),
-            82 => 
+            82 =>
             array (
                 'id' => 83,
                 'country_id' => 83,
@@ -932,7 +932,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '蒙古图格里克',
                 'locale' => 'zh-cn',
             ),
-            83 => 
+            83 =>
             array (
                 'id' => 84,
                 'country_id' => 84,
@@ -943,7 +943,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '阿曼里亚尔',
                 'locale' => 'zh-cn',
             ),
-            84 => 
+            84 =>
             array (
                 'id' => 85,
                 'country_id' => 85,
@@ -954,7 +954,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '印度卢比',
                 'locale' => 'zh-cn',
             ),
-            85 => 
+            85 =>
             array (
                 'id' => 86,
                 'country_id' => 86,
@@ -965,7 +965,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '缅元',
                 'locale' => 'zh-cn',
             ),
-            86 => 
+            86 =>
             array (
                 'id' => 87,
                 'country_id' => 87,
@@ -976,7 +976,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '马来西亚令吉',
                 'locale' => 'zh-cn',
             ),
-            87 => 
+            87 =>
             array (
                 'id' => 88,
                 'country_id' => 88,
@@ -987,7 +987,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '美元',
                 'locale' => 'zh-cn',
             ),
-            88 => 
+            88 =>
             array (
                 'id' => 89,
                 'country_id' => 89,
@@ -998,7 +998,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '也门里亚尔',
                 'locale' => 'zh-cn',
             ),
-            89 => 
+            89 =>
             array (
                 'id' => 90,
                 'country_id' => 90,
@@ -1009,7 +1009,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '不丹努尔特鲁姆',
                 'locale' => 'zh-cn',
             ),
-            90 => 
+            90 =>
             array (
                 'id' => 91,
                 'country_id' => 91,
@@ -1020,7 +1020,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '柬埔寨瑞尔',
                 'locale' => 'zh-cn',
             ),
-            91 => 
+            91 =>
             array (
                 'id' => 92,
                 'country_id' => 92,
@@ -1031,7 +1031,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '巴基斯坦卢比',
                 'locale' => 'zh-cn',
             ),
-            92 => 
+            92 =>
             array (
                 'id' => 93,
                 'country_id' => 93,
@@ -1042,7 +1042,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '孟加拉塔卡',
                 'locale' => 'zh-cn',
             ),
-            93 => 
+            93 =>
             array (
                 'id' => 94,
                 'country_id' => 94,
@@ -1053,7 +1053,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '沙特里亚尔',
                 'locale' => 'zh-cn',
             ),
-            94 => 
+            94 =>
             array (
                 'id' => 95,
                 'country_id' => 95,
@@ -1064,7 +1064,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '土库曼斯坦马纳特',
                 'locale' => 'zh-cn',
             ),
-            95 => 
+            95 =>
             array (
                 'id' => 96,
                 'country_id' => 96,
@@ -1075,7 +1075,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '卡塔尔里亚尔',
                 'locale' => 'zh-cn',
             ),
-            96 => 
+            96 =>
             array (
                 'id' => 97,
                 'country_id' => 97,
@@ -1086,7 +1086,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '尼泊尔卢比',
                 'locale' => 'zh-cn',
             ),
-            97 => 
+            97 =>
             array (
                 'id' => 98,
                 'country_id' => 98,
@@ -1097,7 +1097,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '哈萨克斯坦坚戈',
                 'locale' => 'zh-cn',
             ),
-            98 => 
+            98 =>
             array (
                 'id' => 99,
                 'country_id' => 99,
@@ -1108,7 +1108,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '菲律宾披索',
                 'locale' => 'zh-cn',
             ),
-            99 => 
+            99 =>
             array (
                 'id' => 100,
                 'country_id' => 100,
@@ -1119,7 +1119,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '新台幣',
                 'locale' => 'zh-cn',
             ),
-            100 => 
+            100 =>
             array (
                 'id' => 101,
                 'country_id' => 101,
@@ -1130,7 +1130,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '人民币',
                 'locale' => 'zh-cn',
             ),
-            101 => 
+            101 =>
             array (
                 'id' => 102,
                 'country_id' => 102,
@@ -1141,7 +1141,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '伊朗里亚尔',
                 'locale' => 'zh-cn',
             ),
-            102 => 
+            102 =>
             array (
                 'id' => 103,
                 'country_id' => 103,
@@ -1152,7 +1152,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '哥斯达黎加科朗',
                 'locale' => 'zh-cn',
             ),
-            103 => 
+            103 =>
             array (
                 'id' => 104,
                 'country_id' => 104,
@@ -1163,7 +1163,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '古巴可兑换比索',
                 'locale' => 'zh-cn',
             ),
-            104 => 
+            104 =>
             array (
                 'id' => 105,
                 'country_id' => 105,
@@ -1174,7 +1174,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '多米尼加比索',
                 'locale' => 'zh-cn',
             ),
-            105 => 
+            105 =>
             array (
                 'id' => 106,
                 'country_id' => 106,
@@ -1185,7 +1185,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '墨西哥比索',
                 'locale' => 'zh-cn',
             ),
-            106 => 
+            106 =>
             array (
                 'id' => 107,
                 'country_id' => 107,
@@ -1196,7 +1196,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '尼加拉瓜科多巴',
                 'locale' => 'zh-cn',
             ),
-            107 => 
+            107 =>
             array (
                 'id' => 108,
                 'country_id' => 108,
@@ -1207,7 +1207,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '巴拿马巴波亚',
                 'locale' => 'zh-cn',
             ),
-            108 => 
+            108 =>
             array (
                 'id' => 109,
                 'country_id' => 109,
@@ -1218,7 +1218,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => NULL,
                 'locale' => 'zh-cn',
             ),
-            109 => 
+            109 =>
             array (
                 'id' => 110,
                 'country_id' => 110,
@@ -1229,7 +1229,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '萨尔瓦多科朗',
                 'locale' => 'zh-cn',
             ),
-            110 => 
+            110 =>
             array (
                 'id' => 111,
                 'country_id' => 111,
@@ -1240,7 +1240,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '美元',
                 'locale' => 'zh-cn',
             ),
-            111 => 
+            111 =>
             array (
                 'id' => 112,
                 'country_id' => 112,
@@ -1251,7 +1251,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '东加勒比元',
                 'locale' => 'zh-cn',
             ),
-            112 => 
+            112 =>
             array (
                 'id' => 113,
                 'country_id' => 113,
@@ -1262,7 +1262,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '洪都拉斯伦皮拉',
                 'locale' => 'zh-cn',
             ),
-            113 => 
+            113 =>
             array (
                 'id' => 114,
                 'country_id' => 114,
@@ -1273,7 +1273,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '危地马拉格查尔',
                 'locale' => 'zh-cn',
             ),
-            114 => 
+            114 =>
             array (
                 'id' => 115,
                 'country_id' => 115,
@@ -1284,7 +1284,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '格鲁吉亚拉里',
                 'locale' => 'zh-cn',
             ),
-            115 => 
+            115 =>
             array (
                 'id' => 116,
                 'country_id' => 116,
@@ -1295,7 +1295,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '亚美尼亚德拉姆',
                 'locale' => 'zh-cn',
             ),
-            116 => 
+            116 =>
             array (
                 'id' => 117,
                 'country_id' => 117,
@@ -1306,7 +1306,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '阿塞拜疆马纳特',
                 'locale' => 'zh-cn',
             ),
-            117 => 
+            117 =>
             array (
                 'id' => 118,
                 'country_id' => 118,
@@ -1317,7 +1317,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '白俄罗斯卢布',
                 'locale' => 'zh-cn',
             ),
-            118 => 
+            118 =>
             array (
                 'id' => 119,
                 'country_id' => 119,
@@ -1328,7 +1328,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '俄罗斯卢布',
                 'locale' => 'zh-cn',
             ),
-            119 => 
+            119 =>
             array (
                 'id' => 120,
                 'country_id' => 120,
@@ -1339,7 +1339,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '乌克兰格里夫纳',
                 'locale' => 'zh-cn',
             ),
-            120 => 
+            120 =>
             array (
                 'id' => 121,
                 'country_id' => 121,
@@ -1350,7 +1350,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '匈牙利福林',
                 'locale' => 'zh-cn',
             ),
-            121 => 
+            121 =>
             array (
                 'id' => 122,
                 'country_id' => 122,
@@ -1361,7 +1361,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '冰岛克朗',
                 'locale' => 'zh-cn',
             ),
-            122 => 
+            122 =>
             array (
                 'id' => 123,
                 'country_id' => 123,
@@ -1372,7 +1372,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            123 => 
+            123 =>
             array (
                 'id' => 124,
                 'country_id' => 124,
@@ -1383,7 +1383,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            124 => 
+            124 =>
             array (
                 'id' => 125,
                 'country_id' => 125,
@@ -1394,7 +1394,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '挪威克朗',
                 'locale' => 'zh-cn',
             ),
-            125 => 
+            125 =>
             array (
                 'id' => 126,
                 'country_id' => 126,
@@ -1405,7 +1405,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '罗马尼亚列伊',
                 'locale' => 'zh-cn',
             ),
-            126 => 
+            126 =>
             array (
                 'id' => 127,
                 'country_id' => 127,
@@ -1416,7 +1416,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            127 => 
+            127 =>
             array (
                 'id' => 128,
                 'country_id' => 128,
@@ -1427,7 +1427,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '瑞典克朗',
                 'locale' => 'zh-cn',
             ),
-            128 => 
+            128 =>
             array (
                 'id' => 129,
                 'country_id' => 129,
@@ -1438,7 +1438,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'WIR欧元（补充货币）',
                 'locale' => 'zh-cn',
             ),
-            129 => 
+            129 =>
             array (
                 'id' => 130,
                 'country_id' => 130,
@@ -1449,7 +1449,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            130 => 
+            130 =>
             array (
                 'id' => 131,
                 'country_id' => 131,
@@ -1460,7 +1460,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            131 => 
+            131 =>
             array (
                 'id' => 132,
                 'country_id' => 132,
@@ -1471,7 +1471,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            132 => 
+            132 =>
             array (
                 'id' => 133,
                 'country_id' => 133,
@@ -1482,7 +1482,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '摩尔多瓦列伊',
                 'locale' => 'zh-cn',
             ),
-            133 => 
+            133 =>
             array (
                 'id' => 134,
                 'country_id' => 134,
@@ -1493,7 +1493,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '土耳其里拉',
                 'locale' => 'zh-cn',
             ),
-            134 => 
+            134 =>
             array (
                 'id' => 135,
                 'country_id' => 135,
@@ -1504,7 +1504,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            135 => 
+            135 =>
             array (
                 'id' => 136,
                 'country_id' => 136,
@@ -1515,7 +1515,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '捷克克朗',
                 'locale' => 'zh-cn',
             ),
-            136 => 
+            136 =>
             array (
                 'id' => 137,
                 'country_id' => 137,
@@ -1526,7 +1526,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            137 => 
+            137 =>
             array (
                 'id' => 138,
                 'country_id' => 138,
@@ -1537,7 +1537,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '马其顿代纳尔',
                 'locale' => 'zh-cn',
             ),
-            138 => 
+            138 =>
             array (
                 'id' => 139,
                 'country_id' => 139,
@@ -1548,7 +1548,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '波斯尼亚和黑塞哥维那可兑换马克',
                 'locale' => 'zh-cn',
             ),
-            139 => 
+            139 =>
             array (
                 'id' => 140,
                 'country_id' => 140,
@@ -1559,7 +1559,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            140 => 
+            140 =>
             array (
                 'id' => 141,
                 'country_id' => 141,
@@ -1570,7 +1570,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            141 => 
+            141 =>
             array (
                 'id' => 142,
                 'country_id' => 142,
@@ -1581,7 +1581,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '克罗地亚库纳',
                 'locale' => 'zh-cn',
             ),
-            142 => 
+            142 =>
             array (
                 'id' => 143,
                 'country_id' => 143,
@@ -1592,7 +1592,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            143 => 
+            143 =>
             array (
                 'id' => 144,
                 'country_id' => 144,
@@ -1603,7 +1603,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            144 => 
+            144 =>
             array (
                 'id' => 145,
                 'country_id' => 145,
@@ -1614,7 +1614,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            145 => 
+            145 =>
             array (
                 'id' => 146,
                 'country_id' => 146,
@@ -1625,7 +1625,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            146 => 
+            146 =>
             array (
                 'id' => 147,
                 'country_id' => 147,
@@ -1636,7 +1636,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '丹麦克朗',
                 'locale' => 'zh-cn',
             ),
-            147 => 
+            147 =>
             array (
                 'id' => 148,
                 'country_id' => 148,
@@ -1647,7 +1647,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '英镑',
                 'locale' => 'zh-cn',
             ),
-            148 => 
+            148 =>
             array (
                 'id' => 149,
                 'country_id' => 149,
@@ -1658,7 +1658,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            149 => 
+            149 =>
             array (
                 'id' => 150,
                 'country_id' => 150,
@@ -1669,7 +1669,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            150 => 
+            150 =>
             array (
                 'id' => 151,
                 'country_id' => 151,
@@ -1680,7 +1680,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            151 => 
+            151 =>
             array (
                 'id' => 152,
                 'country_id' => 152,
@@ -1691,7 +1691,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            152 => 
+            152 =>
             array (
                 'id' => 153,
                 'country_id' => 153,
@@ -1702,7 +1702,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            153 => 
+            153 =>
             array (
                 'id' => 154,
                 'country_id' => 154,
@@ -1713,7 +1713,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '波兰兹罗提',
                 'locale' => 'zh-cn',
             ),
-            154 => 
+            154 =>
             array (
                 'id' => 155,
                 'country_id' => 155,
@@ -1724,7 +1724,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            155 => 
+            155 =>
             array (
                 'id' => 156,
                 'country_id' => 156,
@@ -1735,7 +1735,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '阿尔巴尼亚列克',
                 'locale' => 'zh-cn',
             ),
-            156 => 
+            156 =>
             array (
                 'id' => 157,
                 'country_id' => 157,
@@ -1746,7 +1746,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            157 => 
+            157 =>
             array (
                 'id' => 158,
                 'country_id' => 158,
@@ -1757,7 +1757,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '瑞士法郎',
                 'locale' => 'zh-cn',
             ),
-            158 => 
+            158 =>
             array (
                 'id' => 159,
                 'country_id' => 159,
@@ -1768,7 +1768,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '塞尔维亚第纳尔',
                 'locale' => 'zh-cn',
             ),
-            159 => 
+            159 =>
             array (
                 'id' => 160,
                 'country_id' => 160,
@@ -1779,7 +1779,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            160 => 
+            160 =>
             array (
                 'id' => 161,
                 'country_id' => 161,
@@ -1790,7 +1790,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '保加利亚列弗',
                 'locale' => 'zh-cn',
             ),
-            161 => 
+            161 =>
             array (
                 'id' => 162,
                 'country_id' => 162,
@@ -1801,7 +1801,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            162 => 
+            162 =>
             array (
                 'id' => 163,
                 'country_id' => 163,
@@ -1812,7 +1812,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '直布罗陀镑',
                 'locale' => 'zh-cn',
             ),
-            163 => 
+            163 =>
             array (
                 'id' => 164,
                 'country_id' => 164,
@@ -1823,7 +1823,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '东加勒比元',
                 'locale' => 'zh-cn',
             ),
-            164 => 
+            164 =>
             array (
                 'id' => 165,
                 'country_id' => 165,
@@ -1834,7 +1834,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '百慕大元',
                 'locale' => 'zh-cn',
             ),
-            165 => 
+            165 =>
             array (
                 'id' => 166,
                 'country_id' => 166,
@@ -1845,7 +1845,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '加拿大元',
                 'locale' => 'zh-cn',
             ),
-            166 => 
+            166 =>
             array (
                 'id' => 167,
                 'country_id' => 167,
@@ -1856,7 +1856,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '美元',
                 'locale' => 'zh-cn',
             ),
-            167 => 
+            167 =>
             array (
                 'id' => 168,
                 'country_id' => 168,
@@ -1867,7 +1867,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '丹麦克朗',
                 'locale' => 'zh-cn',
             ),
-            168 => 
+            168 =>
             array (
                 'id' => 169,
                 'country_id' => 169,
@@ -1878,7 +1878,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '汤加潘加',
                 'locale' => 'zh-cn',
             ),
-            169 => 
+            169 =>
             array (
                 'id' => 170,
                 'country_id' => 170,
@@ -1889,7 +1889,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '澳洲元',
                 'locale' => 'zh-cn',
             ),
-            170 => 
+            170 =>
             array (
                 'id' => 171,
                 'country_id' => 171,
@@ -1900,7 +1900,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '新西兰元',
                 'locale' => 'zh-cn',
             ),
-            171 => 
+            171 =>
             array (
                 'id' => 172,
                 'country_id' => 172,
@@ -1911,7 +1911,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '澳洲元',
                 'locale' => 'zh-cn',
             ),
-            172 => 
+            172 =>
             array (
                 'id' => 173,
                 'country_id' => 173,
@@ -1922,7 +1922,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '太平洋法郎（franc Pacifique）',
                 'locale' => 'zh-cn',
             ),
-            173 => 
+            173 =>
             array (
                 'id' => 174,
                 'country_id' => 174,
@@ -1933,7 +1933,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '瓦努阿图瓦图',
                 'locale' => 'zh-cn',
             ),
-            174 => 
+            174 =>
             array (
                 'id' => 175,
                 'country_id' => 175,
@@ -1944,7 +1944,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '所罗门群岛元',
                 'locale' => 'zh-cn',
             ),
-            175 => 
+            175 =>
             array (
                 'id' => 176,
                 'country_id' => 176,
@@ -1955,7 +1955,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '萨摩亚塔拉',
                 'locale' => 'zh-cn',
             ),
-            176 => 
+            176 =>
             array (
                 'id' => 177,
                 'country_id' => 177,
@@ -1966,7 +1966,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '澳洲元',
                 'locale' => 'zh-cn',
             ),
-            177 => 
+            177 =>
             array (
                 'id' => 178,
                 'country_id' => 178,
@@ -1977,7 +1977,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '美元',
                 'locale' => 'zh-cn',
             ),
-            178 => 
+            178 =>
             array (
                 'id' => 179,
                 'country_id' => 179,
@@ -1988,7 +1988,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '美元',
                 'locale' => 'zh-cn',
             ),
-            179 => 
+            179 =>
             array (
                 'id' => 180,
                 'country_id' => 180,
@@ -1999,7 +1999,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '澳洲元',
                 'locale' => 'zh-cn',
             ),
-            180 => 
+            180 =>
             array (
                 'id' => 181,
                 'country_id' => 181,
@@ -2010,7 +2010,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '太平洋法郎（franc Pacifique）',
                 'locale' => 'zh-cn',
             ),
-            181 => 
+            181 =>
             array (
                 'id' => 182,
                 'country_id' => 182,
@@ -2021,7 +2021,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '新西兰元',
                 'locale' => 'zh-cn',
             ),
-            182 => 
+            182 =>
             array (
                 'id' => 183,
                 'country_id' => 183,
@@ -2032,7 +2032,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '斐济元',
                 'locale' => 'zh-cn',
             ),
-            183 => 
+            183 =>
             array (
                 'id' => 184,
                 'country_id' => 184,
@@ -2043,7 +2043,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '巴布亚新几内亚基那',
                 'locale' => 'zh-cn',
             ),
-            184 => 
+            184 =>
             array (
                 'id' => 185,
                 'country_id' => 185,
@@ -2054,7 +2054,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '美元',
                 'locale' => 'zh-cn',
             ),
-            185 => 
+            185 =>
             array (
                 'id' => 186,
                 'country_id' => 186,
@@ -2065,7 +2065,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '智利比索',
                 'locale' => 'zh-cn',
             ),
-            186 => 
+            186 =>
             array (
                 'id' => 187,
                 'country_id' => 187,
@@ -2076,7 +2076,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '哥伦比亚比索',
                 'locale' => 'zh-cn',
             ),
-            187 => 
+            187 =>
             array (
                 'id' => 188,
                 'country_id' => 188,
@@ -2087,7 +2087,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '圭亚那元',
                 'locale' => 'zh-cn',
             ),
-            188 => 
+            188 =>
             array (
                 'id' => 189,
                 'country_id' => 189,
@@ -2098,7 +2098,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '巴拉圭瓜拉尼',
                 'locale' => 'zh-cn',
             ),
-            189 => 
+            189 =>
             array (
                 'id' => 190,
                 'country_id' => 190,
@@ -2109,7 +2109,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '秘鲁索尔',
                 'locale' => 'zh-cn',
             ),
-            190 => 
+            190 =>
             array (
                 'id' => 191,
                 'country_id' => 191,
@@ -2120,7 +2120,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '苏里南元',
                 'locale' => 'zh-cn',
             ),
-            191 => 
+            191 =>
             array (
                 'id' => 192,
                 'country_id' => 192,
@@ -2131,7 +2131,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '委内瑞拉玻利瓦尔',
                 'locale' => 'zh-cn',
             ),
-            192 => 
+            192 =>
             array (
                 'id' => 193,
                 'country_id' => 193,
@@ -2142,7 +2142,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '乌拉圭比索',
                 'locale' => 'zh-cn',
             ),
-            193 => 
+            193 =>
             array (
                 'id' => 194,
                 'country_id' => 194,
@@ -2153,7 +2153,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '美元',
                 'locale' => 'zh-cn',
             ),
-            194 => 
+            194 =>
             array (
                 'id' => 195,
                 'country_id' => 195,
@@ -2164,7 +2164,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '东加勒比元',
                 'locale' => 'zh-cn',
             ),
-            195 => 
+            195 =>
             array (
                 'id' => 196,
                 'country_id' => 196,
@@ -2175,7 +2175,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '阿鲁巴弗罗林',
                 'locale' => 'zh-cn',
             ),
-            196 => 
+            196 =>
             array (
                 'id' => 197,
                 'country_id' => 197,
@@ -2186,7 +2186,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '巴哈马元',
                 'locale' => 'zh-cn',
             ),
-            197 => 
+            197 =>
             array (
                 'id' => 198,
                 'country_id' => 198,
@@ -2197,7 +2197,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '巴巴多斯元',
                 'locale' => 'zh-cn',
             ),
-            198 => 
+            198 =>
             array (
                 'id' => 199,
                 'country_id' => 199,
@@ -2208,7 +2208,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '开曼群岛元',
                 'locale' => 'zh-cn',
             ),
-            199 => 
+            199 =>
             array (
                 'id' => 200,
                 'country_id' => 200,
@@ -2219,7 +2219,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '东加勒比元',
                 'locale' => 'zh-cn',
             ),
-            200 => 
+            200 =>
             array (
                 'id' => 201,
                 'country_id' => 201,
@@ -2230,7 +2230,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '海地古德',
                 'locale' => 'zh-cn',
             ),
-            201 => 
+            201 =>
             array (
                 'id' => 202,
                 'country_id' => 202,
@@ -2241,7 +2241,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '牙买加元',
                 'locale' => 'zh-cn',
             ),
-            202 => 
+            202 =>
             array (
                 'id' => 203,
                 'country_id' => 203,
@@ -2252,7 +2252,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            203 => 
+            203 =>
             array (
                 'id' => 204,
                 'country_id' => 204,
@@ -2263,7 +2263,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '东加勒比元',
                 'locale' => 'zh-cn',
             ),
-            204 => 
+            204 =>
             array (
                 'id' => 205,
                 'country_id' => 205,
@@ -2274,7 +2274,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '特立尼达和多巴哥元',
                 'locale' => 'zh-cn',
             ),
-            205 => 
+            205 =>
             array (
                 'id' => 206,
                 'country_id' => 206,
@@ -2285,7 +2285,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '东加勒比元',
                 'locale' => 'zh-cn',
             ),
-            206 => 
+            206 =>
             array (
                 'id' => 207,
                 'country_id' => 207,
@@ -2296,7 +2296,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            207 => 
+            207 =>
             array (
                 'id' => 208,
                 'country_id' => 208,
@@ -2307,7 +2307,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '阿根廷比索',
                 'locale' => 'zh-cn',
             ),
-            208 => 
+            208 =>
             array (
                 'id' => 209,
                 'country_id' => 209,
@@ -2318,7 +2318,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '伯利兹元',
                 'locale' => 'zh-cn',
             ),
-            209 => 
+            209 =>
             array (
                 'id' => 210,
                 'country_id' => 210,
@@ -2329,7 +2329,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '玻利维亚诺',
                 'locale' => 'zh-cn',
             ),
-            210 => 
+            210 =>
             array (
                 'id' => 211,
                 'country_id' => 211,
@@ -2340,7 +2340,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '巴西雷亚尔',
                 'locale' => 'zh-cn',
             ),
-            211 => 
+            211 =>
             array (
                 'id' => 212,
                 'country_id' => 212,
@@ -2351,7 +2351,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '美元',
                 'locale' => 'zh-cn',
             ),
-            212 => 
+            212 =>
             array (
                 'id' => 213,
                 'country_id' => 213,
@@ -2362,7 +2362,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            213 => 
+            213 =>
             array (
                 'id' => 214,
                 'country_id' => 214,
@@ -2373,7 +2373,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            214 => 
+            214 =>
             array (
                 'id' => 215,
                 'country_id' => 215,
@@ -2384,7 +2384,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '美元',
                 'locale' => 'zh-cn',
             ),
-            215 => 
+            215 =>
             array (
                 'id' => 216,
                 'country_id' => 216,
@@ -2395,7 +2395,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '挪威克朗',
                 'locale' => 'zh-cn',
             ),
-            216 => 
+            216 =>
             array (
                 'id' => 217,
                 'country_id' => 217,
@@ -2406,7 +2406,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '澳洲元',
                 'locale' => 'zh-cn',
             ),
-            217 => 
+            217 =>
             array (
                 'id' => 218,
                 'country_id' => 218,
@@ -2417,7 +2417,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '荷属安的列斯盾',
                 'locale' => 'zh-cn',
             ),
-            218 => 
+            218 =>
             array (
                 'id' => 219,
                 'country_id' => 219,
@@ -2428,7 +2428,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '澳洲元',
                 'locale' => 'zh-cn',
             ),
-            219 => 
+            219 =>
             array (
                 'id' => 220,
                 'country_id' => 220,
@@ -2439,7 +2439,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '福克兰群岛镑',
                 'locale' => 'zh-cn',
             ),
-            220 => 
+            220 =>
             array (
                 'id' => 221,
                 'country_id' => 221,
@@ -2450,7 +2450,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '丹麦克朗',
                 'locale' => 'zh-cn',
             ),
-            221 => 
+            221 =>
             array (
                 'id' => 222,
                 'country_id' => 222,
@@ -2461,7 +2461,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            222 => 
+            222 =>
             array (
                 'id' => 223,
                 'country_id' => 223,
@@ -2472,7 +2472,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '英镑',
                 'locale' => 'zh-cn',
             ),
-            223 => 
+            223 =>
             array (
                 'id' => 224,
                 'country_id' => 224,
@@ -2483,7 +2483,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '英镑',
                 'locale' => 'zh-cn',
             ),
-            224 => 
+            224 =>
             array (
                 'id' => 225,
                 'country_id' => 225,
@@ -2494,7 +2494,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '美元',
                 'locale' => 'zh-cn',
             ),
-            225 => 
+            225 =>
             array (
                 'id' => 226,
                 'country_id' => 226,
@@ -2505,7 +2505,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '澳洲元',
                 'locale' => 'zh-cn',
             ),
-            226 => 
+            226 =>
             array (
                 'id' => 227,
                 'country_id' => 227,
@@ -2516,7 +2516,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '英镑',
                 'locale' => 'zh-cn',
             ),
-            227 => 
+            227 =>
             array (
                 'id' => 228,
                 'country_id' => 228,
@@ -2527,7 +2527,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '英镑',
                 'locale' => 'zh-cn',
             ),
-            228 => 
+            228 =>
             array (
                 'id' => 229,
                 'country_id' => 229,
@@ -2538,7 +2538,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '英镑',
                 'locale' => 'zh-cn',
             ),
-            229 => 
+            229 =>
             array (
                 'id' => 230,
                 'country_id' => 230,
@@ -2549,7 +2549,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '东加勒比元',
                 'locale' => 'zh-cn',
             ),
-            230 => 
+            230 =>
             array (
                 'id' => 231,
                 'country_id' => 231,
@@ -2560,7 +2560,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            231 => 
+            231 =>
             array (
                 'id' => 232,
                 'country_id' => 232,
@@ -2571,7 +2571,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '美元',
                 'locale' => 'zh-cn',
             ),
-            232 => 
+            232 =>
             array (
                 'id' => 233,
                 'country_id' => 233,
@@ -2582,7 +2582,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '澳洲元',
                 'locale' => 'zh-cn',
             ),
-            233 => 
+            233 =>
             array (
                 'id' => 234,
                 'country_id' => 234,
@@ -2593,7 +2593,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '新西兰元',
                 'locale' => 'zh-cn',
             ),
-            234 => 
+            234 =>
             array (
                 'id' => 236,
                 'country_id' => 236,
@@ -2604,7 +2604,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '新西兰元',
                 'locale' => 'zh-cn',
             ),
-            235 => 
+            235 =>
             array (
                 'id' => 237,
                 'country_id' => 237,
@@ -2615,7 +2615,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '圣赫勒拿镑',
                 'locale' => 'zh-cn',
             ),
-            236 => 
+            236 =>
             array (
                 'id' => 238,
                 'country_id' => 238,
@@ -2626,7 +2626,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '挪威克朗',
                 'locale' => 'zh-cn',
             ),
-            237 => 
+            237 =>
             array (
                 'id' => 239,
                 'country_id' => 239,
@@ -2637,7 +2637,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '荷属安的列斯盾',
                 'locale' => 'zh-cn',
             ),
-            238 => 
+            238 =>
             array (
                 'id' => 240,
                 'country_id' => 240,
@@ -2648,7 +2648,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '美元',
                 'locale' => 'zh-cn',
             ),
-            239 => 
+            239 =>
             array (
                 'id' => 241,
                 'country_id' => 241,
@@ -2659,7 +2659,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            240 => 
+            240 =>
             array (
                 'id' => 242,
                 'country_id' => 242,
@@ -2670,7 +2670,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '新西兰元',
                 'locale' => 'zh-cn',
             ),
-            241 => 
+            241 =>
             array (
                 'id' => 243,
                 'country_id' => 243,
@@ -2681,7 +2681,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '美元',
                 'locale' => 'zh-cn',
             ),
-            242 => 
+            242 =>
             array (
                 'id' => 244,
                 'country_id' => 244,
@@ -2692,7 +2692,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '美元',
                 'locale' => 'zh-cn',
             ),
-            243 => 
+            243 =>
             array (
                 'id' => 245,
                 'country_id' => 245,
@@ -2703,7 +2703,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '美元',
                 'locale' => 'zh-cn',
             ),
-            244 => 
+            244 =>
             array (
                 'id' => 246,
                 'country_id' => 246,
@@ -2714,7 +2714,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '太平洋法郎（franc Pacifique）',
                 'locale' => 'zh-cn',
             ),
-            245 => 
+            245 =>
             array (
                 'id' => 247,
                 'country_id' => 247,
@@ -2725,7 +2725,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '欧元',
                 'locale' => 'zh-cn',
             ),
-            246 => 
+            246 =>
             array (
                 'id' => 248,
                 'country_id' => 1,
@@ -2736,7 +2736,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'CFA Franc BEAC',
                 'locale' => 'en',
             ),
-            247 => 
+            247 =>
             array (
                 'id' => 249,
                 'country_id' => 2,
@@ -2747,7 +2747,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'CFA Franc BCEAO',
                 'locale' => 'en',
             ),
-            248 => 
+            248 =>
             array (
                 'id' => 250,
                 'country_id' => 3,
@@ -2758,7 +2758,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Malagasy Ariary',
                 'locale' => 'en',
             ),
-            249 => 
+            249 =>
             array (
                 'id' => 251,
                 'country_id' => 4,
@@ -2769,7 +2769,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Rwanda Franc',
                 'locale' => 'en',
             ),
-            250 => 
+            250 =>
             array (
                 'id' => 252,
                 'country_id' => 5,
@@ -2780,7 +2780,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Seychelles Rupee',
                 'locale' => 'en',
             ),
-            251 => 
+            251 =>
             array (
                 'id' => 253,
                 'country_id' => 6,
@@ -2791,7 +2791,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'CFA Franc BCEAO',
                 'locale' => 'en',
             ),
-            252 => 
+            252 =>
             array (
                 'id' => 254,
                 'country_id' => 7,
@@ -2802,7 +2802,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Egyptian Pound',
                 'locale' => 'en',
             ),
-            253 => 
+            253 =>
             array (
                 'id' => 255,
                 'country_id' => 8,
@@ -2813,7 +2813,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Mauritius Rupee',
                 'locale' => 'en',
             ),
-            254 => 
+            254 =>
             array (
                 'id' => 256,
                 'country_id' => 9,
@@ -2824,7 +2824,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'CFA Franc BCEAO',
                 'locale' => 'en',
             ),
-            255 => 
+            255 =>
             array (
                 'id' => 257,
                 'country_id' => 10,
@@ -2835,7 +2835,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Nakfa',
                 'locale' => 'en',
             ),
-            256 => 
+            256 =>
             array (
                 'id' => 258,
                 'country_id' => 11,
@@ -2846,7 +2846,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Dobra',
                 'locale' => 'en',
             ),
-            257 => 
+            257 =>
             array (
                 'id' => 259,
                 'country_id' => 12,
@@ -2857,7 +2857,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Kwanza',
                 'locale' => 'en',
             ),
-            258 => 
+            258 =>
             array (
                 'id' => 260,
                 'country_id' => 13,
@@ -2868,7 +2868,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Libyan Dinar',
                 'locale' => 'en',
             ),
-            259 => 
+            259 =>
             array (
                 'id' => 261,
                 'country_id' => 14,
@@ -2879,7 +2879,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Zimbabwe Dollar',
                 'locale' => 'en',
             ),
-            260 => 
+            260 =>
             array (
                 'id' => 262,
                 'country_id' => 15,
@@ -2890,7 +2890,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Guinea Franc',
                 'locale' => 'en',
             ),
-            261 => 
+            261 =>
             array (
                 'id' => 263,
                 'country_id' => 16,
@@ -2901,7 +2901,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Leone',
                 'locale' => 'en',
             ),
-            262 => 
+            262 =>
             array (
                 'id' => 264,
                 'country_id' => 17,
@@ -2912,7 +2912,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            263 => 
+            263 =>
             array (
                 'id' => 265,
                 'country_id' => 18,
@@ -2923,7 +2923,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'CFA Franc BEAC',
                 'locale' => 'en',
             ),
-            264 => 
+            264 =>
             array (
                 'id' => 266,
                 'country_id' => 19,
@@ -2934,7 +2934,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Ghana Cedi',
                 'locale' => 'en',
             ),
-            265 => 
+            265 =>
             array (
                 'id' => 267,
                 'country_id' => 20,
@@ -2945,7 +2945,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Tanzanian shilling',
                 'locale' => 'en',
             ),
-            266 => 
+            266 =>
             array (
                 'id' => 268,
                 'country_id' => 21,
@@ -2956,7 +2956,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'CFA Franc BCEAO',
                 'locale' => 'en',
             ),
-            267 => 
+            267 =>
             array (
                 'id' => 269,
                 'country_id' => 22,
@@ -2967,7 +2967,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Somali Shilling',
                 'locale' => 'en',
             ),
-            268 => 
+            268 =>
             array (
                 'id' => 270,
                 'country_id' => 23,
@@ -2978,7 +2978,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Ouguiya',
                 'locale' => 'en',
             ),
-            269 => 
+            269 =>
             array (
                 'id' => 271,
                 'country_id' => 24,
@@ -2989,7 +2989,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Uganda Shilling',
                 'locale' => 'en',
             ),
-            270 => 
+            270 =>
             array (
                 'id' => 272,
                 'country_id' => 25,
@@ -3000,7 +3000,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'CFA Franc BEAC',
                 'locale' => 'en',
             ),
-            271 => 
+            271 =>
             array (
                 'id' => 273,
                 'country_id' => 26,
@@ -3011,7 +3011,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            272 => 
+            272 =>
             array (
                 'id' => 274,
                 'country_id' => 27,
@@ -3022,7 +3022,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Comoro Franc',
                 'locale' => 'en',
             ),
-            273 => 
+            273 =>
             array (
                 'id' => 275,
                 'country_id' => 28,
@@ -3033,7 +3033,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Pula',
                 'locale' => 'en',
             ),
-            274 => 
+            274 =>
             array (
                 'id' => 276,
                 'country_id' => 29,
@@ -3044,7 +3044,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'CFA Franc BCEAO',
                 'locale' => 'en',
             ),
-            275 => 
+            275 =>
             array (
                 'id' => 277,
                 'country_id' => 30,
@@ -3055,7 +3055,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Lilangeni',
                 'locale' => 'en',
             ),
-            276 => 
+            276 =>
             array (
                 'id' => 278,
                 'country_id' => 31,
@@ -3066,7 +3066,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'CFA Franc BCEAO',
                 'locale' => 'en',
             ),
-            277 => 
+            277 =>
             array (
                 'id' => 279,
                 'country_id' => 32,
@@ -3077,7 +3077,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Congolese franc',
                 'locale' => 'en',
             ),
-            278 => 
+            278 =>
             array (
                 'id' => 280,
                 'country_id' => 33,
@@ -3088,7 +3088,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'CFA Franc BEAC',
                 'locale' => 'en',
             ),
-            279 => 
+            279 =>
             array (
                 'id' => 281,
                 'country_id' => 34,
@@ -3099,7 +3099,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Lesotho loti',
                 'locale' => 'en',
             ),
-            280 => 
+            280 =>
             array (
                 'id' => 282,
                 'country_id' => 35,
@@ -3110,7 +3110,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'CFA Franc BEAC',
                 'locale' => 'en',
             ),
-            281 => 
+            281 =>
             array (
                 'id' => 283,
                 'country_id' => 36,
@@ -3121,7 +3121,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Rand',
                 'locale' => 'en',
             ),
-            282 => 
+            282 =>
             array (
                 'id' => 284,
                 'country_id' => 37,
@@ -3132,7 +3132,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Liberian Dollar',
                 'locale' => 'en',
             ),
-            283 => 
+            283 =>
             array (
                 'id' => 285,
                 'country_id' => 38,
@@ -3143,7 +3143,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Tunisian Dinar',
                 'locale' => 'en',
             ),
-            284 => 
+            284 =>
             array (
                 'id' => 286,
                 'country_id' => 39,
@@ -3154,7 +3154,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Zambian Kwacha',
                 'locale' => 'en',
             ),
-            285 => 
+            285 =>
             array (
                 'id' => 287,
                 'country_id' => 40,
@@ -3165,7 +3165,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'CFA Franc BCEAO',
                 'locale' => 'en',
             ),
-            286 => 
+            286 =>
             array (
                 'id' => 288,
                 'country_id' => 41,
@@ -3176,7 +3176,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Algerian dinar',
                 'locale' => 'en',
             ),
-            287 => 
+            287 =>
             array (
                 'id' => 289,
                 'country_id' => 42,
@@ -3187,7 +3187,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'CFA Franc BCEAO',
                 'locale' => 'en',
             ),
-            288 => 
+            288 =>
             array (
                 'id' => 290,
                 'country_id' => 43,
@@ -3198,7 +3198,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Namibian dollar',
                 'locale' => 'en',
             ),
-            289 => 
+            289 =>
             array (
                 'id' => 291,
                 'country_id' => 44,
@@ -3209,7 +3209,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Mozambique Metical',
                 'locale' => 'en',
             ),
-            290 => 
+            290 =>
             array (
                 'id' => 292,
                 'country_id' => 45,
@@ -3220,7 +3220,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Ethiopian Birr',
                 'locale' => 'en',
             ),
-            291 => 
+            291 =>
             array (
                 'id' => 293,
                 'country_id' => 46,
@@ -3231,7 +3231,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Moroccan Dirham',
                 'locale' => 'en',
             ),
-            292 => 
+            292 =>
             array (
                 'id' => 294,
                 'country_id' => 47,
@@ -3242,7 +3242,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Kwacha',
                 'locale' => 'en',
             ),
-            293 => 
+            293 =>
             array (
                 'id' => 295,
                 'country_id' => 48,
@@ -3253,7 +3253,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Naira',
                 'locale' => 'en',
             ),
-            294 => 
+            294 =>
             array (
                 'id' => 296,
                 'country_id' => 49,
@@ -3264,7 +3264,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Cabo Verde Escudo',
                 'locale' => 'en',
             ),
-            295 => 
+            295 =>
             array (
                 'id' => 297,
                 'country_id' => 50,
@@ -3275,7 +3275,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Burundi Franc',
                 'locale' => 'en',
             ),
-            296 => 
+            296 =>
             array (
                 'id' => 298,
                 'country_id' => 51,
@@ -3286,7 +3286,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Algerian Dinar',
                 'locale' => 'en',
             ),
-            297 => 
+            297 =>
             array (
                 'id' => 299,
                 'country_id' => 52,
@@ -3297,7 +3297,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Djibouti Franc',
                 'locale' => 'en',
             ),
-            298 => 
+            298 =>
             array (
                 'id' => 300,
                 'country_id' => 53,
@@ -3308,7 +3308,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            299 => 
+            299 =>
             array (
                 'id' => 301,
                 'country_id' => 54,
@@ -3319,7 +3319,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'CFA Franc BEAC',
                 'locale' => 'en',
             ),
-            300 => 
+            300 =>
             array (
                 'id' => 302,
                 'country_id' => 55,
@@ -3330,7 +3330,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Sudanese Pound',
                 'locale' => 'en',
             ),
-            301 => 
+            301 =>
             array (
                 'id' => 303,
                 'country_id' => 56,
@@ -3341,7 +3341,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Kenyan Shilling',
                 'locale' => 'en',
             ),
-            302 => 
+            302 =>
             array (
                 'id' => 304,
                 'country_id' => 57,
@@ -3352,7 +3352,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Singapore Dollar',
                 'locale' => 'en',
             ),
-            303 => 
+            303 =>
             array (
                 'id' => 305,
                 'country_id' => 58,
@@ -3363,7 +3363,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'South Korean won',
                 'locale' => 'en',
             ),
-            304 => 
+            304 =>
             array (
                 'id' => 306,
                 'country_id' => 59,
@@ -3374,7 +3374,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Syrian Pound',
                 'locale' => 'en',
             ),
-            305 => 
+            305 =>
             array (
                 'id' => 307,
                 'country_id' => 60,
@@ -3385,7 +3385,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Uzbekistan Sum',
                 'locale' => 'en',
             ),
-            306 => 
+            306 =>
             array (
                 'id' => 308,
                 'country_id' => 61,
@@ -3396,7 +3396,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Bahraini Dinar',
                 'locale' => 'en',
             ),
-            307 => 
+            307 =>
             array (
                 'id' => 309,
                 'country_id' => 62,
@@ -3407,7 +3407,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Yen',
                 'locale' => 'en',
             ),
-            308 => 
+            308 =>
             array (
                 'id' => 310,
                 'country_id' => 63,
@@ -3418,7 +3418,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Jordanian Dinar',
                 'locale' => 'en',
             ),
-            309 => 
+            309 =>
             array (
                 'id' => 311,
                 'country_id' => 64,
@@ -3429,7 +3429,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Dong',
                 'locale' => 'en',
             ),
-            310 => 
+            310 =>
             array (
                 'id' => 312,
                 'country_id' => 65,
@@ -3440,7 +3440,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Som',
                 'locale' => 'en',
             ),
-            311 => 
+            311 =>
             array (
                 'id' => 313,
                 'country_id' => 66,
@@ -3451,7 +3451,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Baht',
                 'locale' => 'en',
             ),
-            312 => 
+            312 =>
             array (
                 'id' => 314,
                 'country_id' => 67,
@@ -3462,7 +3462,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Sri Lanka Rupee',
                 'locale' => 'en',
             ),
-            313 => 
+            313 =>
             array (
                 'id' => 315,
                 'country_id' => 68,
@@ -3473,7 +3473,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'UAE Dirham',
                 'locale' => 'en',
             ),
-            314 => 
+            314 =>
             array (
                 'id' => 316,
                 'country_id' => 69,
@@ -3484,7 +3484,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Kip',
                 'locale' => 'en',
             ),
-            315 => 
+            315 =>
             array (
                 'id' => 317,
                 'country_id' => 70,
@@ -3495,7 +3495,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Afghani',
                 'locale' => 'en',
             ),
-            316 => 
+            316 =>
             array (
                 'id' => 318,
                 'country_id' => 71,
@@ -3506,7 +3506,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Macanese pataca',
                 'locale' => 'en',
             ),
-            317 => 
+            317 =>
             array (
                 'id' => 319,
                 'country_id' => 72,
@@ -3517,7 +3517,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Somoni',
                 'locale' => 'en',
             ),
-            318 => 
+            318 =>
             array (
                 'id' => 320,
                 'country_id' => 73,
@@ -3528,7 +3528,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'North Korean won',
                 'locale' => 'en',
             ),
-            319 => 
+            319 =>
             array (
                 'id' => 321,
                 'country_id' => 74,
@@ -3539,7 +3539,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Israeli new shekel',
                 'locale' => 'en',
             ),
-            320 => 
+            320 =>
             array (
                 'id' => 322,
                 'country_id' => 75,
@@ -3550,7 +3550,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Hong Kong dollar',
                 'locale' => 'en',
             ),
-            321 => 
+            321 =>
             array (
                 'id' => 323,
                 'country_id' => 76,
@@ -3561,7 +3561,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Iraqi Dinar',
                 'locale' => 'en',
             ),
-            322 => 
+            322 =>
             array (
                 'id' => 324,
                 'country_id' => 77,
@@ -3572,7 +3572,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Lebanese Pound',
                 'locale' => 'en',
             ),
-            323 => 
+            323 =>
             array (
                 'id' => 325,
                 'country_id' => 78,
@@ -3583,7 +3583,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Kuwaiti Dinar',
                 'locale' => 'en',
             ),
-            324 => 
+            324 =>
             array (
                 'id' => 326,
                 'country_id' => 79,
@@ -3594,7 +3594,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Brunei Dollar',
                 'locale' => 'en',
             ),
-            325 => 
+            325 =>
             array (
                 'id' => 327,
                 'country_id' => 80,
@@ -3605,7 +3605,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Rufiyaa',
                 'locale' => 'en',
             ),
-            326 => 
+            326 =>
             array (
                 'id' => 328,
                 'country_id' => 81,
@@ -3616,7 +3616,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Rupiah',
                 'locale' => 'en',
             ),
-            327 => 
+            327 =>
             array (
                 'id' => 329,
                 'country_id' => 82,
@@ -3627,7 +3627,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'New Israeli Sheqel',
                 'locale' => 'en',
             ),
-            328 => 
+            328 =>
             array (
                 'id' => 330,
                 'country_id' => 83,
@@ -3638,7 +3638,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Tugrik',
                 'locale' => 'en',
             ),
-            329 => 
+            329 =>
             array (
                 'id' => 331,
                 'country_id' => 84,
@@ -3649,7 +3649,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Rial Omani',
                 'locale' => 'en',
             ),
-            330 => 
+            330 =>
             array (
                 'id' => 332,
                 'country_id' => 85,
@@ -3660,7 +3660,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Indian Rupee',
                 'locale' => 'en',
             ),
-            331 => 
+            331 =>
             array (
                 'id' => 333,
                 'country_id' => 86,
@@ -3671,7 +3671,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Kyat',
                 'locale' => 'en',
             ),
-            332 => 
+            332 =>
             array (
                 'id' => 334,
                 'country_id' => 87,
@@ -3682,7 +3682,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Malaysian Ringgit',
                 'locale' => 'en',
             ),
-            333 => 
+            333 =>
             array (
                 'id' => 335,
                 'country_id' => 88,
@@ -3693,7 +3693,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'US Dollar',
                 'locale' => 'en',
             ),
-            334 => 
+            334 =>
             array (
                 'id' => 336,
                 'country_id' => 89,
@@ -3704,7 +3704,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Yemeni Rial',
                 'locale' => 'en',
             ),
-            335 => 
+            335 =>
             array (
                 'id' => 337,
                 'country_id' => 90,
@@ -3715,7 +3715,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Bhutanese ngultrum',
                 'locale' => 'en',
             ),
-            336 => 
+            336 =>
             array (
                 'id' => 338,
                 'country_id' => 91,
@@ -3726,7 +3726,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Riel',
                 'locale' => 'en',
             ),
-            337 => 
+            337 =>
             array (
                 'id' => 339,
                 'country_id' => 92,
@@ -3737,7 +3737,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Pakistan Rupee',
                 'locale' => 'en',
             ),
-            338 => 
+            338 =>
             array (
                 'id' => 340,
                 'country_id' => 93,
@@ -3748,7 +3748,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Taka',
                 'locale' => 'en',
             ),
-            339 => 
+            339 =>
             array (
                 'id' => 341,
                 'country_id' => 94,
@@ -3759,7 +3759,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Saudi Riyal',
                 'locale' => 'en',
             ),
-            340 => 
+            340 =>
             array (
                 'id' => 342,
                 'country_id' => 95,
@@ -3770,7 +3770,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Turkmenistan New Manat',
                 'locale' => 'en',
             ),
-            341 => 
+            341 =>
             array (
                 'id' => 343,
                 'country_id' => 96,
@@ -3781,7 +3781,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Qatari Rial',
                 'locale' => 'en',
             ),
-            342 => 
+            342 =>
             array (
                 'id' => 344,
                 'country_id' => 97,
@@ -3792,7 +3792,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Nepalese Rupee',
                 'locale' => 'en',
             ),
-            343 => 
+            343 =>
             array (
                 'id' => 345,
                 'country_id' => 98,
@@ -3803,7 +3803,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Tenge',
                 'locale' => 'en',
             ),
-            344 => 
+            344 =>
             array (
                 'id' => 346,
                 'country_id' => 99,
@@ -3814,7 +3814,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Philippine Peso',
                 'locale' => 'en',
             ),
-            345 => 
+            345 =>
             array (
                 'id' => 347,
                 'country_id' => 100,
@@ -3825,7 +3825,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'New Taiwan dollar',
                 'locale' => 'en',
             ),
-            346 => 
+            346 =>
             array (
                 'id' => 348,
                 'country_id' => 101,
@@ -3836,7 +3836,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Yuan Renminbi',
                 'locale' => 'en',
             ),
-            347 => 
+            347 =>
             array (
                 'id' => 349,
                 'country_id' => 102,
@@ -3847,7 +3847,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Iranian rial',
                 'locale' => 'en',
             ),
-            348 => 
+            348 =>
             array (
                 'id' => 350,
                 'country_id' => 103,
@@ -3858,7 +3858,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Costa Rican Colon',
                 'locale' => 'en',
             ),
-            349 => 
+            349 =>
             array (
                 'id' => 351,
                 'country_id' => 104,
@@ -3869,7 +3869,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Cuban convertible peso',
                 'locale' => 'en',
             ),
-            350 => 
+            350 =>
             array (
                 'id' => 352,
                 'country_id' => 105,
@@ -3880,7 +3880,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Dominican Peso',
                 'locale' => 'en',
             ),
-            351 => 
+            351 =>
             array (
                 'id' => 353,
                 'country_id' => 106,
@@ -3891,7 +3891,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Mexican Peso',
                 'locale' => 'en',
             ),
-            352 => 
+            352 =>
             array (
                 'id' => 354,
                 'country_id' => 107,
@@ -3902,7 +3902,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Cordoba Oro',
                 'locale' => 'en',
             ),
-            353 => 
+            353 =>
             array (
                 'id' => 355,
                 'country_id' => 108,
@@ -3913,7 +3913,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Panamanian balboa',
                 'locale' => 'en',
             ),
-            354 => 
+            354 =>
             array (
                 'id' => 356,
                 'country_id' => 109,
@@ -3924,7 +3924,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => NULL,
                 'locale' => 'en',
             ),
-            355 => 
+            355 =>
             array (
                 'id' => 357,
                 'country_id' => 110,
@@ -3935,7 +3935,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Salvadoran colón',
                 'locale' => 'en',
             ),
-            356 => 
+            356 =>
             array (
                 'id' => 358,
                 'country_id' => 111,
@@ -3946,7 +3946,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'US Dollar',
                 'locale' => 'en',
             ),
-            357 => 
+            357 =>
             array (
                 'id' => 359,
                 'country_id' => 112,
@@ -3957,7 +3957,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'East Caribbean Dollar',
                 'locale' => 'en',
             ),
-            358 => 
+            358 =>
             array (
                 'id' => 360,
                 'country_id' => 113,
@@ -3968,7 +3968,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Lempira',
                 'locale' => 'en',
             ),
-            359 => 
+            359 =>
             array (
                 'id' => 361,
                 'country_id' => 114,
@@ -3979,7 +3979,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Quetzal',
                 'locale' => 'en',
             ),
-            360 => 
+            360 =>
             array (
                 'id' => 362,
                 'country_id' => 115,
@@ -3990,7 +3990,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Lari',
                 'locale' => 'en',
             ),
-            361 => 
+            361 =>
             array (
                 'id' => 363,
                 'country_id' => 116,
@@ -4001,7 +4001,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Armenian Dram',
                 'locale' => 'en',
             ),
-            362 => 
+            362 =>
             array (
                 'id' => 364,
                 'country_id' => 117,
@@ -4012,7 +4012,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Azerbaijanian Manat',
                 'locale' => 'en',
             ),
-            363 => 
+            363 =>
             array (
                 'id' => 365,
                 'country_id' => 118,
@@ -4023,7 +4023,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Belarussian Ruble',
                 'locale' => 'en',
             ),
-            364 => 
+            364 =>
             array (
                 'id' => 366,
                 'country_id' => 119,
@@ -4034,7 +4034,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Russian Ruble',
                 'locale' => 'en',
             ),
-            365 => 
+            365 =>
             array (
                 'id' => 367,
                 'country_id' => 120,
@@ -4045,7 +4045,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Hryvnia',
                 'locale' => 'en',
             ),
-            366 => 
+            366 =>
             array (
                 'id' => 368,
                 'country_id' => 121,
@@ -4056,7 +4056,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Forint',
                 'locale' => 'en',
             ),
-            367 => 
+            367 =>
             array (
                 'id' => 369,
                 'country_id' => 122,
@@ -4067,7 +4067,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Iceland Krona',
                 'locale' => 'en',
             ),
-            368 => 
+            368 =>
             array (
                 'id' => 370,
                 'country_id' => 123,
@@ -4078,7 +4078,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            369 => 
+            369 =>
             array (
                 'id' => 371,
                 'country_id' => 124,
@@ -4089,7 +4089,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            370 => 
+            370 =>
             array (
                 'id' => 372,
                 'country_id' => 125,
@@ -4100,7 +4100,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Norwegian Krone',
                 'locale' => 'en',
             ),
-            371 => 
+            371 =>
             array (
                 'id' => 373,
                 'country_id' => 126,
@@ -4111,7 +4111,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'New Romanian Leu',
                 'locale' => 'en',
             ),
-            372 => 
+            372 =>
             array (
                 'id' => 374,
                 'country_id' => 127,
@@ -4122,7 +4122,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            373 => 
+            373 =>
             array (
                 'id' => 375,
                 'country_id' => 128,
@@ -4133,7 +4133,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Swedish Krona',
                 'locale' => 'en',
             ),
-            374 => 
+            374 =>
             array (
                 'id' => 376,
                 'country_id' => 129,
@@ -4144,7 +4144,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
             'currency_name' => 'WIR Euro (complementary currency)',
                 'locale' => 'en',
             ),
-            375 => 
+            375 =>
             array (
                 'id' => 377,
                 'country_id' => 130,
@@ -4155,7 +4155,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            376 => 
+            376 =>
             array (
                 'id' => 378,
                 'country_id' => 131,
@@ -4166,7 +4166,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            377 => 
+            377 =>
             array (
                 'id' => 379,
                 'country_id' => 132,
@@ -4177,7 +4177,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            378 => 
+            378 =>
             array (
                 'id' => 380,
                 'country_id' => 133,
@@ -4188,7 +4188,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Moldovan leu',
                 'locale' => 'en',
             ),
-            379 => 
+            379 =>
             array (
                 'id' => 381,
                 'country_id' => 134,
@@ -4199,7 +4199,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Turkish Lira',
                 'locale' => 'en',
             ),
-            380 => 
+            380 =>
             array (
                 'id' => 382,
                 'country_id' => 135,
@@ -4210,7 +4210,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            381 => 
+            381 =>
             array (
                 'id' => 383,
                 'country_id' => 136,
@@ -4221,7 +4221,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Czech Koruna',
                 'locale' => 'en',
             ),
-            382 => 
+            382 =>
             array (
                 'id' => 384,
                 'country_id' => 137,
@@ -4232,7 +4232,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            383 => 
+            383 =>
             array (
                 'id' => 385,
                 'country_id' => 138,
@@ -4243,7 +4243,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Macedonian denar',
                 'locale' => 'en',
             ),
-            384 => 
+            384 =>
             array (
                 'id' => 386,
                 'country_id' => 139,
@@ -4254,7 +4254,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Convertible Mark',
                 'locale' => 'en',
             ),
-            385 => 
+            385 =>
             array (
                 'id' => 387,
                 'country_id' => 140,
@@ -4265,7 +4265,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            386 => 
+            386 =>
             array (
                 'id' => 388,
                 'country_id' => 141,
@@ -4276,7 +4276,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            387 => 
+            387 =>
             array (
                 'id' => 389,
                 'country_id' => 142,
@@ -4287,7 +4287,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Croatian Kuna',
                 'locale' => 'en',
             ),
-            388 => 
+            388 =>
             array (
                 'id' => 390,
                 'country_id' => 143,
@@ -4298,7 +4298,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            389 => 
+            389 =>
             array (
                 'id' => 391,
                 'country_id' => 144,
@@ -4309,7 +4309,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            390 => 
+            390 =>
             array (
                 'id' => 392,
                 'country_id' => 145,
@@ -4320,7 +4320,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            391 => 
+            391 =>
             array (
                 'id' => 393,
                 'country_id' => 146,
@@ -4331,7 +4331,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            392 => 
+            392 =>
             array (
                 'id' => 394,
                 'country_id' => 147,
@@ -4342,7 +4342,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Danish Krone',
                 'locale' => 'en',
             ),
-            393 => 
+            393 =>
             array (
                 'id' => 395,
                 'country_id' => 148,
@@ -4353,7 +4353,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Pound sterling',
                 'locale' => 'en',
             ),
-            394 => 
+            394 =>
             array (
                 'id' => 396,
                 'country_id' => 149,
@@ -4364,7 +4364,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            395 => 
+            395 =>
             array (
                 'id' => 397,
                 'country_id' => 150,
@@ -4375,7 +4375,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            396 => 
+            396 =>
             array (
                 'id' => 398,
                 'country_id' => 151,
@@ -4386,7 +4386,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            397 => 
+            397 =>
             array (
                 'id' => 399,
                 'country_id' => 152,
@@ -4397,7 +4397,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            398 => 
+            398 =>
             array (
                 'id' => 400,
                 'country_id' => 153,
@@ -4408,7 +4408,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            399 => 
+            399 =>
             array (
                 'id' => 401,
                 'country_id' => 154,
@@ -4419,7 +4419,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Zloty',
                 'locale' => 'en',
             ),
-            400 => 
+            400 =>
             array (
                 'id' => 402,
                 'country_id' => 155,
@@ -4430,7 +4430,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            401 => 
+            401 =>
             array (
                 'id' => 403,
                 'country_id' => 156,
@@ -4441,7 +4441,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Lek',
                 'locale' => 'en',
             ),
-            402 => 
+            402 =>
             array (
                 'id' => 404,
                 'country_id' => 157,
@@ -4452,7 +4452,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            403 => 
+            403 =>
             array (
                 'id' => 405,
                 'country_id' => 158,
@@ -4463,7 +4463,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Swiss Franc',
                 'locale' => 'en',
             ),
-            404 => 
+            404 =>
             array (
                 'id' => 406,
                 'country_id' => 159,
@@ -4474,7 +4474,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Serbian Dinar',
                 'locale' => 'en',
             ),
-            405 => 
+            405 =>
             array (
                 'id' => 407,
                 'country_id' => 160,
@@ -4485,7 +4485,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            406 => 
+            406 =>
             array (
                 'id' => 408,
                 'country_id' => 161,
@@ -4496,7 +4496,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Bulgarian Lev',
                 'locale' => 'en',
             ),
-            407 => 
+            407 =>
             array (
                 'id' => 409,
                 'country_id' => 162,
@@ -4507,7 +4507,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            408 => 
+            408 =>
             array (
                 'id' => 410,
                 'country_id' => 163,
@@ -4518,7 +4518,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Gibraltar Pound',
                 'locale' => 'en',
             ),
-            409 => 
+            409 =>
             array (
                 'id' => 411,
                 'country_id' => 164,
@@ -4529,7 +4529,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'East Caribbean Dollar',
                 'locale' => 'en',
             ),
-            410 => 
+            410 =>
             array (
                 'id' => 412,
                 'country_id' => 165,
@@ -4540,7 +4540,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Bermudian Dollar',
                 'locale' => 'en',
             ),
-            411 => 
+            411 =>
             array (
                 'id' => 413,
                 'country_id' => 166,
@@ -4551,7 +4551,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Canadian Dollar',
                 'locale' => 'en',
             ),
-            412 => 
+            412 =>
             array (
                 'id' => 414,
                 'country_id' => 167,
@@ -4562,7 +4562,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'United Dollar',
                 'locale' => 'en',
             ),
-            413 => 
+            413 =>
             array (
                 'id' => 415,
                 'country_id' => 168,
@@ -4573,7 +4573,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Danish Krone',
                 'locale' => 'en',
             ),
-            414 => 
+            414 =>
             array (
                 'id' => 416,
                 'country_id' => 169,
@@ -4584,7 +4584,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Pa’anga',
                 'locale' => 'en',
             ),
-            415 => 
+            415 =>
             array (
                 'id' => 417,
                 'country_id' => 170,
@@ -4595,7 +4595,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Australian Dollar',
                 'locale' => 'en',
             ),
-            416 => 
+            416 =>
             array (
                 'id' => 418,
                 'country_id' => 171,
@@ -4606,7 +4606,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'New Zealand Dollar',
                 'locale' => 'en',
             ),
-            417 => 
+            417 =>
             array (
                 'id' => 419,
                 'country_id' => 172,
@@ -4617,7 +4617,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Australian Dollar',
                 'locale' => 'en',
             ),
-            418 => 
+            418 =>
             array (
                 'id' => 420,
                 'country_id' => 173,
@@ -4628,7 +4628,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'CFP Franc',
                 'locale' => 'en',
             ),
-            419 => 
+            419 =>
             array (
                 'id' => 421,
                 'country_id' => 174,
@@ -4639,7 +4639,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Vatu',
                 'locale' => 'en',
             ),
-            420 => 
+            420 =>
             array (
                 'id' => 422,
                 'country_id' => 175,
@@ -4650,7 +4650,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Solomon Islands Dollar',
                 'locale' => 'en',
             ),
-            421 => 
+            421 =>
             array (
                 'id' => 423,
                 'country_id' => 176,
@@ -4661,7 +4661,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Tala',
                 'locale' => 'en',
             ),
-            422 => 
+            422 =>
             array (
                 'id' => 424,
                 'country_id' => 177,
@@ -4672,7 +4672,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Australian Dollar',
                 'locale' => 'en',
             ),
-            423 => 
+            423 =>
             array (
                 'id' => 425,
                 'country_id' => 178,
@@ -4683,7 +4683,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'US Dollar',
                 'locale' => 'en',
             ),
-            424 => 
+            424 =>
             array (
                 'id' => 426,
                 'country_id' => 179,
@@ -4694,7 +4694,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'US Dollar',
                 'locale' => 'en',
             ),
-            425 => 
+            425 =>
             array (
                 'id' => 427,
                 'country_id' => 180,
@@ -4705,7 +4705,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Australian Dollar',
                 'locale' => 'en',
             ),
-            426 => 
+            426 =>
             array (
                 'id' => 428,
                 'country_id' => 181,
@@ -4716,7 +4716,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'CFP Franc',
                 'locale' => 'en',
             ),
-            427 => 
+            427 =>
             array (
                 'id' => 429,
                 'country_id' => 182,
@@ -4727,7 +4727,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'New Zealand Dollar',
                 'locale' => 'en',
             ),
-            428 => 
+            428 =>
             array (
                 'id' => 430,
                 'country_id' => 183,
@@ -4738,7 +4738,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Fiji Dollar',
                 'locale' => 'en',
             ),
-            429 => 
+            429 =>
             array (
                 'id' => 431,
                 'country_id' => 184,
@@ -4749,7 +4749,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Kina',
                 'locale' => 'en',
             ),
-            430 => 
+            430 =>
             array (
                 'id' => 432,
                 'country_id' => 185,
@@ -4760,7 +4760,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'US Dollar',
                 'locale' => 'en',
             ),
-            431 => 
+            431 =>
             array (
                 'id' => 433,
                 'country_id' => 186,
@@ -4771,7 +4771,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Chilean Peso',
                 'locale' => 'en',
             ),
-            432 => 
+            432 =>
             array (
                 'id' => 434,
                 'country_id' => 187,
@@ -4782,7 +4782,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Colombian Peso',
                 'locale' => 'en',
             ),
-            433 => 
+            433 =>
             array (
                 'id' => 435,
                 'country_id' => 188,
@@ -4793,7 +4793,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Guyana Dollar',
                 'locale' => 'en',
             ),
-            434 => 
+            434 =>
             array (
                 'id' => 436,
                 'country_id' => 189,
@@ -4804,7 +4804,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Guarani',
                 'locale' => 'en',
             ),
-            435 => 
+            435 =>
             array (
                 'id' => 437,
                 'country_id' => 190,
@@ -4815,7 +4815,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Nuevo Sol',
                 'locale' => 'en',
             ),
-            436 => 
+            436 =>
             array (
                 'id' => 438,
                 'country_id' => 191,
@@ -4826,7 +4826,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Surinam Dollar',
                 'locale' => 'en',
             ),
-            437 => 
+            437 =>
             array (
                 'id' => 439,
                 'country_id' => 192,
@@ -4837,7 +4837,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Venezuelan bolívar',
                 'locale' => 'en',
             ),
-            438 => 
+            438 =>
             array (
                 'id' => 440,
                 'country_id' => 193,
@@ -4848,7 +4848,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Peso Uruguayo',
                 'locale' => 'en',
             ),
-            439 => 
+            439 =>
             array (
                 'id' => 441,
                 'country_id' => 194,
@@ -4859,7 +4859,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'US Dollar',
                 'locale' => 'en',
             ),
-            440 => 
+            440 =>
             array (
                 'id' => 442,
                 'country_id' => 195,
@@ -4870,7 +4870,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'East Caribbean Dollar',
                 'locale' => 'en',
             ),
-            441 => 
+            441 =>
             array (
                 'id' => 443,
                 'country_id' => 196,
@@ -4881,7 +4881,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Aruban Florin',
                 'locale' => 'en',
             ),
-            442 => 
+            442 =>
             array (
                 'id' => 444,
                 'country_id' => 197,
@@ -4892,7 +4892,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Bahamian Dollar',
                 'locale' => 'en',
             ),
-            443 => 
+            443 =>
             array (
                 'id' => 445,
                 'country_id' => 198,
@@ -4903,7 +4903,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Barbados Dollar',
                 'locale' => 'en',
             ),
-            444 => 
+            444 =>
             array (
                 'id' => 446,
                 'country_id' => 199,
@@ -4914,7 +4914,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Cayman Islands Dollar',
                 'locale' => 'en',
             ),
-            445 => 
+            445 =>
             array (
                 'id' => 447,
                 'country_id' => 200,
@@ -4925,7 +4925,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'East Caribbean Dollar',
                 'locale' => 'en',
             ),
-            446 => 
+            446 =>
             array (
                 'id' => 448,
                 'country_id' => 201,
@@ -4936,7 +4936,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Haitian gourde',
                 'locale' => 'en',
             ),
-            447 => 
+            447 =>
             array (
                 'id' => 449,
                 'country_id' => 202,
@@ -4947,7 +4947,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Jamaican Dollar',
                 'locale' => 'en',
             ),
-            448 => 
+            448 =>
             array (
                 'id' => 450,
                 'country_id' => 203,
@@ -4958,7 +4958,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            449 => 
+            449 =>
             array (
                 'id' => 451,
                 'country_id' => 204,
@@ -4969,7 +4969,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'East Caribbean Dollar',
                 'locale' => 'en',
             ),
-            450 => 
+            450 =>
             array (
                 'id' => 452,
                 'country_id' => 205,
@@ -4980,7 +4980,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Trinidad and Tobago Dollar',
                 'locale' => 'en',
             ),
-            451 => 
+            451 =>
             array (
                 'id' => 453,
                 'country_id' => 206,
@@ -4991,7 +4991,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'East Caribbean Dollar',
                 'locale' => 'en',
             ),
-            452 => 
+            452 =>
             array (
                 'id' => 454,
                 'country_id' => 207,
@@ -5002,7 +5002,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            453 => 
+            453 =>
             array (
                 'id' => 455,
                 'country_id' => 208,
@@ -5013,7 +5013,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Argentine Peso',
                 'locale' => 'en',
             ),
-            454 => 
+            454 =>
             array (
                 'id' => 456,
                 'country_id' => 209,
@@ -5024,7 +5024,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Belize Dollar',
                 'locale' => 'en',
             ),
-            455 => 
+            455 =>
             array (
                 'id' => 457,
                 'country_id' => 210,
@@ -5035,7 +5035,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Boliviano',
                 'locale' => 'en',
             ),
-            456 => 
+            456 =>
             array (
                 'id' => 458,
                 'country_id' => 211,
@@ -5046,7 +5046,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Brazilian Real',
                 'locale' => 'en',
             ),
-            457 => 
+            457 =>
             array (
                 'id' => 459,
                 'country_id' => 212,
@@ -5057,7 +5057,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'US Dollar',
                 'locale' => 'en',
             ),
-            458 => 
+            458 =>
             array (
                 'id' => 460,
                 'country_id' => 213,
@@ -5068,7 +5068,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            459 => 
+            459 =>
             array (
                 'id' => 461,
                 'country_id' => 214,
@@ -5079,7 +5079,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            460 => 
+            460 =>
             array (
                 'id' => 462,
                 'country_id' => 215,
@@ -5090,7 +5090,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'US Dollar',
                 'locale' => 'en',
             ),
-            461 => 
+            461 =>
             array (
                 'id' => 463,
                 'country_id' => 216,
@@ -5101,7 +5101,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Norwegian krone',
                 'locale' => 'en',
             ),
-            462 => 
+            462 =>
             array (
                 'id' => 464,
                 'country_id' => 217,
@@ -5112,7 +5112,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Australian dollar',
                 'locale' => 'en',
             ),
-            463 => 
+            463 =>
             array (
                 'id' => 465,
                 'country_id' => 218,
@@ -5123,7 +5123,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Netherlands Antillean Guilder',
                 'locale' => 'en',
             ),
-            464 => 
+            464 =>
             array (
                 'id' => 466,
                 'country_id' => 219,
@@ -5134,7 +5134,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Australian dollar',
                 'locale' => 'en',
             ),
-            465 => 
+            465 =>
             array (
                 'id' => 467,
                 'country_id' => 220,
@@ -5145,7 +5145,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Falkland Islands Pound',
                 'locale' => 'en',
             ),
-            466 => 
+            466 =>
             array (
                 'id' => 468,
                 'country_id' => 221,
@@ -5156,7 +5156,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Danish Krone',
                 'locale' => 'en',
             ),
-            467 => 
+            467 =>
             array (
                 'id' => 469,
                 'country_id' => 222,
@@ -5167,7 +5167,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            468 => 
+            468 =>
             array (
                 'id' => 470,
                 'country_id' => 223,
@@ -5178,7 +5178,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Pound Sterling',
                 'locale' => 'en',
             ),
-            469 => 
+            469 =>
             array (
                 'id' => 471,
                 'country_id' => 224,
@@ -5189,7 +5189,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Pound sterling',
                 'locale' => 'en',
             ),
-            470 => 
+            470 =>
             array (
                 'id' => 472,
                 'country_id' => 225,
@@ -5200,7 +5200,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'US Dollar',
                 'locale' => 'en',
             ),
-            471 => 
+            471 =>
             array (
                 'id' => 473,
                 'country_id' => 226,
@@ -5211,7 +5211,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Australian Dollar',
                 'locale' => 'en',
             ),
-            472 => 
+            472 =>
             array (
                 'id' => 474,
                 'country_id' => 227,
@@ -5222,7 +5222,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Pound Sterling',
                 'locale' => 'en',
             ),
-            473 => 
+            473 =>
             array (
                 'id' => 475,
                 'country_id' => 228,
@@ -5233,7 +5233,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Pound Sterling',
                 'locale' => 'en',
             ),
-            474 => 
+            474 =>
             array (
                 'id' => 476,
                 'country_id' => 229,
@@ -5244,7 +5244,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Pound Sterling',
                 'locale' => 'en',
             ),
-            475 => 
+            475 =>
             array (
                 'id' => 477,
                 'country_id' => 230,
@@ -5255,7 +5255,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'East Caribbean Dollar',
                 'locale' => 'en',
             ),
-            476 => 
+            476 =>
             array (
                 'id' => 478,
                 'country_id' => 231,
@@ -5266,7 +5266,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            477 => 
+            477 =>
             array (
                 'id' => 479,
                 'country_id' => 232,
@@ -5277,7 +5277,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'US Dollar',
                 'locale' => 'en',
             ),
-            478 => 
+            478 =>
             array (
                 'id' => 480,
                 'country_id' => 233,
@@ -5288,7 +5288,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Australian Dollar',
                 'locale' => 'en',
             ),
-            479 => 
+            479 =>
             array (
                 'id' => 481,
                 'country_id' => 234,
@@ -5299,7 +5299,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'New Zealand Dollar',
                 'locale' => 'en',
             ),
-            480 => 
+            480 =>
             array (
                 'id' => 483,
                 'country_id' => 236,
@@ -5310,7 +5310,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'New Zealand Dollar',
                 'locale' => 'en',
             ),
-            481 => 
+            481 =>
             array (
                 'id' => 484,
                 'country_id' => 237,
@@ -5321,7 +5321,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Saint Helena pound',
                 'locale' => 'en',
             ),
-            482 => 
+            482 =>
             array (
                 'id' => 485,
                 'country_id' => 238,
@@ -5332,7 +5332,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Norwegian krone',
                 'locale' => 'en',
             ),
-            483 => 
+            483 =>
             array (
                 'id' => 486,
                 'country_id' => 239,
@@ -5343,7 +5343,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Netherlands Antillean Guilder',
                 'locale' => 'en',
             ),
-            484 => 
+            484 =>
             array (
                 'id' => 487,
                 'country_id' => 240,
@@ -5354,7 +5354,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'US Dollar',
                 'locale' => 'en',
             ),
-            485 => 
+            485 =>
             array (
                 'id' => 488,
                 'country_id' => 241,
@@ -5365,7 +5365,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
-            486 => 
+            486 =>
             array (
                 'id' => 489,
                 'country_id' => 242,
@@ -5376,7 +5376,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'New Zealand Dollar',
                 'locale' => 'en',
             ),
-            487 => 
+            487 =>
             array (
                 'id' => 490,
                 'country_id' => 243,
@@ -5387,7 +5387,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'US Dollar',
                 'locale' => 'en',
             ),
-            488 => 
+            488 =>
             array (
                 'id' => 491,
                 'country_id' => 244,
@@ -5398,7 +5398,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'US Dollar',
                 'locale' => 'en',
             ),
-            489 => 
+            489 =>
             array (
                 'id' => 492,
                 'country_id' => 245,
@@ -5409,7 +5409,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'US Dollar',
                 'locale' => 'en',
             ),
-            490 => 
+            490 =>
             array (
                 'id' => 493,
                 'country_id' => 246,
@@ -5420,7 +5420,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
             'currency_name' => 'CFP franc (franc Pacifique)',
                 'locale' => 'en',
             ),
-            491 => 
+            491 =>
             array (
                 'id' => 494,
                 'country_id' => 247,
@@ -5431,8 +5431,19 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => 'Euro',
                 'locale' => 'en',
             ),
+            492 =>
+            array (
+                'id' => 495,
+                'country_id' => 182,
+                'name' => 'Nouvelle-Zélande',
+                'alias' => NULL,
+                'abbr' => NULL,
+                'full_name' => NULL,
+                'currency_name' => 'Dollar néo-zélandais',
+                'locale' => 'fr',
+            ),
         ));
-        
-        
+
+
     }
 }
