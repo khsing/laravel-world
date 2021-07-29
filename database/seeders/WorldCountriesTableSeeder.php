@@ -14,12 +14,12 @@ class WorldCountriesTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('world_countries')->truncate();
-        
+
         \DB::table('world_countries')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1,
                 'continent_id' => 3,
@@ -28,14 +28,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Yaoundé',
                 'code' => 'cm',
                 'code_alpha3' => 'cmr',
+                'code_numeric' => 120,
                 'emoji' => '🇨🇲',
-                'has_division' => 0,
+                'has_division' => 1,
                 'currency_code' => 'XAF',
                 'currency_name' => 'CFA Franc BEAC',
                 'tld' => '.cm',
                 'callingcode' => '237',
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 2,
                 'continent_id' => 3,
@@ -44,6 +45,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Porto-Novo',
                 'code' => 'bj',
                 'code_alpha3' => 'ben',
+                'code_numeric' => 204,
                 'emoji' => '🇧🇯',
                 'has_division' => 0,
                 'currency_code' => 'XOF',
@@ -51,7 +53,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bj',
                 'callingcode' => '229',
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 3,
                 'continent_id' => 3,
@@ -60,6 +62,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Antananarivo',
                 'code' => 'mg',
                 'code_alpha3' => 'mdg',
+                'code_numeric' => 450,
                 'emoji' => '🇲🇬',
                 'has_division' => 0,
                 'currency_code' => 'MGA',
@@ -67,7 +70,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mg',
                 'callingcode' => '261',
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 4,
                 'continent_id' => 3,
@@ -76,6 +79,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Kigali',
                 'code' => 'rw',
                 'code_alpha3' => 'rwa',
+                'code_numeric' => 646,
                 'emoji' => '🇷🇼',
                 'has_division' => 0,
                 'currency_code' => 'RWF',
@@ -83,7 +87,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.rw',
                 'callingcode' => '250',
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 5,
                 'continent_id' => 3,
@@ -92,6 +96,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Victoria',
                 'code' => 'sc',
                 'code_alpha3' => 'syc',
+                'code_numeric' => 690,
                 'emoji' => '🇸🇨',
                 'has_division' => 0,
                 'currency_code' => 'SCR',
@@ -99,7 +104,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sc',
                 'callingcode' => '248',
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 6,
                 'continent_id' => 3,
@@ -108,6 +113,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Yamoussoukro',
                 'code' => 'ci',
                 'code_alpha3' => 'civ',
+                'code_numeric' => 384,
                 'emoji' => '🇨🇮',
                 'has_division' => 0,
                 'currency_code' => 'XOF',
@@ -115,7 +121,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ci',
                 'callingcode' => '225',
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 7,
                 'continent_id' => 3,
@@ -124,6 +130,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Cairo',
                 'code' => 'eg',
                 'code_alpha3' => 'egy',
+                'code_numeric' => 818,
                 'emoji' => '🇪🇬',
                 'has_division' => 0,
                 'currency_code' => 'EGP',
@@ -131,7 +138,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.eg',
                 'callingcode' => '20',
             ),
-            7 => 
+            7 =>
             array (
                 'id' => 8,
                 'continent_id' => 3,
@@ -140,6 +147,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Port Louis',
                 'code' => 'mu',
                 'code_alpha3' => 'mus',
+                'code_numeric' => 480,
                 'emoji' => '🇲🇺',
                 'has_division' => 0,
                 'currency_code' => 'MUR',
@@ -147,7 +155,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mu',
                 'callingcode' => '230',
             ),
-            8 => 
+            8 =>
             array (
                 'id' => 9,
                 'continent_id' => 3,
@@ -156,6 +164,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Ouagadougou',
                 'code' => 'bf',
                 'code_alpha3' => 'bfa',
+                'code_numeric' => 854,
                 'emoji' => '🇧🇫',
                 'has_division' => 0,
                 'currency_code' => 'XOF',
@@ -163,7 +172,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bf',
                 'callingcode' => '226',
             ),
-            9 => 
+            9 =>
             array (
                 'id' => 10,
                 'continent_id' => 3,
@@ -172,6 +181,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Asmara',
                 'code' => 'er',
                 'code_alpha3' => 'eri',
+                'code_numeric' => 232,
                 'emoji' => '🇪🇷',
                 'has_division' => 0,
                 'currency_code' => 'ERN',
@@ -179,7 +189,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.er',
                 'callingcode' => '291',
             ),
-            10 => 
+            10 =>
             array (
                 'id' => 11,
                 'continent_id' => 3,
@@ -188,6 +198,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'São Tomé',
                 'code' => 'st',
                 'code_alpha3' => 'stp',
+                'code_numeric' => 678,
                 'emoji' => '🇸🇹',
                 'has_division' => 0,
                 'currency_code' => 'STD',
@@ -195,7 +206,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.st',
                 'callingcode' => '239',
             ),
-            11 => 
+            11 =>
             array (
                 'id' => 12,
                 'continent_id' => 3,
@@ -204,6 +215,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Luanda',
                 'code' => 'ao',
                 'code_alpha3' => 'ago',
+                'code_numeric' => 24,
                 'emoji' => '🇦🇴',
                 'has_division' => 0,
                 'currency_code' => 'AOA',
@@ -211,7 +223,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ao',
                 'callingcode' => '244',
             ),
-            12 => 
+            12 =>
             array (
                 'id' => 13,
                 'continent_id' => 3,
@@ -220,6 +232,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Tripoli',
                 'code' => 'ly',
                 'code_alpha3' => 'lby',
+                'code_numeric' => 434,
                 'emoji' => '🇱🇾',
                 'has_division' => 0,
                 'currency_code' => 'LYD',
@@ -227,7 +240,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ly',
                 'callingcode' => '218',
             ),
-            13 => 
+            13 =>
             array (
                 'id' => 14,
                 'continent_id' => 3,
@@ -236,6 +249,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Harare',
                 'code' => 'zw',
                 'code_alpha3' => 'zwe',
+                'code_numeric' => 716,
                 'emoji' => '🇿🇼',
                 'has_division' => 0,
                 'currency_code' => 'ZWL',
@@ -243,7 +257,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.zw',
                 'callingcode' => '263',
             ),
-            14 => 
+            14 =>
             array (
                 'id' => 15,
                 'continent_id' => 3,
@@ -252,6 +266,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Conakry',
                 'code' => 'gn',
                 'code_alpha3' => 'gin',
+                'code_numeric' => 324,
                 'emoji' => '🇬🇳',
                 'has_division' => 0,
                 'currency_code' => 'GNF',
@@ -259,7 +274,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gn',
                 'callingcode' => '224',
             ),
-            15 => 
+            15 =>
             array (
                 'id' => 16,
                 'continent_id' => 3,
@@ -268,6 +283,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Freetown',
                 'code' => 'sl',
                 'code_alpha3' => 'sle',
+                'code_numeric' => 694,
                 'emoji' => '🇸🇱',
                 'has_division' => 0,
                 'currency_code' => 'SLL',
@@ -275,7 +291,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sl',
                 'callingcode' => '232',
             ),
-            16 => 
+            16 =>
             array (
                 'id' => 17,
                 'continent_id' => 3,
@@ -284,6 +300,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Saint-Denis',
                 'code' => 're',
                 'code_alpha3' => 'reu',
+                'code_numeric' => 638,
                 'emoji' => '🇷🇪',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -291,7 +308,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.re',
                 'callingcode' => '262',
             ),
-            17 => 
+            17 =>
             array (
                 'id' => 18,
                 'continent_id' => 3,
@@ -300,6 +317,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Libreville',
                 'code' => 'ga',
                 'code_alpha3' => 'gab',
+                'code_numeric' => 266,
                 'emoji' => '🇬🇦',
                 'has_division' => 0,
                 'currency_code' => 'XAF',
@@ -307,7 +325,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ga',
                 'callingcode' => '241',
             ),
-            18 => 
+            18 =>
             array (
                 'id' => 19,
                 'continent_id' => 3,
@@ -316,6 +334,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Accra',
                 'code' => 'gh',
                 'code_alpha3' => 'gha',
+                'code_numeric' => 288,
                 'emoji' => '🇬🇭',
                 'has_division' => 0,
                 'currency_code' => 'GHS',
@@ -323,7 +342,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gh',
                 'callingcode' => '233',
             ),
-            19 => 
+            19 =>
             array (
                 'id' => 20,
                 'continent_id' => 3,
@@ -332,6 +351,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Dodoma',
                 'code' => 'tz',
                 'code_alpha3' => 'tza',
+                'code_numeric' => 834,
                 'emoji' => '🇹🇿',
                 'has_division' => 0,
                 'currency_code' => 'TZS',
@@ -339,7 +359,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tz',
                 'callingcode' => '255',
             ),
-            20 => 
+            20 =>
             array (
                 'id' => 21,
                 'continent_id' => 3,
@@ -348,6 +368,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Bamako',
                 'code' => 'ml',
                 'code_alpha3' => 'mli',
+                'code_numeric' => 466,
                 'emoji' => '🇲🇱',
                 'has_division' => 0,
                 'currency_code' => 'XOF',
@@ -355,7 +376,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ml',
                 'callingcode' => '223',
             ),
-            21 => 
+            21 =>
             array (
                 'id' => 22,
                 'continent_id' => 3,
@@ -364,6 +385,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Mogadishu',
                 'code' => 'so',
                 'code_alpha3' => 'som',
+                'code_numeric' => 706,
                 'emoji' => '🇸🇴',
                 'has_division' => 0,
                 'currency_code' => 'SOS',
@@ -371,7 +393,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.so',
                 'callingcode' => '252',
             ),
-            22 => 
+            22 =>
             array (
                 'id' => 23,
                 'continent_id' => 3,
@@ -380,6 +402,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Nouakchott',
                 'code' => 'mr',
                 'code_alpha3' => 'mrt',
+                'code_numeric' => 478,
                 'emoji' => '🇲🇷',
                 'has_division' => 0,
                 'currency_code' => 'MRO',
@@ -387,7 +410,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mr',
                 'callingcode' => '222',
             ),
-            23 => 
+            23 =>
             array (
                 'id' => 24,
                 'continent_id' => 3,
@@ -396,6 +419,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Kampala',
                 'code' => 'ug',
                 'code_alpha3' => 'uga',
+                'code_numeric' => 800,
                 'emoji' => '🇺🇬',
                 'has_division' => 0,
                 'currency_code' => 'UGX',
@@ -403,7 +427,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ug',
                 'callingcode' => '256',
             ),
-            24 => 
+            24 =>
             array (
                 'id' => 25,
                 'continent_id' => 3,
@@ -412,6 +436,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'N\'Djamena',
                 'code' => 'td',
                 'code_alpha3' => 'tcd',
+                'code_numeric' => 148,
                 'emoji' => '🇹🇩',
                 'has_division' => 0,
                 'currency_code' => 'XAF',
@@ -419,7 +444,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.td',
                 'callingcode' => '235',
             ),
-            25 => 
+            25 =>
             array (
                 'id' => 26,
                 'continent_id' => 3,
@@ -428,6 +453,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Mamoudzou',
                 'code' => 'yt',
                 'code_alpha3' => 'myt',
+                'code_numeric' => 175,
                 'emoji' => '🇾🇹',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -435,7 +461,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.yt',
                 'callingcode' => '262',
             ),
-            26 => 
+            26 =>
             array (
                 'id' => 27,
                 'continent_id' => 3,
@@ -444,6 +470,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Moroni',
                 'code' => 'km',
                 'code_alpha3' => 'com',
+                'code_numeric' => 174,
                 'emoji' => '🇰🇲',
                 'has_division' => 0,
                 'currency_code' => 'KMF',
@@ -451,7 +478,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.km',
                 'callingcode' => '269',
             ),
-            27 => 
+            27 =>
             array (
                 'id' => 28,
                 'continent_id' => 3,
@@ -460,6 +487,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Gaborone',
                 'code' => 'bw',
                 'code_alpha3' => 'bwa',
+                'code_numeric' => 72,
                 'emoji' => '🇧🇼',
                 'has_division' => 0,
                 'currency_code' => 'BWP',
@@ -467,7 +495,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bw',
                 'callingcode' => '267',
             ),
-            28 => 
+            28 =>
             array (
                 'id' => 29,
                 'continent_id' => 3,
@@ -476,6 +504,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Dakar',
                 'code' => 'sn',
                 'code_alpha3' => 'sen',
+                'code_numeric' => 686,
                 'emoji' => '🇸🇳',
                 'has_division' => 0,
                 'currency_code' => 'XOF',
@@ -483,7 +512,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sn',
                 'callingcode' => '221',
             ),
-            29 => 
+            29 =>
             array (
                 'id' => 30,
                 'continent_id' => 3,
@@ -492,6 +521,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Lobamba',
                 'code' => 'sz',
                 'code_alpha3' => 'swz',
+                'code_numeric' => 748,
                 'emoji' => '🇸🇿',
                 'has_division' => 0,
                 'currency_code' => 'SZL',
@@ -499,7 +529,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sz',
                 'callingcode' => '268',
             ),
-            30 => 
+            30 =>
             array (
                 'id' => 31,
                 'continent_id' => 3,
@@ -508,6 +538,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Bissau',
                 'code' => 'gw',
                 'code_alpha3' => 'gnb',
+                'code_numeric' => 624,
                 'emoji' => '🇬🇼',
                 'has_division' => 0,
                 'currency_code' => 'XOF',
@@ -515,7 +546,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gw',
                 'callingcode' => '245',
             ),
-            31 => 
+            31 =>
             array (
                 'id' => 32,
                 'continent_id' => 3,
@@ -524,14 +555,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Kinshasa',
                 'code' => 'cd',
                 'code_alpha3' => 'cod',
+                'code_numeric' => 180,
                 'emoji' => '🇨🇩',
                 'has_division' => 0,
                 'currency_code' => 'CDF',
                 'currency_name' => 'Congolese franc',
                 'tld' => '.cd',
-                'callingcode' => '243',
+                'callingcode' => '242',
             ),
-            32 => 
+            32 =>
             array (
                 'id' => 33,
                 'continent_id' => 3,
@@ -540,6 +572,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Bangui',
                 'code' => 'cf',
                 'code_alpha3' => 'caf',
+                'code_numeric' => 140,
                 'emoji' => '🇨🇫',
                 'has_division' => 0,
                 'currency_code' => 'XAF',
@@ -547,7 +580,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cf',
                 'callingcode' => '236',
             ),
-            33 => 
+            33 =>
             array (
                 'id' => 34,
                 'continent_id' => 3,
@@ -556,6 +589,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Maseru',
                 'code' => 'ls',
                 'code_alpha3' => 'lso',
+                'code_numeric' => 426,
                 'emoji' => '🇱🇸',
                 'has_division' => 0,
                 'currency_code' => 'LSL',
@@ -563,7 +597,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ls',
                 'callingcode' => '266',
             ),
-            34 => 
+            34 =>
             array (
                 'id' => 35,
                 'continent_id' => 3,
@@ -572,6 +606,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Brazzaville',
                 'code' => 'cg',
                 'code_alpha3' => 'cog',
+                'code_numeric' => 178,
                 'emoji' => '🇨🇬',
                 'has_division' => 0,
                 'currency_code' => 'XAF',
@@ -579,7 +614,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cg',
                 'callingcode' => '242',
             ),
-            35 => 
+            35 =>
             array (
                 'id' => 36,
                 'continent_id' => 3,
@@ -588,6 +623,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Pretoria',
                 'code' => 'za',
                 'code_alpha3' => 'zaf',
+                'code_numeric' => 710,
                 'emoji' => '🇿🇦',
                 'has_division' => 0,
                 'currency_code' => 'ZAR',
@@ -595,7 +631,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.za',
                 'callingcode' => '27',
             ),
-            36 => 
+            36 =>
             array (
                 'id' => 37,
                 'continent_id' => 3,
@@ -604,6 +640,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Monrovia',
                 'code' => 'lr',
                 'code_alpha3' => 'lbr',
+                'code_numeric' => 430,
                 'emoji' => '🇱🇷',
                 'has_division' => 0,
                 'currency_code' => 'LRD',
@@ -611,7 +648,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.lr',
                 'callingcode' => '231',
             ),
-            37 => 
+            37 =>
             array (
                 'id' => 38,
                 'continent_id' => 3,
@@ -620,6 +657,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Tunis',
                 'code' => 'tn',
                 'code_alpha3' => 'tun',
+                'code_numeric' => 788,
                 'emoji' => '🇹🇳',
                 'has_division' => 0,
                 'currency_code' => 'TND',
@@ -627,7 +665,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tn',
                 'callingcode' => '216',
             ),
-            38 => 
+            38 =>
             array (
                 'id' => 39,
                 'continent_id' => 3,
@@ -636,6 +674,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Lusaka',
                 'code' => 'zm',
                 'code_alpha3' => 'zmb',
+                'code_numeric' => 894,
                 'emoji' => '🇿🇲',
                 'has_division' => 0,
                 'currency_code' => 'ZMW',
@@ -643,7 +682,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.zm',
                 'callingcode' => '260',
             ),
-            39 => 
+            39 =>
             array (
                 'id' => 40,
                 'continent_id' => 3,
@@ -652,6 +691,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Niamey',
                 'code' => 'ne',
                 'code_alpha3' => 'ner',
+                'code_numeric' => 562,
                 'emoji' => '🇳🇪',
                 'has_division' => 0,
                 'currency_code' => 'XOF',
@@ -659,7 +699,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ne',
                 'callingcode' => '227',
             ),
-            40 => 
+            40 =>
             array (
                 'id' => 41,
                 'continent_id' => 3,
@@ -668,6 +708,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'El Aaiún',
                 'code' => 'eh',
                 'code_alpha3' => 'esh',
+                'code_numeric' => 732,
                 'emoji' => '🇪🇭',
                 'has_division' => 0,
                 'currency_code' => 'DZD',
@@ -675,7 +716,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.eh',
                 'callingcode' => '212',
             ),
-            41 => 
+            41 =>
             array (
                 'id' => 42,
                 'continent_id' => 3,
@@ -684,6 +725,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Lomé',
                 'code' => 'tg',
                 'code_alpha3' => 'tgo',
+                'code_numeric' => 768,
                 'emoji' => '🇹🇬',
                 'has_division' => 0,
                 'currency_code' => 'XOF',
@@ -691,7 +733,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tg',
                 'callingcode' => '228',
             ),
-            42 => 
+            42 =>
             array (
                 'id' => 43,
                 'continent_id' => 3,
@@ -700,6 +742,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Windhoek',
                 'code' => 'na',
                 'code_alpha3' => 'nam',
+                'code_numeric' => 516,
                 'emoji' => '🇳🇦',
                 'has_division' => 0,
                 'currency_code' => 'NAD',
@@ -707,7 +750,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.na',
                 'callingcode' => '264',
             ),
-            43 => 
+            43 =>
             array (
                 'id' => 44,
                 'continent_id' => 3,
@@ -716,6 +759,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Maputo',
                 'code' => 'mz',
                 'code_alpha3' => 'moz',
+                'code_numeric' => 508,
                 'emoji' => '🇲🇿',
                 'has_division' => 0,
                 'currency_code' => 'MZN',
@@ -723,7 +767,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mz',
                 'callingcode' => '258',
             ),
-            44 => 
+            44 =>
             array (
                 'id' => 45,
                 'continent_id' => 3,
@@ -732,6 +776,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Addis Ababa',
                 'code' => 'et',
                 'code_alpha3' => 'eth',
+                'code_numeric' => 231,
                 'emoji' => '🇪🇹',
                 'has_division' => 0,
                 'currency_code' => 'ETB',
@@ -739,7 +784,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.et',
                 'callingcode' => '251',
             ),
-            45 => 
+            45 =>
             array (
                 'id' => 46,
                 'continent_id' => 3,
@@ -748,6 +793,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Rabat',
                 'code' => 'ma',
                 'code_alpha3' => 'mar',
+                'code_numeric' => 504,
                 'emoji' => '🇲🇦',
                 'has_division' => 0,
                 'currency_code' => 'MAD',
@@ -755,7 +801,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ma',
                 'callingcode' => '212',
             ),
-            46 => 
+            46 =>
             array (
                 'id' => 47,
                 'continent_id' => 3,
@@ -764,6 +810,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Lilongwe',
                 'code' => 'mw',
                 'code_alpha3' => 'mwi',
+                'code_numeric' => 454,
                 'emoji' => '🇲🇼',
                 'has_division' => 0,
                 'currency_code' => 'MWK',
@@ -771,7 +818,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mw',
                 'callingcode' => '265',
             ),
-            47 => 
+            47 =>
             array (
                 'id' => 48,
                 'continent_id' => 3,
@@ -780,6 +827,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Abuja',
                 'code' => 'ng',
                 'code_alpha3' => 'nga',
+                'code_numeric' => 566,
                 'emoji' => '🇳🇬',
                 'has_division' => 0,
                 'currency_code' => 'NGN',
@@ -787,7 +835,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ng',
                 'callingcode' => '234',
             ),
-            48 => 
+            48 =>
             array (
                 'id' => 49,
                 'continent_id' => 3,
@@ -796,6 +844,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Praia',
                 'code' => 'cv',
                 'code_alpha3' => 'cpv',
+                'code_numeric' => 132,
                 'emoji' => '🇨🇻',
                 'has_division' => 0,
                 'currency_code' => 'CVE',
@@ -803,7 +852,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cv',
                 'callingcode' => '238',
             ),
-            49 => 
+            49 =>
             array (
                 'id' => 50,
                 'continent_id' => 3,
@@ -812,6 +861,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Bujumbura',
                 'code' => 'bi',
                 'code_alpha3' => 'bdi',
+                'code_numeric' => 108,
                 'emoji' => '🇧🇮',
                 'has_division' => 0,
                 'currency_code' => 'BIF',
@@ -819,7 +869,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bi',
                 'callingcode' => '257',
             ),
-            50 => 
+            50 =>
             array (
                 'id' => 51,
                 'continent_id' => 3,
@@ -828,6 +878,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Algiers',
                 'code' => 'dz',
                 'code_alpha3' => 'dza',
+                'code_numeric' => 12,
                 'emoji' => '🇩🇿',
                 'has_division' => 0,
                 'currency_code' => 'DZD',
@@ -835,7 +886,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.dz',
                 'callingcode' => '213',
             ),
-            51 => 
+            51 =>
             array (
                 'id' => 52,
                 'continent_id' => 3,
@@ -844,6 +895,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Djibouti',
                 'code' => 'dj',
                 'code_alpha3' => 'dji',
+                'code_numeric' => 262,
                 'emoji' => '🇩🇯',
                 'has_division' => 0,
                 'currency_code' => 'DJF',
@@ -851,7 +903,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.dj',
                 'callingcode' => '253',
             ),
-            52 => 
+            52 =>
             array (
                 'id' => 53,
                 'continent_id' => 6,
@@ -860,6 +912,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Basse-Terre',
                 'code' => 'gp',
                 'code_alpha3' => 'glp',
+                'code_numeric' => 312,
                 'emoji' => '🇬🇵',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -867,7 +920,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gp',
                 'callingcode' => '590',
             ),
-            53 => 
+            53 =>
             array (
                 'id' => 54,
                 'continent_id' => 3,
@@ -876,6 +929,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Malabo',
                 'code' => 'gq',
                 'code_alpha3' => 'gnq',
+                'code_numeric' => 226,
                 'emoji' => '🇬🇶',
                 'has_division' => 0,
                 'currency_code' => 'XAF',
@@ -883,7 +937,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gq',
                 'callingcode' => '240',
             ),
-            54 => 
+            54 =>
             array (
                 'id' => 55,
                 'continent_id' => 3,
@@ -892,14 +946,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Khartoum',
                 'code' => 'sd',
                 'code_alpha3' => 'sdn',
+                'code_numeric' => 729,
                 'emoji' => '🇸🇩',
-                'has_division' => 0,
+                'has_division' => 1,
                 'currency_code' => 'SDG',
                 'currency_name' => 'Sudanese Pound',
                 'tld' => '.sd',
                 'callingcode' => '249',
             ),
-            55 => 
+            55 =>
             array (
                 'id' => 56,
                 'continent_id' => 3,
@@ -908,6 +963,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Nairobi',
                 'code' => 'ke',
                 'code_alpha3' => 'ken',
+                'code_numeric' => 404,
                 'emoji' => '🇰🇪',
                 'has_division' => 0,
                 'currency_code' => 'KES',
@@ -915,7 +971,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ke',
                 'callingcode' => '254',
             ),
-            56 => 
+            56 =>
             array (
                 'id' => 57,
                 'continent_id' => 1,
@@ -924,6 +980,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Singapore',
                 'code' => 'sg',
                 'code_alpha3' => 'sgp',
+                'code_numeric' => 702,
                 'emoji' => '🇸🇬',
                 'has_division' => 0,
                 'currency_code' => 'SGD',
@@ -931,7 +988,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sg',
                 'callingcode' => '65',
             ),
-            57 => 
+            57 =>
             array (
                 'id' => 58,
                 'continent_id' => 1,
@@ -940,6 +997,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Seoul',
                 'code' => 'kr',
                 'code_alpha3' => 'kor',
+                'code_numeric' => 410,
                 'emoji' => '🇰🇷',
                 'has_division' => 1,
                 'currency_code' => 'KRW',
@@ -947,7 +1005,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.kr',
                 'callingcode' => '82',
             ),
-            58 => 
+            58 =>
             array (
                 'id' => 59,
                 'continent_id' => 1,
@@ -956,6 +1014,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Damascus',
                 'code' => 'sy',
                 'code_alpha3' => 'syr',
+                'code_numeric' => 760,
                 'emoji' => '🇸🇾',
                 'has_division' => 0,
                 'currency_code' => 'SYP',
@@ -963,7 +1022,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sy',
                 'callingcode' => '963',
             ),
-            59 => 
+            59 =>
             array (
                 'id' => 60,
                 'continent_id' => 1,
@@ -972,6 +1031,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Tashkent',
                 'code' => 'uz',
                 'code_alpha3' => 'uzb',
+                'code_numeric' => 860,
                 'emoji' => '🇺🇿',
                 'has_division' => 0,
                 'currency_code' => 'UZS',
@@ -979,7 +1039,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.uz',
                 'callingcode' => '998',
             ),
-            60 => 
+            60 =>
             array (
                 'id' => 61,
                 'continent_id' => 1,
@@ -988,6 +1048,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Manama',
                 'code' => 'bh',
                 'code_alpha3' => 'bhr',
+                'code_numeric' => 48,
                 'emoji' => '🇧🇭',
                 'has_division' => 0,
                 'currency_code' => 'BHD',
@@ -995,7 +1056,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bh',
                 'callingcode' => '973',
             ),
-            61 => 
+            61 =>
             array (
                 'id' => 62,
                 'continent_id' => 1,
@@ -1004,6 +1065,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Tokyo',
                 'code' => 'jp',
                 'code_alpha3' => 'jpn',
+                'code_numeric' => 392,
                 'emoji' => '🇯🇵',
                 'has_division' => 0,
                 'currency_code' => 'JPY',
@@ -1011,7 +1073,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.jp',
                 'callingcode' => '81',
             ),
-            62 => 
+            62 =>
             array (
                 'id' => 63,
                 'continent_id' => 1,
@@ -1020,6 +1082,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Amman',
                 'code' => 'jo',
                 'code_alpha3' => 'jor',
+                'code_numeric' => 400,
                 'emoji' => '🇯🇴',
                 'has_division' => 0,
                 'currency_code' => 'JOD',
@@ -1027,7 +1090,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.jo',
                 'callingcode' => '962',
             ),
-            63 => 
+            63 =>
             array (
                 'id' => 64,
                 'continent_id' => 1,
@@ -1036,6 +1099,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Hanoi',
                 'code' => 'vn',
                 'code_alpha3' => 'vnm',
+                'code_numeric' => 704,
                 'emoji' => '🇻🇳',
                 'has_division' => 0,
                 'currency_code' => 'VND',
@@ -1043,7 +1107,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.vn',
                 'callingcode' => '84',
             ),
-            64 => 
+            64 =>
             array (
                 'id' => 65,
                 'continent_id' => 1,
@@ -1052,6 +1116,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Bishkek',
                 'code' => 'kg',
                 'code_alpha3' => 'kgz',
+                'code_numeric' => 417,
                 'emoji' => '🇰🇬',
                 'has_division' => 0,
                 'currency_code' => 'KGS',
@@ -1059,7 +1124,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.kg',
                 'callingcode' => '996',
             ),
-            65 => 
+            65 =>
             array (
                 'id' => 66,
                 'continent_id' => 1,
@@ -1068,6 +1133,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Bangkok',
                 'code' => 'th',
                 'code_alpha3' => 'tha',
+                'code_numeric' => 764,
                 'emoji' => '🇹🇭',
                 'has_division' => 0,
                 'currency_code' => 'THB',
@@ -1075,7 +1141,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.th',
                 'callingcode' => '66',
             ),
-            66 => 
+            66 =>
             array (
                 'id' => 67,
                 'continent_id' => 1,
@@ -1084,6 +1150,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Colombo',
                 'code' => 'lk',
                 'code_alpha3' => 'lka',
+                'code_numeric' => 144,
                 'emoji' => '🇱🇰',
                 'has_division' => 0,
                 'currency_code' => 'LKR',
@@ -1091,7 +1158,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.lk',
                 'callingcode' => '94',
             ),
-            67 => 
+            67 =>
             array (
                 'id' => 68,
                 'continent_id' => 1,
@@ -1100,6 +1167,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Abu Dhabi',
                 'code' => 'ae',
                 'code_alpha3' => 'are',
+                'code_numeric' => 784,
                 'emoji' => '🇦🇪',
                 'has_division' => 0,
                 'currency_code' => 'AED',
@@ -1107,7 +1175,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ae',
                 'callingcode' => '971',
             ),
-            68 => 
+            68 =>
             array (
                 'id' => 69,
                 'continent_id' => 1,
@@ -1116,6 +1184,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Vientiane',
                 'code' => 'la',
                 'code_alpha3' => 'lao',
+                'code_numeric' => 418,
                 'emoji' => '🇱🇦',
                 'has_division' => 0,
                 'currency_code' => 'LAK',
@@ -1123,7 +1192,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.la',
                 'callingcode' => '856',
             ),
-            69 => 
+            69 =>
             array (
                 'id' => 70,
                 'continent_id' => 1,
@@ -1132,6 +1201,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Kabul',
                 'code' => 'af',
                 'code_alpha3' => 'afg',
+                'code_numeric' => 4,
                 'emoji' => '🇦🇫',
                 'has_division' => 0,
                 'currency_code' => 'AFN',
@@ -1139,7 +1209,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.af',
                 'callingcode' => '93',
             ),
-            70 => 
+            70 =>
             array (
                 'id' => 71,
                 'continent_id' => 1,
@@ -1148,6 +1218,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => '',
                 'code' => 'mo',
                 'code_alpha3' => 'mac',
+                'code_numeric' => 446,
                 'emoji' => '🇲🇴',
                 'has_division' => 0,
                 'currency_code' => 'MOP',
@@ -1155,7 +1226,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mo',
                 'callingcode' => '853',
             ),
-            71 => 
+            71 =>
             array (
                 'id' => 72,
                 'continent_id' => 1,
@@ -1164,6 +1235,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Dushanbe',
                 'code' => 'tj',
                 'code_alpha3' => 'tjk',
+                'code_numeric' => 762,
                 'emoji' => '🇹🇯',
                 'has_division' => 0,
                 'currency_code' => 'TJS',
@@ -1171,7 +1243,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tj',
                 'callingcode' => '992',
             ),
-            72 => 
+            72 =>
             array (
                 'id' => 73,
                 'continent_id' => 1,
@@ -1180,6 +1252,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Pyongyang',
                 'code' => 'kp',
                 'code_alpha3' => 'prk',
+                'code_numeric' => 408,
                 'emoji' => '🇰🇵',
                 'has_division' => 0,
                 'currency_code' => 'KPW',
@@ -1187,7 +1260,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.kp',
                 'callingcode' => '850',
             ),
-            73 => 
+            73 =>
             array (
                 'id' => 74,
                 'continent_id' => 1,
@@ -1196,6 +1269,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Ramallah',
                 'code' => 'ps',
                 'code_alpha3' => 'pal',
+                'code_numeric' => 275,
                 'emoji' => '🇵🇸',
                 'has_division' => 0,
                 'currency_code' => 'ILS',
@@ -1203,7 +1277,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ps',
                 'callingcode' => '970',
             ),
-            74 => 
+            74 =>
             array (
                 'id' => 75,
                 'continent_id' => 1,
@@ -1212,6 +1286,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'City of Victoria',
                 'code' => 'hk',
                 'code_alpha3' => 'hkg',
+                'code_numeric' => 344,
                 'emoji' => '🇭🇰',
                 'has_division' => 0,
                 'currency_code' => 'HKD',
@@ -1219,7 +1294,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.hk',
                 'callingcode' => '852',
             ),
-            75 => 
+            75 =>
             array (
                 'id' => 76,
                 'continent_id' => 1,
@@ -1228,6 +1303,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Baghdad',
                 'code' => 'iq',
                 'code_alpha3' => 'irq',
+                'code_numeric' => 368,
                 'emoji' => '🇮🇶',
                 'has_division' => 0,
                 'currency_code' => 'IQD',
@@ -1235,7 +1311,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.iq',
                 'callingcode' => '964',
             ),
-            76 => 
+            76 =>
             array (
                 'id' => 77,
                 'continent_id' => 1,
@@ -1244,6 +1320,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Beirut',
                 'code' => 'lb',
                 'code_alpha3' => 'lbn',
+                'code_numeric' => 422,
                 'emoji' => '🇱🇧',
                 'has_division' => 0,
                 'currency_code' => 'LBP',
@@ -1251,7 +1328,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.lb',
                 'callingcode' => '961',
             ),
-            77 => 
+            77 =>
             array (
                 'id' => 78,
                 'continent_id' => 1,
@@ -1260,6 +1337,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Kuwait City',
                 'code' => 'kw',
                 'code_alpha3' => 'kwt',
+                'code_numeric' => 414,
                 'emoji' => '🇰🇼',
                 'has_division' => 0,
                 'currency_code' => 'KWD',
@@ -1267,7 +1345,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.kw',
                 'callingcode' => '965',
             ),
-            78 => 
+            78 =>
             array (
                 'id' => 79,
                 'continent_id' => 1,
@@ -1276,6 +1354,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Bandar Seri Begawan',
                 'code' => 'bn',
                 'code_alpha3' => 'brn',
+                'code_numeric' => 96,
                 'emoji' => '🇧🇳',
                 'has_division' => 0,
                 'currency_code' => 'BND',
@@ -1283,7 +1362,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bn',
                 'callingcode' => '673',
             ),
-            79 => 
+            79 =>
             array (
                 'id' => 80,
                 'continent_id' => 1,
@@ -1292,6 +1371,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Malé',
                 'code' => 'mv',
                 'code_alpha3' => 'mdv',
+                'code_numeric' => 462,
                 'emoji' => '🇲🇻',
                 'has_division' => 0,
                 'currency_code' => 'MVR',
@@ -1299,7 +1379,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mv',
                 'callingcode' => '960',
             ),
-            80 => 
+            80 =>
             array (
                 'id' => 81,
                 'continent_id' => 1,
@@ -1308,14 +1388,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Jakarta',
                 'code' => 'id',
                 'code_alpha3' => 'idn',
+                'code_numeric' => 360,
                 'emoji' => '🇮🇩',
-                'has_division' => 0,
+                'has_division' => 1,
                 'currency_code' => 'IDR',
                 'currency_name' => 'Rupiah',
                 'tld' => '.id',
                 'callingcode' => '62',
             ),
-            81 => 
+            81 =>
             array (
                 'id' => 82,
                 'continent_id' => 1,
@@ -1324,6 +1405,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Jerusalem',
                 'code' => 'il',
                 'code_alpha3' => 'isr',
+                'code_numeric' => 376,
                 'emoji' => '🇮🇱',
                 'has_division' => 0,
                 'currency_code' => 'ILS',
@@ -1331,7 +1413,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.il',
                 'callingcode' => '972',
             ),
-            82 => 
+            82 =>
             array (
                 'id' => 83,
                 'continent_id' => 1,
@@ -1340,6 +1422,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Ulan Bator',
                 'code' => 'mn',
                 'code_alpha3' => 'mng',
+                'code_numeric' => 496,
                 'emoji' => '🇲🇳',
                 'has_division' => 0,
                 'currency_code' => 'MNT',
@@ -1347,7 +1430,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mn',
                 'callingcode' => '976',
             ),
-            83 => 
+            83 =>
             array (
                 'id' => 84,
                 'continent_id' => 1,
@@ -1356,6 +1439,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Muscat',
                 'code' => 'om',
                 'code_alpha3' => 'omn',
+                'code_numeric' => 512,
                 'emoji' => '🇴🇲',
                 'has_division' => 0,
                 'currency_code' => 'OMR',
@@ -1363,7 +1447,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.om',
                 'callingcode' => '968',
             ),
-            84 => 
+            84 =>
             array (
                 'id' => 85,
                 'continent_id' => 1,
@@ -1372,14 +1456,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'New Delhi',
                 'code' => 'in',
                 'code_alpha3' => 'ind',
+                'code_numeric' => 356,
                 'emoji' => '🇮🇳',
-                'has_division' => 0,
+                'has_division' => 1,
                 'currency_code' => 'INR',
                 'currency_name' => 'Indian Rupee',
                 'tld' => '.in',
                 'callingcode' => '91',
             ),
-            85 => 
+            85 =>
             array (
                 'id' => 86,
                 'continent_id' => 1,
@@ -1388,6 +1473,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Naypyidaw',
                 'code' => 'mm',
                 'code_alpha3' => 'mmr',
+                'code_numeric' => 104,
                 'emoji' => '🇲🇲',
                 'has_division' => 0,
                 'currency_code' => 'MMK',
@@ -1395,7 +1481,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mm',
                 'callingcode' => '95',
             ),
-            86 => 
+            86 =>
             array (
                 'id' => 87,
                 'continent_id' => 1,
@@ -1404,6 +1490,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Kuala Lumpur',
                 'code' => 'my',
                 'code_alpha3' => 'mys',
+                'code_numeric' => 458,
                 'emoji' => '🇲🇾',
                 'has_division' => 1,
                 'currency_code' => 'MYR',
@@ -1411,7 +1498,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.my',
                 'callingcode' => '60',
             ),
-            87 => 
+            87 =>
             array (
                 'id' => 88,
                 'continent_id' => 1,
@@ -1420,6 +1507,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Dili',
                 'code' => 'tl',
                 'code_alpha3' => 'tmp',
+                'code_numeric' => 626,
                 'emoji' => '🇹🇱',
                 'has_division' => 0,
                 'currency_code' => 'USD',
@@ -1427,7 +1515,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tl',
                 'callingcode' => '670',
             ),
-            88 => 
+            88 =>
             array (
                 'id' => 89,
                 'continent_id' => 1,
@@ -1436,6 +1524,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Sana\'a',
                 'code' => 'ye',
                 'code_alpha3' => 'yem',
+                'code_numeric' => 887,
                 'emoji' => '🇾🇪',
                 'has_division' => 0,
                 'currency_code' => 'YER',
@@ -1443,7 +1532,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ye',
                 'callingcode' => '967',
             ),
-            89 => 
+            89 =>
             array (
                 'id' => 90,
                 'continent_id' => 1,
@@ -1452,6 +1541,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Thimphu',
                 'code' => 'bt',
                 'code_alpha3' => 'btn',
+                'code_numeric' => 64,
                 'emoji' => '🇧🇹',
                 'has_division' => 0,
                 'currency_code' => 'BTN',
@@ -1459,7 +1549,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bt',
                 'callingcode' => '975',
             ),
-            90 => 
+            90 =>
             array (
                 'id' => 91,
                 'continent_id' => 1,
@@ -1468,6 +1558,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Phnom Penh',
                 'code' => 'kh',
                 'code_alpha3' => 'khm',
+                'code_numeric' => 116,
                 'emoji' => '🇰🇭',
                 'has_division' => 0,
                 'currency_code' => 'KHR',
@@ -1475,7 +1566,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.kh',
                 'callingcode' => '855',
             ),
-            91 => 
+            91 =>
             array (
                 'id' => 92,
                 'continent_id' => 1,
@@ -1484,6 +1575,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Islamabad',
                 'code' => 'pk',
                 'code_alpha3' => 'pak',
+                'code_numeric' => 586,
                 'emoji' => '🇵🇰',
                 'has_division' => 0,
                 'currency_code' => 'PKR',
@@ -1491,7 +1583,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pk',
                 'callingcode' => '92',
             ),
-            92 => 
+            92 =>
             array (
                 'id' => 93,
                 'continent_id' => 1,
@@ -1500,6 +1592,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Dhaka',
                 'code' => 'bd',
                 'code_alpha3' => 'bgd',
+                'code_numeric' => 50,
                 'emoji' => '🇧🇩',
                 'has_division' => 0,
                 'currency_code' => 'BDT',
@@ -1507,7 +1600,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bd',
                 'callingcode' => '880',
             ),
-            93 => 
+            93 =>
             array (
                 'id' => 94,
                 'continent_id' => 1,
@@ -1516,14 +1609,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Riyadh',
                 'code' => 'sa',
                 'code_alpha3' => 'sau',
+                'code_numeric' => 682,
                 'emoji' => '🇸🇦',
-                'has_division' => 0,
+                'has_division' => 1,
                 'currency_code' => 'SAR',
                 'currency_name' => 'Saudi Riyal',
                 'tld' => '.sa',
                 'callingcode' => '966',
             ),
-            94 => 
+            94 =>
             array (
                 'id' => 95,
                 'continent_id' => 1,
@@ -1532,6 +1626,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Ashgabat',
                 'code' => 'tm',
                 'code_alpha3' => 'tkm',
+                'code_numeric' => 795,
                 'emoji' => '🇹🇲',
                 'has_division' => 0,
                 'currency_code' => 'TMT',
@@ -1539,7 +1634,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tm',
                 'callingcode' => '993',
             ),
-            95 => 
+            95 =>
             array (
                 'id' => 96,
                 'continent_id' => 1,
@@ -1548,6 +1643,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Doha',
                 'code' => 'qa',
                 'code_alpha3' => 'qat',
+                'code_numeric' => 634,
                 'emoji' => '🇶🇦',
                 'has_division' => 0,
                 'currency_code' => 'QAR',
@@ -1555,7 +1651,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.qa',
                 'callingcode' => '974',
             ),
-            96 => 
+            96 =>
             array (
                 'id' => 97,
                 'continent_id' => 1,
@@ -1564,14 +1660,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Kathmandu',
                 'code' => 'np',
                 'code_alpha3' => 'npl',
+                'code_numeric' => 524,
                 'emoji' => '🇳🇵',
-                'has_division' => 0,
+                'has_division' => 1,
                 'currency_code' => 'NPR',
                 'currency_name' => 'Nepalese Rupee',
                 'tld' => '.np',
                 'callingcode' => '977',
             ),
-            97 => 
+            97 =>
             array (
                 'id' => 98,
                 'continent_id' => 1,
@@ -1580,14 +1677,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Astana',
                 'code' => 'kz',
                 'code_alpha3' => 'kaz',
+                'code_numeric' => 398,
                 'emoji' => '🇰🇿',
                 'has_division' => 0,
                 'currency_code' => 'KZT',
                 'currency_name' => 'Tenge',
                 'tld' => '.kz',
-                'callingcode' => '76',
+                'callingcode' => '7',
             ),
-            98 => 
+            98 =>
             array (
                 'id' => 99,
                 'continent_id' => 1,
@@ -1596,6 +1694,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Manila',
                 'code' => 'ph',
                 'code_alpha3' => 'phl',
+                'code_numeric' => 608,
                 'emoji' => '🇵🇭',
                 'has_division' => 0,
                 'currency_code' => 'PHP',
@@ -1603,7 +1702,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ph',
                 'callingcode' => '63',
             ),
-            99 => 
+            99 =>
             array (
                 'id' => 100,
                 'continent_id' => 1,
@@ -1612,6 +1711,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Taipei',
                 'code' => 'tw',
                 'code_alpha3' => 'twn',
+                'code_numeric' => 158,
                 'emoji' => '🇹🇼',
                 'has_division' => 0,
                 'currency_code' => 'TWD',
@@ -1619,7 +1719,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tw',
                 'callingcode' => '886',
             ),
-            100 => 
+            100 =>
             array (
                 'id' => 101,
                 'continent_id' => 1,
@@ -1628,6 +1728,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Beijing',
                 'code' => 'cn',
                 'code_alpha3' => 'chn',
+                'code_numeric' => 156,
                 'emoji' => '🇨🇳',
                 'has_division' => 1,
                 'currency_code' => 'CNY',
@@ -1635,7 +1736,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cn',
                 'callingcode' => '86',
             ),
-            101 => 
+            101 =>
             array (
                 'id' => 102,
                 'continent_id' => 1,
@@ -1644,6 +1745,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Tehran',
                 'code' => 'ir',
                 'code_alpha3' => 'irn',
+                'code_numeric' => 364,
                 'emoji' => '🇮🇷',
                 'has_division' => 0,
                 'currency_code' => 'IRR',
@@ -1651,7 +1753,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ir',
                 'callingcode' => '98',
             ),
-            102 => 
+            102 =>
             array (
                 'id' => 103,
                 'continent_id' => 6,
@@ -1660,6 +1762,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'San José',
                 'code' => 'cr',
                 'code_alpha3' => 'cri',
+                'code_numeric' => 188,
                 'emoji' => '🇨🇷',
                 'has_division' => 0,
                 'currency_code' => 'CRC',
@@ -1667,7 +1770,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cr',
                 'callingcode' => '506',
             ),
-            103 => 
+            103 =>
             array (
                 'id' => 104,
                 'continent_id' => 6,
@@ -1676,14 +1779,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Havana',
                 'code' => 'cu',
                 'code_alpha3' => 'cub',
+                'code_numeric' => 192,
                 'emoji' => '🇨🇺',
-                'has_division' => 0,
+                'has_division' => 1,
                 'currency_code' => 'CUC',
                 'currency_name' => 'Cuban convertible peso',
                 'tld' => '.cu',
                 'callingcode' => '53',
             ),
-            104 => 
+            104 =>
             array (
                 'id' => 105,
                 'continent_id' => 6,
@@ -1692,14 +1796,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Santo Domingo',
                 'code' => 'do',
                 'code_alpha3' => 'dom',
+                'code_numeric' => 214,
                 'emoji' => '🇩🇴',
-                'has_division' => 0,
+                'has_division' => 1,
                 'currency_code' => 'DOP',
                 'currency_name' => 'Dominican Peso',
                 'tld' => '.do',
                 'callingcode' => '1809',
             ),
-            105 => 
+            105 =>
             array (
                 'id' => 106,
                 'continent_id' => 6,
@@ -1708,14 +1813,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Mexico City',
                 'code' => 'mx',
                 'code_alpha3' => 'mex',
+                'code_numeric' => 484,
                 'emoji' => '🇲🇽',
-                'has_division' => 0,
+                'has_division' => 1,
                 'currency_code' => 'MXN',
                 'currency_name' => 'Mexican Peso',
                 'tld' => '.mx',
                 'callingcode' => '52',
             ),
-            106 => 
+            106 =>
             array (
                 'id' => 107,
                 'continent_id' => 6,
@@ -1724,6 +1830,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Managua',
                 'code' => 'ni',
                 'code_alpha3' => 'nic',
+                'code_numeric' => 558,
                 'emoji' => '🇳🇮',
                 'has_division' => 0,
                 'currency_code' => 'NIO',
@@ -1731,7 +1838,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ni',
                 'callingcode' => '505',
             ),
-            107 => 
+            107 =>
             array (
                 'id' => 108,
                 'continent_id' => 6,
@@ -1740,14 +1847,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Panama City',
                 'code' => 'pa',
                 'code_alpha3' => 'pan',
+                'code_numeric' => 591,
                 'emoji' => '🇵🇦',
-                'has_division' => 0,
+                'has_division' => 1,
                 'currency_code' => 'PAB',
                 'currency_name' => 'Panamanian balboa',
                 'tld' => '.pa',
                 'callingcode' => '507',
             ),
-            108 => 
+            108 =>
             array (
                 'id' => 109,
                 'continent_id' => 7,
@@ -1756,6 +1864,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => NULL,
                 'code' => 'an',
                 'code_alpha3' => 'ant',
+                'code_numeric' => NULL,
                 'emoji' => NULL,
                 'has_division' => 0,
                 'currency_code' => NULL,
@@ -1763,7 +1872,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => NULL,
                 'callingcode' => NULL,
             ),
-            109 => 
+            109 =>
             array (
                 'id' => 110,
                 'continent_id' => 6,
@@ -1772,6 +1881,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'San Salvador',
                 'code' => 'sv',
                 'code_alpha3' => 'slv',
+                'code_numeric' => 222,
                 'emoji' => '🇸🇻',
                 'has_division' => 0,
                 'currency_code' => 'SVC',
@@ -1779,7 +1889,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sv',
                 'callingcode' => '503',
             ),
-            110 => 
+            110 =>
             array (
                 'id' => 111,
                 'continent_id' => 6,
@@ -1788,6 +1898,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'San Juan',
                 'code' => 'pr',
                 'code_alpha3' => 'ptr',
+                'code_numeric' => 630,
                 'emoji' => '🇵🇷',
                 'has_division' => 0,
                 'currency_code' => 'USD',
@@ -1795,7 +1906,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pr',
                 'callingcode' => '1787',
             ),
-            111 => 
+            111 =>
             array (
                 'id' => 112,
                 'continent_id' => 6,
@@ -1804,6 +1915,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Kingstown',
                 'code' => 'vc',
                 'code_alpha3' => 'vag',
+                'code_numeric' => 670,
                 'emoji' => '🇻🇨',
                 'has_division' => 0,
                 'currency_code' => 'XCD',
@@ -1811,7 +1923,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.vc',
                 'callingcode' => '1784',
             ),
-            112 => 
+            112 =>
             array (
                 'id' => 113,
                 'continent_id' => 6,
@@ -1820,6 +1932,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Tegucigalpa',
                 'code' => 'hn',
                 'code_alpha3' => 'hnd',
+                'code_numeric' => 340,
                 'emoji' => '🇭🇳',
                 'has_division' => 0,
                 'currency_code' => 'HNL',
@@ -1827,7 +1940,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.hn',
                 'callingcode' => '504',
             ),
-            113 => 
+            113 =>
             array (
                 'id' => 114,
                 'continent_id' => 6,
@@ -1836,6 +1949,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Guatemala City',
                 'code' => 'gt',
                 'code_alpha3' => 'gtm',
+                'code_numeric' => 320,
                 'emoji' => '🇬🇹',
                 'has_division' => 0,
                 'currency_code' => 'GTQ',
@@ -1843,7 +1957,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gt',
                 'callingcode' => '502',
             ),
-            114 => 
+            114 =>
             array (
                 'id' => 115,
                 'continent_id' => 1,
@@ -1852,6 +1966,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Tbilisi',
                 'code' => 'ge',
                 'code_alpha3' => 'geo',
+                'code_numeric' => 268,
                 'emoji' => '🇬🇪',
                 'has_division' => 0,
                 'currency_code' => 'GEL',
@@ -1859,7 +1974,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ge',
                 'callingcode' => '995',
             ),
-            115 => 
+            115 =>
             array (
                 'id' => 116,
                 'continent_id' => 1,
@@ -1868,6 +1983,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Yerevan',
                 'code' => 'am',
                 'code_alpha3' => 'arm',
+                'code_numeric' => 51,
                 'emoji' => '🇦🇲',
                 'has_division' => 0,
                 'currency_code' => 'AMD',
@@ -1875,7 +1991,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.am',
                 'callingcode' => '374',
             ),
-            116 => 
+            116 =>
             array (
                 'id' => 117,
                 'continent_id' => 1,
@@ -1884,6 +2000,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Baku',
                 'code' => 'az',
                 'code_alpha3' => 'aze',
+                'code_numeric' => 31,
                 'emoji' => '🇦🇿',
                 'has_division' => 0,
                 'currency_code' => 'AZN',
@@ -1891,7 +2008,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.az',
                 'callingcode' => '994',
             ),
-            117 => 
+            117 =>
             array (
                 'id' => 118,
                 'continent_id' => 2,
@@ -1900,6 +2017,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Minsk',
                 'code' => 'by',
                 'code_alpha3' => 'blr',
+                'code_numeric' => 112,
                 'emoji' => '🇧🇾',
                 'has_division' => 0,
                 'currency_code' => 'BYR',
@@ -1907,7 +2025,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.by',
                 'callingcode' => '375',
             ),
-            118 => 
+            118 =>
             array (
                 'id' => 119,
                 'continent_id' => 2,
@@ -1916,14 +2034,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Moscow',
                 'code' => 'ru',
                 'code_alpha3' => 'rus',
+                'code_numeric' => 643,
                 'emoji' => '🇷🇺',
                 'has_division' => 0,
                 'currency_code' => 'RUB',
                 'currency_name' => 'Russian Ruble',
                 'tld' => '.ru',
-                'callingcode' => '7',
+                'callingcode' => '70',
             ),
-            119 => 
+            119 =>
             array (
                 'id' => 120,
                 'continent_id' => 2,
@@ -1932,6 +2051,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Kyiv',
                 'code' => 'ua',
                 'code_alpha3' => 'ukr',
+                'code_numeric' => 804,
                 'emoji' => '🇺🇦',
                 'has_division' => 0,
                 'currency_code' => 'UAH',
@@ -1939,7 +2059,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ua',
                 'callingcode' => '380',
             ),
-            120 => 
+            120 =>
             array (
                 'id' => 121,
                 'continent_id' => 2,
@@ -1948,6 +2068,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Budapest',
                 'code' => 'hu',
                 'code_alpha3' => 'hun',
+                'code_numeric' => 348,
                 'emoji' => '🇭🇺',
                 'has_division' => 0,
                 'currency_code' => 'HUF',
@@ -1955,7 +2076,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.hu',
                 'callingcode' => '36',
             ),
-            121 => 
+            121 =>
             array (
                 'id' => 122,
                 'continent_id' => 2,
@@ -1964,6 +2085,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Reykjavik',
                 'code' => 'is',
                 'code_alpha3' => 'isl',
+                'code_numeric' => 352,
                 'emoji' => '🇮🇸',
                 'has_division' => 0,
                 'currency_code' => 'ISK',
@@ -1971,7 +2093,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.is',
                 'callingcode' => '354',
             ),
-            122 => 
+            122 =>
             array (
                 'id' => 123,
                 'continent_id' => 2,
@@ -1980,6 +2102,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Valletta',
                 'code' => 'mt',
                 'code_alpha3' => 'mlt',
+                'code_numeric' => 470,
                 'emoji' => '🇲🇹',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -1987,7 +2110,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mt',
                 'callingcode' => '356',
             ),
-            123 => 
+            123 =>
             array (
                 'id' => 124,
                 'continent_id' => 2,
@@ -1996,6 +2119,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Monaco',
                 'code' => 'mc',
                 'code_alpha3' => 'mco',
+                'code_numeric' => 492,
                 'emoji' => '🇲🇨',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2003,7 +2127,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mc',
                 'callingcode' => '377',
             ),
-            124 => 
+            124 =>
             array (
                 'id' => 125,
                 'continent_id' => 2,
@@ -2012,6 +2136,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Oslo',
                 'code' => 'no',
                 'code_alpha3' => 'nor',
+                'code_numeric' => 578,
                 'emoji' => '🇳🇴',
                 'has_division' => 0,
                 'currency_code' => 'NOK',
@@ -2019,7 +2144,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.no',
                 'callingcode' => '47',
             ),
-            125 => 
+            125 =>
             array (
                 'id' => 126,
                 'continent_id' => 2,
@@ -2028,6 +2153,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Bucharest',
                 'code' => 'ro',
                 'code_alpha3' => 'rom',
+                'code_numeric' => 642,
                 'emoji' => '🇷🇴',
                 'has_division' => 0,
                 'currency_code' => 'RON',
@@ -2035,7 +2161,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ro',
                 'callingcode' => '40',
             ),
-            126 => 
+            126 =>
             array (
                 'id' => 127,
                 'continent_id' => 2,
@@ -2044,6 +2170,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'City of San Marino',
                 'code' => 'sm',
                 'code_alpha3' => 'smr',
+                'code_numeric' => 674,
                 'emoji' => '🇸🇲',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2051,7 +2178,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sm',
                 'callingcode' => '378',
             ),
-            127 => 
+            127 =>
             array (
                 'id' => 128,
                 'continent_id' => 2,
@@ -2060,14 +2187,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Stockholm',
                 'code' => 'se',
                 'code_alpha3' => 'swe',
+                'code_numeric' => 752,
                 'emoji' => '🇸🇪',
-                'has_division' => 0,
+                'has_division' => 1,
                 'currency_code' => 'SEK',
                 'currency_name' => 'Swedish Krona',
                 'tld' => '.se',
                 'callingcode' => '46',
             ),
-            128 => 
+            128 =>
             array (
                 'id' => 129,
                 'continent_id' => 2,
@@ -2076,6 +2204,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Bern',
                 'code' => 'ch',
                 'code_alpha3' => 'che',
+                'code_numeric' => 756,
                 'emoji' => '🇨🇭',
                 'has_division' => 0,
                 'currency_code' => 'CHE',
@@ -2083,7 +2212,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ch',
                 'callingcode' => '41',
             ),
-            129 => 
+            129 =>
             array (
                 'id' => 130,
                 'continent_id' => 2,
@@ -2092,6 +2221,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Tallinn',
                 'code' => 'ee',
                 'code_alpha3' => 'est',
+                'code_numeric' => 233,
                 'emoji' => '🇪🇪',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2099,7 +2229,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ee',
                 'callingcode' => '372',
             ),
-            130 => 
+            130 =>
             array (
                 'id' => 131,
                 'continent_id' => 2,
@@ -2108,6 +2238,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Riga',
                 'code' => 'lv',
                 'code_alpha3' => 'lva',
+                'code_numeric' => 428,
                 'emoji' => '🇱🇻',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2115,7 +2246,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.lv',
                 'callingcode' => '371',
             ),
-            131 => 
+            131 =>
             array (
                 'id' => 132,
                 'continent_id' => 2,
@@ -2124,6 +2255,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Vilnius',
                 'code' => 'lt',
                 'code_alpha3' => 'ltu',
+                'code_numeric' => 440,
                 'emoji' => '🇱🇹',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2131,7 +2263,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.lt',
                 'callingcode' => '370',
             ),
-            132 => 
+            132 =>
             array (
                 'id' => 133,
                 'continent_id' => 2,
@@ -2140,6 +2272,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Chișinău',
                 'code' => 'md',
                 'code_alpha3' => 'mda',
+                'code_numeric' => 498,
                 'emoji' => '🇲🇩',
                 'has_division' => 0,
                 'currency_code' => 'MDL',
@@ -2147,7 +2280,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.md',
                 'callingcode' => '373',
             ),
-            133 => 
+            133 =>
             array (
                 'id' => 134,
                 'continent_id' => 1,
@@ -2156,6 +2289,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Ankara',
                 'code' => 'tr',
                 'code_alpha3' => 'tur',
+                'code_numeric' => 792,
                 'emoji' => '🇹🇷',
                 'has_division' => 0,
                 'currency_code' => 'TRY',
@@ -2163,7 +2297,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tr',
                 'callingcode' => '90',
             ),
-            134 => 
+            134 =>
             array (
                 'id' => 135,
                 'continent_id' => 2,
@@ -2172,6 +2306,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Ljubljana',
                 'code' => 'si',
                 'code_alpha3' => 'svn',
+                'code_numeric' => 705,
                 'emoji' => '🇸🇮',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2179,7 +2314,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.si',
                 'callingcode' => '386',
             ),
-            135 => 
+            135 =>
             array (
                 'id' => 136,
                 'continent_id' => 2,
@@ -2188,6 +2323,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Prague',
                 'code' => 'cz',
                 'code_alpha3' => 'cze',
+                'code_numeric' => 203,
                 'emoji' => '🇨🇿',
                 'has_division' => 0,
                 'currency_code' => 'CZK',
@@ -2195,7 +2331,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cz',
                 'callingcode' => '420',
             ),
-            136 => 
+            136 =>
             array (
                 'id' => 137,
                 'continent_id' => 2,
@@ -2204,6 +2340,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Bratislava',
                 'code' => 'sk',
                 'code_alpha3' => 'svk',
+                'code_numeric' => 703,
                 'emoji' => '🇸🇰',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2211,7 +2348,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sk',
                 'callingcode' => '421',
             ),
-            137 => 
+            137 =>
             array (
                 'id' => 138,
                 'continent_id' => 2,
@@ -2220,6 +2357,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Skopje',
                 'code' => 'mk',
                 'code_alpha3' => 'mkd',
+                'code_numeric' => 807,
                 'emoji' => '🇲🇰',
                 'has_division' => 0,
                 'currency_code' => 'MKD',
@@ -2227,7 +2365,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mk',
                 'callingcode' => '389',
             ),
-            138 => 
+            138 =>
             array (
                 'id' => 139,
                 'continent_id' => 2,
@@ -2236,6 +2374,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Sarajevo',
                 'code' => 'ba',
                 'code_alpha3' => 'bih',
+                'code_numeric' => 70,
                 'emoji' => '🇧🇦',
                 'has_division' => 0,
                 'currency_code' => 'BAM',
@@ -2243,7 +2382,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ba',
                 'callingcode' => '387',
             ),
-            139 => 
+            139 =>
             array (
                 'id' => 140,
                 'continent_id' => 2,
@@ -2252,14 +2391,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Vatican City',
                 'code' => 'va',
                 'code_alpha3' => 'vat',
+                'code_numeric' => 336,
                 'emoji' => '🇻🇦',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
                 'currency_name' => 'Euro',
                 'tld' => '.va',
-                'callingcode' => '3906698',
+                'callingcode' => '39',
             ),
-            140 => 
+            140 =>
             array (
                 'id' => 141,
                 'continent_id' => 2,
@@ -2268,14 +2408,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Amsterdam',
                 'code' => 'nl',
                 'code_alpha3' => 'nld',
+                'code_numeric' => 528,
                 'emoji' => '🇳🇱',
-                'has_division' => 0,
+                'has_division' => 1,
                 'currency_code' => 'EUR',
                 'currency_name' => 'Euro',
                 'tld' => '.nl',
                 'callingcode' => '31',
             ),
-            141 => 
+            141 =>
             array (
                 'id' => 142,
                 'continent_id' => 2,
@@ -2284,6 +2425,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Zagreb',
                 'code' => 'hr',
                 'code_alpha3' => 'hrv',
+                'code_numeric' => 191,
                 'emoji' => '🇭🇷',
                 'has_division' => 0,
                 'currency_code' => 'HRK',
@@ -2291,7 +2433,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.hr',
                 'callingcode' => '385',
             ),
-            142 => 
+            142 =>
             array (
                 'id' => 143,
                 'continent_id' => 2,
@@ -2300,6 +2442,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Athens',
                 'code' => 'gr',
                 'code_alpha3' => 'grc',
+                'code_numeric' => 300,
                 'emoji' => '🇬🇷',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2307,7 +2450,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gr',
                 'callingcode' => '30',
             ),
-            143 => 
+            143 =>
             array (
                 'id' => 144,
                 'continent_id' => 2,
@@ -2316,6 +2459,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Dublin',
                 'code' => 'ie',
                 'code_alpha3' => 'irl',
+                'code_numeric' => 372,
                 'emoji' => '🇮🇪',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2323,7 +2467,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ie',
                 'callingcode' => '353',
             ),
-            144 => 
+            144 =>
             array (
                 'id' => 145,
                 'continent_id' => 2,
@@ -2332,6 +2476,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Brussels',
                 'code' => 'be',
                 'code_alpha3' => 'bel',
+                'code_numeric' => 56,
                 'emoji' => '🇧🇪',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2339,7 +2484,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.be',
                 'callingcode' => '32',
             ),
-            145 => 
+            145 =>
             array (
                 'id' => 146,
                 'continent_id' => 1,
@@ -2348,6 +2493,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Nicosia',
                 'code' => 'cy',
                 'code_alpha3' => 'cyp',
+                'code_numeric' => 196,
                 'emoji' => '🇨🇾',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2355,7 +2501,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cy',
                 'callingcode' => '357',
             ),
-            146 => 
+            146 =>
             array (
                 'id' => 147,
                 'continent_id' => 2,
@@ -2364,6 +2510,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Copenhagen',
                 'code' => 'dk',
                 'code_alpha3' => 'dnk',
+                'code_numeric' => 208,
                 'emoji' => '🇩🇰',
                 'has_division' => 0,
                 'currency_code' => 'DKK',
@@ -2371,7 +2518,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.dk',
                 'callingcode' => '45',
             ),
-            147 => 
+            147 =>
             array (
                 'id' => 148,
                 'continent_id' => 2,
@@ -2380,6 +2527,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'London',
                 'code' => 'gb',
                 'code_alpha3' => 'eng',
+                'code_numeric' => 826,
                 'emoji' => '🇬🇧',
                 'has_division' => 1,
                 'currency_code' => 'GBP',
@@ -2387,7 +2535,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.uk',
                 'callingcode' => '44',
             ),
-            148 => 
+            148 =>
             array (
                 'id' => 149,
                 'continent_id' => 2,
@@ -2396,6 +2544,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Berlin',
                 'code' => 'de',
                 'code_alpha3' => 'deu',
+                'code_numeric' => 276,
                 'emoji' => '🇩🇪',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2403,7 +2552,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.de',
                 'callingcode' => '49',
             ),
-            149 => 
+            149 =>
             array (
                 'id' => 150,
                 'continent_id' => 2,
@@ -2412,6 +2561,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Paris',
                 'code' => 'fr',
                 'code_alpha3' => 'fra',
+                'code_numeric' => 250,
                 'emoji' => '🇫🇷',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2419,7 +2569,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.fr',
                 'callingcode' => '33',
             ),
-            150 => 
+            150 =>
             array (
                 'id' => 151,
                 'continent_id' => 2,
@@ -2428,6 +2578,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Rome',
                 'code' => 'it',
                 'code_alpha3' => 'ita',
+                'code_numeric' => 380,
                 'emoji' => '🇮🇹',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2435,7 +2586,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.it',
                 'callingcode' => '39',
             ),
-            151 => 
+            151 =>
             array (
                 'id' => 152,
                 'continent_id' => 2,
@@ -2444,6 +2595,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Luxembourg',
                 'code' => 'lu',
                 'code_alpha3' => 'lux',
+                'code_numeric' => 442,
                 'emoji' => '🇱🇺',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2451,7 +2603,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.lu',
                 'callingcode' => '352',
             ),
-            152 => 
+            152 =>
             array (
                 'id' => 153,
                 'continent_id' => 2,
@@ -2460,6 +2612,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Lisbon',
                 'code' => 'pt',
                 'code_alpha3' => 'prt',
+                'code_numeric' => 620,
                 'emoji' => '🇵🇹',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2467,7 +2620,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pt',
                 'callingcode' => '351',
             ),
-            153 => 
+            153 =>
             array (
                 'id' => 154,
                 'continent_id' => 2,
@@ -2476,14 +2629,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Warsaw',
                 'code' => 'pl',
                 'code_alpha3' => 'pol',
+                'code_numeric' => 616,
                 'emoji' => '🇵🇱',
-                'has_division' => 0,
+                'has_division' => 1,
                 'currency_code' => 'PLN',
                 'currency_name' => 'Zloty',
                 'tld' => '.pl',
                 'callingcode' => '48',
             ),
-            154 => 
+            154 =>
             array (
                 'id' => 155,
                 'continent_id' => 2,
@@ -2492,6 +2646,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Madrid',
                 'code' => 'es',
                 'code_alpha3' => 'esp',
+                'code_numeric' => 724,
                 'emoji' => '🇪🇸',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2499,7 +2654,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.es',
                 'callingcode' => '34',
             ),
-            155 => 
+            155 =>
             array (
                 'id' => 156,
                 'continent_id' => 2,
@@ -2508,6 +2663,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Tirana',
                 'code' => 'al',
                 'code_alpha3' => 'alb',
+                'code_numeric' => 8,
                 'emoji' => '🇦🇱',
                 'has_division' => 0,
                 'currency_code' => 'ALL',
@@ -2515,7 +2671,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.al',
                 'callingcode' => '355',
             ),
-            156 => 
+            156 =>
             array (
                 'id' => 157,
                 'continent_id' => 2,
@@ -2524,6 +2680,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Andorra la Vella',
                 'code' => 'ad',
                 'code_alpha3' => 'and',
+                'code_numeric' => 20,
                 'emoji' => '🇦🇩',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2531,7 +2688,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ad',
                 'callingcode' => '376',
             ),
-            157 => 
+            157 =>
             array (
                 'id' => 158,
                 'continent_id' => 2,
@@ -2540,6 +2697,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Vaduz',
                 'code' => 'li',
                 'code_alpha3' => 'lie',
+                'code_numeric' => 438,
                 'emoji' => '🇱🇮',
                 'has_division' => 0,
                 'currency_code' => 'CHF',
@@ -2547,7 +2705,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.li',
                 'callingcode' => '423',
             ),
-            158 => 
+            158 =>
             array (
                 'id' => 159,
                 'continent_id' => 2,
@@ -2556,6 +2714,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Belgrade',
                 'code' => 'rs',
                 'code_alpha3' => 'srb',
+                'code_numeric' => 688,
                 'emoji' => '🇷🇸',
                 'has_division' => 0,
                 'currency_code' => 'RSD',
@@ -2563,7 +2722,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.rs',
                 'callingcode' => '381',
             ),
-            159 => 
+            159 =>
             array (
                 'id' => 160,
                 'continent_id' => 2,
@@ -2572,6 +2731,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Vienna',
                 'code' => 'at',
                 'code_alpha3' => 'aut',
+                'code_numeric' => 40,
                 'emoji' => '🇦🇹',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2579,7 +2739,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.at',
                 'callingcode' => '43',
             ),
-            160 => 
+            160 =>
             array (
                 'id' => 161,
                 'continent_id' => 2,
@@ -2588,6 +2748,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Sofia',
                 'code' => 'bg',
                 'code_alpha3' => 'bgr',
+                'code_numeric' => 100,
                 'emoji' => '🇧🇬',
                 'has_division' => 0,
                 'currency_code' => 'BGN',
@@ -2595,7 +2756,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bg',
                 'callingcode' => '359',
             ),
-            161 => 
+            161 =>
             array (
                 'id' => 162,
                 'continent_id' => 2,
@@ -2604,6 +2765,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Helsinki',
                 'code' => 'fi',
                 'code_alpha3' => 'fin',
+                'code_numeric' => 246,
                 'emoji' => '🇫🇮',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -2611,7 +2773,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.fi',
                 'callingcode' => '358',
             ),
-            162 => 
+            162 =>
             array (
                 'id' => 163,
                 'continent_id' => 2,
@@ -2620,6 +2782,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Gibraltar',
                 'code' => 'gi',
                 'code_alpha3' => 'gib',
+                'code_numeric' => 292,
                 'emoji' => '🇬🇮',
                 'has_division' => 0,
                 'currency_code' => 'GIP',
@@ -2627,7 +2790,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gi',
                 'callingcode' => '350',
             ),
-            163 => 
+            163 =>
             array (
                 'id' => 164,
                 'continent_id' => 6,
@@ -2636,6 +2799,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Roseau',
                 'code' => 'dm',
                 'code_alpha3' => 'dma',
+                'code_numeric' => 212,
                 'emoji' => '🇩🇲',
                 'has_division' => 0,
                 'currency_code' => 'XCD',
@@ -2643,7 +2807,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.dm',
                 'callingcode' => '1767',
             ),
-            164 => 
+            164 =>
             array (
                 'id' => 165,
                 'continent_id' => 6,
@@ -2652,6 +2816,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Hamilton',
                 'code' => 'bm',
                 'code_alpha3' => 'bmu',
+                'code_numeric' => 60,
                 'emoji' => '🇧🇲',
                 'has_division' => 0,
                 'currency_code' => 'BMD',
@@ -2659,7 +2824,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bm',
                 'callingcode' => '1441',
             ),
-            165 => 
+            165 =>
             array (
                 'id' => 166,
                 'continent_id' => 6,
@@ -2668,14 +2833,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Ottawa',
                 'code' => 'ca',
                 'code_alpha3' => 'can',
+                'code_numeric' => 124,
                 'emoji' => '🇨🇦',
-                'has_division' => 0,
+                'has_division' => 1,
                 'currency_code' => 'CAD',
                 'currency_name' => 'Canadian Dollar',
                 'tld' => '.ca',
                 'callingcode' => '1',
             ),
-            166 => 
+            166 =>
             array (
                 'id' => 167,
                 'continent_id' => 6,
@@ -2684,6 +2850,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Washington D.C.',
                 'code' => 'us',
                 'code_alpha3' => 'usa',
+                'code_numeric' => 840,
                 'emoji' => '🇺🇸',
                 'has_division' => 1,
                 'currency_code' => 'USD',
@@ -2691,7 +2858,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.us',
                 'callingcode' => '1',
             ),
-            167 => 
+            167 =>
             array (
                 'id' => 168,
                 'continent_id' => 6,
@@ -2700,6 +2867,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Nuuk',
                 'code' => 'gl',
                 'code_alpha3' => 'grl',
+                'code_numeric' => 304,
                 'emoji' => '🇬🇱',
                 'has_division' => 0,
                 'currency_code' => 'DKK',
@@ -2707,7 +2875,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gl',
                 'callingcode' => '299',
             ),
-            168 => 
+            168 =>
             array (
                 'id' => 169,
                 'continent_id' => 4,
@@ -2716,6 +2884,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Nuku\'alofa',
                 'code' => 'to',
                 'code_alpha3' => 'ton',
+                'code_numeric' => 776,
                 'emoji' => '🇹🇴',
                 'has_division' => 0,
                 'currency_code' => 'TOP',
@@ -2723,7 +2892,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.to',
                 'callingcode' => '676',
             ),
-            169 => 
+            169 =>
             array (
                 'id' => 170,
                 'continent_id' => 4,
@@ -2732,6 +2901,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Canberra',
                 'code' => 'au',
                 'code_alpha3' => 'aus',
+                'code_numeric' => 36,
                 'emoji' => '🇦🇺',
                 'has_division' => 1,
                 'currency_code' => 'AUD',
@@ -2739,7 +2909,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.au',
                 'callingcode' => '61',
             ),
-            170 => 
+            170 =>
             array (
                 'id' => 171,
                 'continent_id' => 4,
@@ -2748,6 +2918,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Avarua',
                 'code' => 'ck',
                 'code_alpha3' => 'cok',
+                'code_numeric' => 184,
                 'emoji' => '🇨🇰',
                 'has_division' => 0,
                 'currency_code' => 'NZD',
@@ -2755,7 +2926,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ck',
                 'callingcode' => '682',
             ),
-            171 => 
+            171 =>
             array (
                 'id' => 172,
                 'continent_id' => 4,
@@ -2764,6 +2935,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Yaren',
                 'code' => 'nr',
                 'code_alpha3' => 'nru',
+                'code_numeric' => 520,
                 'emoji' => '🇳🇷',
                 'has_division' => 0,
                 'currency_code' => 'AUD',
@@ -2771,7 +2943,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.nr',
                 'callingcode' => '674',
             ),
-            172 => 
+            172 =>
             array (
                 'id' => 173,
                 'continent_id' => 4,
@@ -2780,6 +2952,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Nouméa',
                 'code' => 'nc',
                 'code_alpha3' => 'ncl',
+                'code_numeric' => 540,
                 'emoji' => '🇳🇨',
                 'has_division' => 0,
                 'currency_code' => 'XPF',
@@ -2787,7 +2960,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.nc',
                 'callingcode' => '687',
             ),
-            173 => 
+            173 =>
             array (
                 'id' => 174,
                 'continent_id' => 4,
@@ -2796,6 +2969,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Port Vila',
                 'code' => 'vu',
                 'code_alpha3' => 'vut',
+                'code_numeric' => 548,
                 'emoji' => '🇻🇺',
                 'has_division' => 0,
                 'currency_code' => 'VUV',
@@ -2803,7 +2977,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.vu',
                 'callingcode' => '678',
             ),
-            174 => 
+            174 =>
             array (
                 'id' => 175,
                 'continent_id' => 4,
@@ -2812,6 +2986,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Honiara',
                 'code' => 'sb',
                 'code_alpha3' => 'slb',
+                'code_numeric' => 90,
                 'emoji' => '🇸🇧',
                 'has_division' => 0,
                 'currency_code' => 'SBD',
@@ -2819,7 +2994,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sb',
                 'callingcode' => '677',
             ),
-            175 => 
+            175 =>
             array (
                 'id' => 176,
                 'continent_id' => 4,
@@ -2828,6 +3003,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Apia',
                 'code' => 'ws',
                 'code_alpha3' => 'wsm',
+                'code_numeric' => 882,
                 'emoji' => '🇼🇸',
                 'has_division' => 0,
                 'currency_code' => 'WST',
@@ -2835,7 +3011,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ws',
                 'callingcode' => '685',
             ),
-            176 => 
+            176 =>
             array (
                 'id' => 177,
                 'continent_id' => 4,
@@ -2844,6 +3020,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Funafuti',
                 'code' => 'tv',
                 'code_alpha3' => 'tuv',
+                'code_numeric' => 798,
                 'emoji' => '🇹🇻',
                 'has_division' => 0,
                 'currency_code' => 'AUD',
@@ -2851,7 +3028,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tv',
                 'callingcode' => '688',
             ),
-            177 => 
+            177 =>
             array (
                 'id' => 178,
                 'continent_id' => 4,
@@ -2860,6 +3037,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Palikir',
                 'code' => 'fm',
                 'code_alpha3' => 'fsm',
+                'code_numeric' => 583,
                 'emoji' => '🇫🇲',
                 'has_division' => 0,
                 'currency_code' => 'USD',
@@ -2867,7 +3045,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.fm',
                 'callingcode' => '691',
             ),
-            178 => 
+            178 =>
             array (
                 'id' => 179,
                 'continent_id' => 4,
@@ -2876,6 +3054,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Majuro',
                 'code' => 'mh',
                 'code_alpha3' => 'mhl',
+                'code_numeric' => 584,
                 'emoji' => '🇲🇭',
                 'has_division' => 0,
                 'currency_code' => 'USD',
@@ -2883,7 +3062,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mh',
                 'callingcode' => '692',
             ),
-            179 => 
+            179 =>
             array (
                 'id' => 180,
                 'continent_id' => 4,
@@ -2892,6 +3071,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'South Tarawa',
                 'code' => 'ki',
                 'code_alpha3' => 'kir',
+                'code_numeric' => 296,
                 'emoji' => '🇰🇮',
                 'has_division' => 0,
                 'currency_code' => 'AUD',
@@ -2899,7 +3079,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ki',
                 'callingcode' => '686',
             ),
-            180 => 
+            180 =>
             array (
                 'id' => 181,
                 'continent_id' => 4,
@@ -2908,6 +3088,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Papeetē',
                 'code' => 'pf',
                 'code_alpha3' => 'pyf',
+                'code_numeric' => 258,
                 'emoji' => '🇵🇫',
                 'has_division' => 0,
                 'currency_code' => 'XPF',
@@ -2915,7 +3096,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pf',
                 'callingcode' => '689',
             ),
-            181 => 
+            181 =>
             array (
                 'id' => 182,
                 'continent_id' => 4,
@@ -2924,6 +3105,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Wellington',
                 'code' => 'nz',
                 'code_alpha3' => 'nzl',
+                'code_numeric' => 554,
                 'emoji' => '🇳🇿',
                 'has_division' => 0,
                 'currency_code' => 'NZD',
@@ -2931,7 +3113,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.nz',
                 'callingcode' => '64',
             ),
-            182 => 
+            182 =>
             array (
                 'id' => 183,
                 'continent_id' => 4,
@@ -2940,6 +3122,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Suva',
                 'code' => 'fj',
                 'code_alpha3' => 'fji',
+                'code_numeric' => 242,
                 'emoji' => '🇫🇯',
                 'has_division' => 0,
                 'currency_code' => 'FJD',
@@ -2947,7 +3130,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.fj',
                 'callingcode' => '679',
             ),
-            183 => 
+            183 =>
             array (
                 'id' => 184,
                 'continent_id' => 4,
@@ -2956,6 +3139,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Port Moresby',
                 'code' => 'pg',
                 'code_alpha3' => 'png',
+                'code_numeric' => 598,
                 'emoji' => '🇵🇬',
                 'has_division' => 0,
                 'currency_code' => 'PGK',
@@ -2963,7 +3147,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pg',
                 'callingcode' => '675',
             ),
-            184 => 
+            184 =>
             array (
                 'id' => 185,
                 'continent_id' => 4,
@@ -2972,6 +3156,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Ngerulmud',
                 'code' => 'pw',
                 'code_alpha3' => 'plw',
+                'code_numeric' => 585,
                 'emoji' => '🇵🇼',
                 'has_division' => 0,
                 'currency_code' => 'USD',
@@ -2979,7 +3164,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pw',
                 'callingcode' => '680',
             ),
-            185 => 
+            185 =>
             array (
                 'id' => 186,
                 'continent_id' => 7,
@@ -2988,6 +3173,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Santiago',
                 'code' => 'cl',
                 'code_alpha3' => 'chl',
+                'code_numeric' => 152,
                 'emoji' => '🇨🇱',
                 'has_division' => 0,
                 'currency_code' => 'CLP',
@@ -2995,7 +3181,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cl',
                 'callingcode' => '56',
             ),
-            186 => 
+            186 =>
             array (
                 'id' => 187,
                 'continent_id' => 7,
@@ -3004,6 +3190,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Bogotá',
                 'code' => 'co',
                 'code_alpha3' => 'col',
+                'code_numeric' => 170,
                 'emoji' => '🇨🇴',
                 'has_division' => 0,
                 'currency_code' => 'COP',
@@ -3011,7 +3198,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.co',
                 'callingcode' => '57',
             ),
-            187 => 
+            187 =>
             array (
                 'id' => 188,
                 'continent_id' => 7,
@@ -3020,6 +3207,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Georgetown',
                 'code' => 'gy',
                 'code_alpha3' => 'guy',
+                'code_numeric' => 328,
                 'emoji' => '🇬🇾',
                 'has_division' => 0,
                 'currency_code' => 'GYD',
@@ -3027,7 +3215,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gy',
                 'callingcode' => '592',
             ),
-            188 => 
+            188 =>
             array (
                 'id' => 189,
                 'continent_id' => 7,
@@ -3036,6 +3224,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Asunción',
                 'code' => 'py',
                 'code_alpha3' => 'pry',
+                'code_numeric' => 600,
                 'emoji' => '🇵🇾',
                 'has_division' => 0,
                 'currency_code' => 'PYG',
@@ -3043,7 +3232,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.py',
                 'callingcode' => '595',
             ),
-            189 => 
+            189 =>
             array (
                 'id' => 190,
                 'continent_id' => 7,
@@ -3052,6 +3241,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Lima',
                 'code' => 'pe',
                 'code_alpha3' => 'per',
+                'code_numeric' => 604,
                 'emoji' => '🇵🇪',
                 'has_division' => 0,
                 'currency_code' => 'PEN',
@@ -3059,7 +3249,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pe',
                 'callingcode' => '51',
             ),
-            190 => 
+            190 =>
             array (
                 'id' => 191,
                 'continent_id' => 7,
@@ -3068,6 +3258,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Paramaribo',
                 'code' => 'sr',
                 'code_alpha3' => 'sur',
+                'code_numeric' => 740,
                 'emoji' => '🇸🇷',
                 'has_division' => 0,
                 'currency_code' => 'SRD',
@@ -3075,7 +3266,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sr',
                 'callingcode' => '597',
             ),
-            191 => 
+            191 =>
             array (
                 'id' => 192,
                 'continent_id' => 7,
@@ -3084,6 +3275,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Caracas',
                 'code' => 've',
                 'code_alpha3' => 'ven',
+                'code_numeric' => 862,
                 'emoji' => '🇻🇪',
                 'has_division' => 0,
                 'currency_code' => 'VEF',
@@ -3091,7 +3283,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ve',
                 'callingcode' => '58',
             ),
-            192 => 
+            192 =>
             array (
                 'id' => 193,
                 'continent_id' => 7,
@@ -3100,6 +3292,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Montevideo',
                 'code' => 'uy',
                 'code_alpha3' => 'ury',
+                'code_numeric' => 858,
                 'emoji' => '🇺🇾',
                 'has_division' => 0,
                 'currency_code' => 'UYU',
@@ -3107,7 +3300,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.uy',
                 'callingcode' => '598',
             ),
-            193 => 
+            193 =>
             array (
                 'id' => 194,
                 'continent_id' => 7,
@@ -3116,14 +3309,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Quito',
                 'code' => 'ec',
                 'code_alpha3' => 'ecu',
+                'code_numeric' => 218,
                 'emoji' => '🇪🇨',
-                'has_division' => 0,
+                'has_division' => 1,
                 'currency_code' => 'USD',
                 'currency_name' => 'US Dollar',
                 'tld' => '.ec',
                 'callingcode' => '593',
             ),
-            194 => 
+            194 =>
             array (
                 'id' => 195,
                 'continent_id' => 7,
@@ -3132,6 +3326,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Saint John\'s',
                 'code' => 'ag',
                 'code_alpha3' => 'atg',
+                'code_numeric' => 28,
                 'emoji' => '🇦🇬',
                 'has_division' => 0,
                 'currency_code' => 'XCD',
@@ -3139,7 +3334,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ag',
                 'callingcode' => '1268',
             ),
-            195 => 
+            195 =>
             array (
                 'id' => 196,
                 'continent_id' => 7,
@@ -3148,6 +3343,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Oranjestad',
                 'code' => 'aw',
                 'code_alpha3' => 'abw',
+                'code_numeric' => 533,
                 'emoji' => '🇦🇼',
                 'has_division' => 0,
                 'currency_code' => 'AWG',
@@ -3155,7 +3351,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.aw',
                 'callingcode' => '297',
             ),
-            196 => 
+            196 =>
             array (
                 'id' => 197,
                 'continent_id' => 7,
@@ -3164,6 +3360,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Nassau',
                 'code' => 'bs',
                 'code_alpha3' => 'bhs',
+                'code_numeric' => 44,
                 'emoji' => '🇧🇸',
                 'has_division' => 0,
                 'currency_code' => 'BSD',
@@ -3171,7 +3368,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bs',
                 'callingcode' => '1242',
             ),
-            197 => 
+            197 =>
             array (
                 'id' => 198,
                 'continent_id' => 7,
@@ -3180,6 +3377,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Bridgetown',
                 'code' => 'bb',
                 'code_alpha3' => 'brb',
+                'code_numeric' => 52,
                 'emoji' => '🇧🇧',
                 'has_division' => 0,
                 'currency_code' => 'BBD',
@@ -3187,7 +3385,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bb',
                 'callingcode' => '1246',
             ),
-            198 => 
+            198 =>
             array (
                 'id' => 199,
                 'continent_id' => 7,
@@ -3196,6 +3394,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'George Town',
                 'code' => 'ky',
                 'code_alpha3' => 'cym',
+                'code_numeric' => 136,
                 'emoji' => '🇰🇾',
                 'has_division' => 0,
                 'currency_code' => 'KYD',
@@ -3203,7 +3402,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ky',
                 'callingcode' => '1345',
             ),
-            199 => 
+            199 =>
             array (
                 'id' => 200,
                 'continent_id' => 7,
@@ -3212,6 +3411,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'St. George\'s',
                 'code' => 'gd',
                 'code_alpha3' => 'grd',
+                'code_numeric' => 308,
                 'emoji' => '🇬🇩',
                 'has_division' => 0,
                 'currency_code' => 'XCD',
@@ -3219,7 +3419,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gd',
                 'callingcode' => '1473',
             ),
-            200 => 
+            200 =>
             array (
                 'id' => 201,
                 'continent_id' => 7,
@@ -3228,6 +3428,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Port-au-Prince',
                 'code' => 'ht',
                 'code_alpha3' => 'hti',
+                'code_numeric' => 332,
                 'emoji' => '🇭🇹',
                 'has_division' => 0,
                 'currency_code' => 'HTG',
@@ -3235,7 +3436,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ht',
                 'callingcode' => '509',
             ),
-            201 => 
+            201 =>
             array (
                 'id' => 202,
                 'continent_id' => 7,
@@ -3244,6 +3445,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Kingston',
                 'code' => 'jm',
                 'code_alpha3' => 'jam',
+                'code_numeric' => 388,
                 'emoji' => '🇯🇲',
                 'has_division' => 0,
                 'currency_code' => 'JMD',
@@ -3251,7 +3453,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.jm',
                 'callingcode' => '1876',
             ),
-            202 => 
+            202 =>
             array (
                 'id' => 203,
                 'continent_id' => 7,
@@ -3260,6 +3462,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Fort-de-France',
                 'code' => 'mq',
                 'code_alpha3' => 'mtq',
+                'code_numeric' => 474,
                 'emoji' => '🇲🇶',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -3267,7 +3470,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mq',
                 'callingcode' => '596',
             ),
-            203 => 
+            203 =>
             array (
                 'id' => 204,
                 'continent_id' => 7,
@@ -3276,6 +3479,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Plymouth',
                 'code' => 'ms',
                 'code_alpha3' => 'msr',
+                'code_numeric' => 500,
                 'emoji' => '🇲🇸',
                 'has_division' => 0,
                 'currency_code' => 'XCD',
@@ -3283,7 +3487,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ms',
                 'callingcode' => '1664',
             ),
-            204 => 
+            204 =>
             array (
                 'id' => 205,
                 'continent_id' => 7,
@@ -3292,6 +3496,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Port of Spain',
                 'code' => 'tt',
                 'code_alpha3' => 'tto',
+                'code_numeric' => 780,
                 'emoji' => '🇹🇹',
                 'has_division' => 0,
                 'currency_code' => 'TTD',
@@ -3299,7 +3504,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tt',
                 'callingcode' => '1868',
             ),
-            205 => 
+            205 =>
             array (
                 'id' => 206,
                 'continent_id' => 7,
@@ -3308,6 +3513,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Basseterre',
                 'code' => 'kn',
                 'code_alpha3' => 'kna',
+                'code_numeric' => 659,
                 'emoji' => '🇰🇳',
                 'has_division' => 0,
                 'currency_code' => 'XCD',
@@ -3315,7 +3521,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.kn',
                 'callingcode' => '1869',
             ),
-            206 => 
+            206 =>
             array (
                 'id' => 207,
                 'continent_id' => 7,
@@ -3324,6 +3530,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Saint-Pierre',
                 'code' => 'pm',
                 'code_alpha3' => 'spm',
+                'code_numeric' => 666,
                 'emoji' => '🇵🇲',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -3331,7 +3538,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pm',
                 'callingcode' => '508',
             ),
-            207 => 
+            207 =>
             array (
                 'id' => 208,
                 'continent_id' => 7,
@@ -3340,6 +3547,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Buenos Aires',
                 'code' => 'ar',
                 'code_alpha3' => 'arg',
+                'code_numeric' => 32,
                 'emoji' => '🇦🇷',
                 'has_division' => 0,
                 'currency_code' => 'ARS',
@@ -3347,7 +3555,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ar',
                 'callingcode' => '54',
             ),
-            208 => 
+            208 =>
             array (
                 'id' => 209,
                 'continent_id' => 7,
@@ -3356,6 +3564,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Belmopan',
                 'code' => 'bz',
                 'code_alpha3' => 'blz',
+                'code_numeric' => 84,
                 'emoji' => '🇧🇿',
                 'has_division' => 0,
                 'currency_code' => 'BZD',
@@ -3363,7 +3572,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bz',
                 'callingcode' => '501',
             ),
-            209 => 
+            209 =>
             array (
                 'id' => 210,
                 'continent_id' => 7,
@@ -3372,6 +3581,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Sucre',
                 'code' => 'bo',
                 'code_alpha3' => 'bol',
+                'code_numeric' => 68,
                 'emoji' => '🇧🇴',
                 'has_division' => 0,
                 'currency_code' => 'BOB',
@@ -3379,7 +3589,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bo',
                 'callingcode' => '591',
             ),
-            210 => 
+            210 =>
             array (
                 'id' => 211,
                 'continent_id' => 7,
@@ -3388,14 +3598,15 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Brasília',
                 'code' => 'br',
                 'code_alpha3' => 'bra',
+                'code_numeric' => 76,
                 'emoji' => '🇧🇷',
-                'has_division' => 0,
+                'has_division' => 1,
                 'currency_code' => 'BRL',
                 'currency_name' => 'Brazilian Real',
                 'tld' => '.br',
                 'callingcode' => '55',
             ),
-            211 => 
+            211 =>
             array (
                 'id' => 212,
                 'continent_id' => 4,
@@ -3404,6 +3615,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Pago Pago',
                 'code' => 'as',
                 'code_alpha3' => 'asm',
+                'code_numeric' => 16,
                 'emoji' => '🇦🇸',
                 'has_division' => 0,
                 'currency_code' => 'USD',
@@ -3411,7 +3623,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.as',
                 'callingcode' => '1684',
             ),
-            212 => 
+            212 =>
             array (
                 'id' => 213,
                 'continent_id' => 2,
@@ -3420,6 +3632,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Mariehamn',
                 'code' => 'ax',
                 'code_alpha3' => 'ala',
+                'code_numeric' => 248,
                 'emoji' => '🇦🇽',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -3427,7 +3640,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ax',
                 'callingcode' => '358',
             ),
-            213 => 
+            213 =>
             array (
                 'id' => 214,
                 'continent_id' => 6,
@@ -3436,6 +3649,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Gustavia',
                 'code' => 'bl',
                 'code_alpha3' => 'blm',
+                'code_numeric' => 652,
                 'emoji' => '🇧🇱',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -3443,7 +3657,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bl',
                 'callingcode' => '590',
             ),
-            214 => 
+            214 =>
             array (
                 'id' => 215,
                 'continent_id' => 6,
@@ -3452,6 +3666,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => NULL,
                 'code' => 'bq',
                 'code_alpha3' => 'bes',
+                'code_numeric' => 535,
                 'emoji' => '🇧🇶',
                 'has_division' => 0,
                 'currency_code' => 'USD',
@@ -3459,7 +3674,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => NULL,
                 'callingcode' => NULL,
             ),
-            215 => 
+            215 =>
             array (
                 'id' => 216,
                 'continent_id' => 7,
@@ -3468,6 +3683,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => '',
                 'code' => 'bv',
                 'code_alpha3' => 'bvt',
+                'code_numeric' => 74,
                 'emoji' => '🇧🇻',
                 'has_division' => 0,
                 'currency_code' => 'NOK',
@@ -3475,7 +3691,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bv',
                 'callingcode' => NULL,
             ),
-            216 => 
+            216 =>
             array (
                 'id' => 217,
                 'continent_id' => 4,
@@ -3484,6 +3700,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'West Island',
                 'code' => 'cc',
                 'code_alpha3' => 'cck',
+                'code_numeric' => 166,
                 'emoji' => '🇨🇨',
                 'has_division' => 0,
                 'currency_code' => 'AUD',
@@ -3491,7 +3708,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cc',
                 'callingcode' => '61',
             ),
-            217 => 
+            217 =>
             array (
                 'id' => 218,
                 'continent_id' => 6,
@@ -3500,6 +3717,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Willemstad',
                 'code' => 'cw',
                 'code_alpha3' => 'cuw',
+                'code_numeric' => 531,
                 'emoji' => '🇨🇼',
                 'has_division' => 0,
                 'currency_code' => 'ANG',
@@ -3507,7 +3725,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cw',
                 'callingcode' => '5999',
             ),
-            218 => 
+            218 =>
             array (
                 'id' => 219,
                 'continent_id' => 4,
@@ -3516,6 +3734,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Flying Fish Cove',
                 'code' => 'cx',
                 'code_alpha3' => 'cxr',
+                'code_numeric' => 162,
                 'emoji' => '🇨🇽',
                 'has_division' => 0,
                 'currency_code' => 'AUD',
@@ -3523,7 +3742,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cx',
                 'callingcode' => '61',
             ),
-            219 => 
+            219 =>
             array (
                 'id' => 220,
                 'continent_id' => 7,
@@ -3532,6 +3751,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Stanley',
                 'code' => 'fk',
                 'code_alpha3' => 'flk',
+                'code_numeric' => 238,
                 'emoji' => '🇫🇰',
                 'has_division' => 0,
                 'currency_code' => 'FKP',
@@ -3539,7 +3759,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.fk',
                 'callingcode' => '500',
             ),
-            220 => 
+            220 =>
             array (
                 'id' => 221,
                 'continent_id' => 2,
@@ -3548,6 +3768,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Tórshavn',
                 'code' => 'fo',
                 'code_alpha3' => 'fro',
+                'code_numeric' => 234,
                 'emoji' => '🇫🇴',
                 'has_division' => 0,
                 'currency_code' => 'DKK',
@@ -3555,7 +3776,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.fo',
                 'callingcode' => '298',
             ),
-            221 => 
+            221 =>
             array (
                 'id' => 222,
                 'continent_id' => 7,
@@ -3564,6 +3785,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Cayenne',
                 'code' => 'gf',
                 'code_alpha3' => 'guf',
+                'code_numeric' => 254,
                 'emoji' => '🇬🇫',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -3571,7 +3793,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gf',
                 'callingcode' => '594',
             ),
-            222 => 
+            222 =>
             array (
                 'id' => 223,
                 'continent_id' => 2,
@@ -3580,6 +3802,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'St. Peter Port',
                 'code' => 'gg',
                 'code_alpha3' => 'ggy',
+                'code_numeric' => 831,
                 'emoji' => '🇬🇬',
                 'has_division' => 0,
                 'currency_code' => 'GBP',
@@ -3587,7 +3810,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gg',
                 'callingcode' => '44',
             ),
-            223 => 
+            223 =>
             array (
                 'id' => 224,
                 'continent_id' => 7,
@@ -3596,6 +3819,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'King Edward Point',
                 'code' => 'gs',
                 'code_alpha3' => 'sgs',
+                'code_numeric' => 239,
                 'emoji' => '🇬🇸',
                 'has_division' => 0,
                 'currency_code' => 'GBP',
@@ -3603,7 +3827,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gs',
                 'callingcode' => '500',
             ),
-            224 => 
+            224 =>
             array (
                 'id' => 225,
                 'continent_id' => 4,
@@ -3612,6 +3836,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Hagåtña',
                 'code' => 'gu',
                 'code_alpha3' => 'gum',
+                'code_numeric' => 316,
                 'emoji' => '🇬🇺',
                 'has_division' => 0,
                 'currency_code' => 'USD',
@@ -3619,7 +3844,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gu',
                 'callingcode' => '1671',
             ),
-            225 => 
+            225 =>
             array (
                 'id' => 226,
                 'continent_id' => 4,
@@ -3628,6 +3853,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => '',
                 'code' => 'hm',
                 'code_alpha3' => 'hmd',
+                'code_numeric' => 334,
                 'emoji' => '🇭🇲',
                 'has_division' => 0,
                 'currency_code' => 'AUD',
@@ -3635,7 +3861,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.hm',
                 'callingcode' => NULL,
             ),
-            226 => 
+            226 =>
             array (
                 'id' => 227,
                 'continent_id' => 2,
@@ -3644,6 +3870,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Douglas',
                 'code' => 'im',
                 'code_alpha3' => 'imn',
+                'code_numeric' => 833,
                 'emoji' => '🇮🇲',
                 'has_division' => 0,
                 'currency_code' => 'GBP',
@@ -3651,7 +3878,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.im',
                 'callingcode' => '44',
             ),
-            227 => 
+            227 =>
             array (
                 'id' => 228,
                 'continent_id' => 3,
@@ -3660,6 +3887,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Diego Garcia',
                 'code' => 'io',
                 'code_alpha3' => 'iot',
+                'code_numeric' => 86,
                 'emoji' => '🇮🇴',
                 'has_division' => 0,
                 'currency_code' => 'GBP',
@@ -3667,7 +3895,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.io',
                 'callingcode' => '246',
             ),
-            228 => 
+            228 =>
             array (
                 'id' => 229,
                 'continent_id' => 2,
@@ -3676,6 +3904,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Saint Helier',
                 'code' => 'je',
                 'code_alpha3' => 'jey',
+                'code_numeric' => 832,
                 'emoji' => '🇯🇪',
                 'has_division' => 0,
                 'currency_code' => 'GBP',
@@ -3683,7 +3912,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.je',
                 'callingcode' => '44',
             ),
-            229 => 
+            229 =>
             array (
                 'id' => 230,
                 'continent_id' => 6,
@@ -3692,6 +3921,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Castries',
                 'code' => 'lc',
                 'code_alpha3' => 'lca',
+                'code_numeric' => 662,
                 'emoji' => '🇱🇨',
                 'has_division' => 0,
                 'currency_code' => 'XCD',
@@ -3699,7 +3929,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.lc',
                 'callingcode' => '1758',
             ),
-            230 => 
+            230 =>
             array (
                 'id' => 231,
                 'continent_id' => 6,
@@ -3708,6 +3938,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Marigot',
                 'code' => 'mf',
                 'code_alpha3' => 'maf',
+                'code_numeric' => 663,
                 'emoji' => '🇲🇫',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -3715,7 +3946,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.fr',
                 'callingcode' => '590',
             ),
-            231 => 
+            231 =>
             array (
                 'id' => 232,
                 'continent_id' => 4,
@@ -3724,6 +3955,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Saipan',
                 'code' => 'mp',
                 'code_alpha3' => 'mnp',
+                'code_numeric' => 580,
                 'emoji' => '🇲🇵',
                 'has_division' => 0,
                 'currency_code' => 'USD',
@@ -3731,7 +3963,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mp',
                 'callingcode' => '1670',
             ),
-            232 => 
+            232 =>
             array (
                 'id' => 233,
                 'continent_id' => 4,
@@ -3740,6 +3972,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Kingston',
                 'code' => 'nf',
                 'code_alpha3' => 'nfk',
+                'code_numeric' => 574,
                 'emoji' => '🇳🇫',
                 'has_division' => 0,
                 'currency_code' => 'AUD',
@@ -3747,7 +3980,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.nf',
                 'callingcode' => '672',
             ),
-            233 => 
+            233 =>
             array (
                 'id' => 234,
                 'continent_id' => 4,
@@ -3756,6 +3989,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Alofi',
                 'code' => 'nu',
                 'code_alpha3' => 'niu',
+                'code_numeric' => 570,
                 'emoji' => '🇳🇺',
                 'has_division' => 0,
                 'currency_code' => 'NZD',
@@ -3763,7 +3997,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.nu',
                 'callingcode' => '683',
             ),
-            234 => 
+            234 =>
             array (
                 'id' => 236,
                 'continent_id' => 4,
@@ -3772,6 +4006,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Adamstown',
                 'code' => 'pn',
                 'code_alpha3' => 'pcn',
+                'code_numeric' => 612,
                 'emoji' => '🇵🇳',
                 'has_division' => 0,
                 'currency_code' => 'NZD',
@@ -3779,7 +4014,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pn',
                 'callingcode' => '64',
             ),
-            235 => 
+            235 =>
             array (
                 'id' => 237,
                 'continent_id' => 3,
@@ -3788,6 +4023,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => NULL,
                 'code' => 'sh',
                 'code_alpha3' => 'shn',
+                'code_numeric' => 654,
                 'emoji' => '🇸🇭',
                 'has_division' => 0,
                 'currency_code' => 'SHP',
@@ -3795,7 +4031,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => NULL,
                 'callingcode' => NULL,
             ),
-            236 => 
+            236 =>
             array (
                 'id' => 238,
                 'continent_id' => 2,
@@ -3804,6 +4040,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Longyearbyen',
                 'code' => 'sj',
                 'code_alpha3' => 'sjm',
+                'code_numeric' => 744,
                 'emoji' => '🇸🇯',
                 'has_division' => 0,
                 'currency_code' => 'NOK',
@@ -3811,7 +4048,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sj',
                 'callingcode' => '4779',
             ),
-            237 => 
+            237 =>
             array (
                 'id' => 239,
                 'continent_id' => 6,
@@ -3820,6 +4057,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Philipsburg',
                 'code' => 'sx',
                 'code_alpha3' => 'sxm',
+                'code_numeric' => 534,
                 'emoji' => '🇸🇽',
                 'has_division' => 0,
                 'currency_code' => 'ANG',
@@ -3827,7 +4065,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sx',
                 'callingcode' => '1721',
             ),
-            238 => 
+            238 =>
             array (
                 'id' => 240,
                 'continent_id' => 6,
@@ -3836,6 +4074,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Cockburn Town',
                 'code' => 'tc',
                 'code_alpha3' => 'tca',
+                'code_numeric' => 796,
                 'emoji' => '🇹🇨',
                 'has_division' => 0,
                 'currency_code' => 'USD',
@@ -3843,7 +4082,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tc',
                 'callingcode' => '1649',
             ),
-            239 => 
+            239 =>
             array (
                 'id' => 241,
                 'continent_id' => 3,
@@ -3852,6 +4091,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Port-aux-Français',
                 'code' => 'tf',
                 'code_alpha3' => 'atf',
+                'code_numeric' => 260,
                 'emoji' => '🇹🇫',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -3859,7 +4099,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tf',
                 'callingcode' => NULL,
             ),
-            240 => 
+            240 =>
             array (
                 'id' => 242,
                 'continent_id' => 4,
@@ -3868,6 +4108,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Fakaofo',
                 'code' => 'tk',
                 'code_alpha3' => 'tkl',
+                'code_numeric' => 772,
                 'emoji' => '🇹🇰',
                 'has_division' => 0,
                 'currency_code' => 'NZD',
@@ -3875,7 +4116,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tk',
                 'callingcode' => '690',
             ),
-            241 => 
+            241 =>
             array (
                 'id' => 243,
                 'continent_id' => 4,
@@ -3884,6 +4125,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => '',
                 'code' => 'um',
                 'code_alpha3' => 'umi',
+                'code_numeric' => 581,
                 'emoji' => '🇺🇲',
                 'has_division' => 0,
                 'currency_code' => 'USD',
@@ -3891,7 +4133,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.us',
                 'callingcode' => '246',
             ),
-            242 => 
+            242 =>
             array (
                 'id' => 244,
                 'continent_id' => 6,
@@ -3900,6 +4142,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Road Town',
                 'code' => 'vg',
                 'code_alpha3' => 'vgb',
+                'code_numeric' => 92,
                 'emoji' => '🇻🇬',
                 'has_division' => 0,
                 'currency_code' => 'USD',
@@ -3907,7 +4150,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.vg',
                 'callingcode' => '1284',
             ),
-            243 => 
+            243 =>
             array (
                 'id' => 245,
                 'continent_id' => 6,
@@ -3916,6 +4159,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Charlotte Amalie',
                 'code' => 'vi',
                 'code_alpha3' => 'vir',
+                'code_numeric' => 850,
                 'emoji' => '🇻🇮',
                 'has_division' => 0,
                 'currency_code' => 'USD',
@@ -3923,7 +4167,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.vi',
                 'callingcode' => '1340',
             ),
-            244 => 
+            244 =>
             array (
                 'id' => 246,
                 'continent_id' => 4,
@@ -3932,6 +4176,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Mata-Utu',
                 'code' => 'wf',
                 'code_alpha3' => 'wlf',
+                'code_numeric' => 876,
                 'emoji' => '🇼🇫',
                 'has_division' => 0,
                 'currency_code' => 'XPF',
@@ -3939,7 +4184,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.wf',
                 'callingcode' => '681',
             ),
-            245 => 
+            245 =>
             array (
                 'id' => 247,
                 'continent_id' => 2,
@@ -3947,7 +4192,8 @@ class WorldCountriesTableSeeder extends Seeder
                 'full_name' => 'The Republic of Kosovo',
                 'capital' => 'Pristina',
                 'code' => 'xk',
-                'code_alpha3' => '',
+                'code_alpha3' => 'xxk',
+                'code_numeric' => NULL,
                 'emoji' => '🇽🇰',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -3955,7 +4201,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => NULL,
                 'callingcode' => '383',
             ),
-            246 => 
+            246 =>
             array (
                 'id' => 248,
                 'continent_id' => 2,
@@ -3964,6 +4210,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Podgorica',
                 'code' => 'me',
                 'code_alpha3' => 'mne',
+                'code_numeric' => 499,
                 'emoji' => '🇲🇪',
                 'has_division' => 0,
                 'currency_code' => 'EUR',
@@ -3971,7 +4218,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.me',
                 'callingcode' => '382',
             ),
-            247 => 
+            247 =>
             array (
                 'id' => 249,
                 'continent_id' => 6,
@@ -3980,6 +4227,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'The Valley',
                 'code' => 'ai',
                 'code_alpha3' => 'aia',
+                'code_numeric' => 660,
                 'emoji' => '🇦🇮',
                 'has_division' => 0,
                 'currency_code' => 'XPF',
@@ -3987,7 +4235,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ai',
                 'callingcode' => '1-264',
             ),
-            248 => 
+            248 =>
             array (
                 'id' => 250,
                 'continent_id' => 3,
@@ -3996,6 +4244,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Banjul',
                 'code' => 'gm',
                 'code_alpha3' => 'gmb',
+                'code_numeric' => 270,
                 'emoji' => '🇬🇲',
                 'has_division' => 1,
                 'currency_code' => 'GMD',
@@ -4003,7 +4252,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => NULL,
                 'callingcode' => '220',
             ),
-            249 => 
+            249 =>
             array (
                 'id' => 251,
                 'continent_id' => 3,
@@ -4012,6 +4261,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'capital' => 'Juba',
                 'code' => 'ss',
                 'code_alpha3' => 'ssd',
+                'code_numeric' => 728,
                 'emoji' => '🇸🇸',
                 'has_division' => 1,
                 'currency_code' => 'SSP',
@@ -4020,7 +4270,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'callingcode' => '211',
             ),
         ));
-        
-        
+
+
     }
 }
