@@ -14,12 +14,12 @@ class WorldCountriesTableSeeder extends Seeder
      */
     public function run()
     {
+        
 
-
-        \DB::table('world_countries')->truncate();
-
+        \DB::table('world_countries')->delete();
+        
         \DB::table('world_countries')->insert(array (
-            0 =>
+            0 => 
             array (
                 'id' => 1,
                 'continent_id' => 3,
@@ -36,7 +36,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cm',
                 'callingcode' => '237',
             ),
-            1 =>
+            1 => 
             array (
                 'id' => 2,
                 'continent_id' => 3,
@@ -53,7 +53,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bj',
                 'callingcode' => '229',
             ),
-            2 =>
+            2 => 
             array (
                 'id' => 3,
                 'continent_id' => 3,
@@ -70,7 +70,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mg',
                 'callingcode' => '261',
             ),
-            3 =>
+            3 => 
             array (
                 'id' => 4,
                 'continent_id' => 3,
@@ -87,7 +87,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.rw',
                 'callingcode' => '250',
             ),
-            4 =>
+            4 => 
             array (
                 'id' => 5,
                 'continent_id' => 3,
@@ -104,7 +104,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sc',
                 'callingcode' => '248',
             ),
-            5 =>
+            5 => 
             array (
                 'id' => 6,
                 'continent_id' => 3,
@@ -121,7 +121,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ci',
                 'callingcode' => '225',
             ),
-            6 =>
+            6 => 
             array (
                 'id' => 7,
                 'continent_id' => 3,
@@ -138,7 +138,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.eg',
                 'callingcode' => '20',
             ),
-            7 =>
+            7 => 
             array (
                 'id' => 8,
                 'continent_id' => 3,
@@ -155,7 +155,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mu',
                 'callingcode' => '230',
             ),
-            8 =>
+            8 => 
             array (
                 'id' => 9,
                 'continent_id' => 3,
@@ -172,7 +172,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bf',
                 'callingcode' => '226',
             ),
-            9 =>
+            9 => 
             array (
                 'id' => 10,
                 'continent_id' => 3,
@@ -189,7 +189,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.er',
                 'callingcode' => '291',
             ),
-            10 =>
+            10 => 
             array (
                 'id' => 11,
                 'continent_id' => 3,
@@ -206,7 +206,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.st',
                 'callingcode' => '239',
             ),
-            11 =>
+            11 => 
             array (
                 'id' => 12,
                 'continent_id' => 3,
@@ -223,7 +223,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ao',
                 'callingcode' => '244',
             ),
-            12 =>
+            12 => 
             array (
                 'id' => 13,
                 'continent_id' => 3,
@@ -240,7 +240,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ly',
                 'callingcode' => '218',
             ),
-            13 =>
+            13 => 
             array (
                 'id' => 14,
                 'continent_id' => 3,
@@ -257,7 +257,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.zw',
                 'callingcode' => '263',
             ),
-            14 =>
+            14 => 
             array (
                 'id' => 15,
                 'continent_id' => 3,
@@ -274,7 +274,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gn',
                 'callingcode' => '224',
             ),
-            15 =>
+            15 => 
             array (
                 'id' => 16,
                 'continent_id' => 3,
@@ -291,7 +291,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sl',
                 'callingcode' => '232',
             ),
-            16 =>
+            16 => 
             array (
                 'id' => 17,
                 'continent_id' => 3,
@@ -308,7 +308,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.re',
                 'callingcode' => '262',
             ),
-            17 =>
+            17 => 
             array (
                 'id' => 18,
                 'continent_id' => 3,
@@ -325,7 +325,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ga',
                 'callingcode' => '241',
             ),
-            18 =>
+            18 => 
             array (
                 'id' => 19,
                 'continent_id' => 3,
@@ -342,7 +342,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gh',
                 'callingcode' => '233',
             ),
-            19 =>
+            19 => 
             array (
                 'id' => 20,
                 'continent_id' => 3,
@@ -359,7 +359,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tz',
                 'callingcode' => '255',
             ),
-            20 =>
+            20 => 
             array (
                 'id' => 21,
                 'continent_id' => 3,
@@ -376,7 +376,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ml',
                 'callingcode' => '223',
             ),
-            21 =>
+            21 => 
             array (
                 'id' => 22,
                 'continent_id' => 3,
@@ -393,7 +393,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.so',
                 'callingcode' => '252',
             ),
-            22 =>
+            22 => 
             array (
                 'id' => 23,
                 'continent_id' => 3,
@@ -410,7 +410,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mr',
                 'callingcode' => '222',
             ),
-            23 =>
+            23 => 
             array (
                 'id' => 24,
                 'continent_id' => 3,
@@ -427,7 +427,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ug',
                 'callingcode' => '256',
             ),
-            24 =>
+            24 => 
             array (
                 'id' => 25,
                 'continent_id' => 3,
@@ -444,7 +444,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.td',
                 'callingcode' => '235',
             ),
-            25 =>
+            25 => 
             array (
                 'id' => 26,
                 'continent_id' => 3,
@@ -461,7 +461,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.yt',
                 'callingcode' => '262',
             ),
-            26 =>
+            26 => 
             array (
                 'id' => 27,
                 'continent_id' => 3,
@@ -478,7 +478,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.km',
                 'callingcode' => '269',
             ),
-            27 =>
+            27 => 
             array (
                 'id' => 28,
                 'continent_id' => 3,
@@ -495,7 +495,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bw',
                 'callingcode' => '267',
             ),
-            28 =>
+            28 => 
             array (
                 'id' => 29,
                 'continent_id' => 3,
@@ -512,7 +512,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sn',
                 'callingcode' => '221',
             ),
-            29 =>
+            29 => 
             array (
                 'id' => 30,
                 'continent_id' => 3,
@@ -529,7 +529,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sz',
                 'callingcode' => '268',
             ),
-            30 =>
+            30 => 
             array (
                 'id' => 31,
                 'continent_id' => 3,
@@ -546,7 +546,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gw',
                 'callingcode' => '245',
             ),
-            31 =>
+            31 => 
             array (
                 'id' => 32,
                 'continent_id' => 3,
@@ -563,7 +563,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cd',
                 'callingcode' => '242',
             ),
-            32 =>
+            32 => 
             array (
                 'id' => 33,
                 'continent_id' => 3,
@@ -580,7 +580,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cf',
                 'callingcode' => '236',
             ),
-            33 =>
+            33 => 
             array (
                 'id' => 34,
                 'continent_id' => 3,
@@ -597,7 +597,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ls',
                 'callingcode' => '266',
             ),
-            34 =>
+            34 => 
             array (
                 'id' => 35,
                 'continent_id' => 3,
@@ -614,7 +614,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cg',
                 'callingcode' => '242',
             ),
-            35 =>
+            35 => 
             array (
                 'id' => 36,
                 'continent_id' => 3,
@@ -631,7 +631,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.za',
                 'callingcode' => '27',
             ),
-            36 =>
+            36 => 
             array (
                 'id' => 37,
                 'continent_id' => 3,
@@ -648,7 +648,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.lr',
                 'callingcode' => '231',
             ),
-            37 =>
+            37 => 
             array (
                 'id' => 38,
                 'continent_id' => 3,
@@ -665,7 +665,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tn',
                 'callingcode' => '216',
             ),
-            38 =>
+            38 => 
             array (
                 'id' => 39,
                 'continent_id' => 3,
@@ -682,7 +682,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.zm',
                 'callingcode' => '260',
             ),
-            39 =>
+            39 => 
             array (
                 'id' => 40,
                 'continent_id' => 3,
@@ -699,7 +699,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ne',
                 'callingcode' => '227',
             ),
-            40 =>
+            40 => 
             array (
                 'id' => 41,
                 'continent_id' => 3,
@@ -716,7 +716,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.eh',
                 'callingcode' => '212',
             ),
-            41 =>
+            41 => 
             array (
                 'id' => 42,
                 'continent_id' => 3,
@@ -733,7 +733,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tg',
                 'callingcode' => '228',
             ),
-            42 =>
+            42 => 
             array (
                 'id' => 43,
                 'continent_id' => 3,
@@ -750,7 +750,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.na',
                 'callingcode' => '264',
             ),
-            43 =>
+            43 => 
             array (
                 'id' => 44,
                 'continent_id' => 3,
@@ -767,7 +767,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mz',
                 'callingcode' => '258',
             ),
-            44 =>
+            44 => 
             array (
                 'id' => 45,
                 'continent_id' => 3,
@@ -784,7 +784,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.et',
                 'callingcode' => '251',
             ),
-            45 =>
+            45 => 
             array (
                 'id' => 46,
                 'continent_id' => 3,
@@ -801,7 +801,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ma',
                 'callingcode' => '212',
             ),
-            46 =>
+            46 => 
             array (
                 'id' => 47,
                 'continent_id' => 3,
@@ -818,7 +818,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mw',
                 'callingcode' => '265',
             ),
-            47 =>
+            47 => 
             array (
                 'id' => 48,
                 'continent_id' => 3,
@@ -835,7 +835,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ng',
                 'callingcode' => '234',
             ),
-            48 =>
+            48 => 
             array (
                 'id' => 49,
                 'continent_id' => 3,
@@ -852,7 +852,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cv',
                 'callingcode' => '238',
             ),
-            49 =>
+            49 => 
             array (
                 'id' => 50,
                 'continent_id' => 3,
@@ -869,7 +869,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bi',
                 'callingcode' => '257',
             ),
-            50 =>
+            50 => 
             array (
                 'id' => 51,
                 'continent_id' => 3,
@@ -886,7 +886,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.dz',
                 'callingcode' => '213',
             ),
-            51 =>
+            51 => 
             array (
                 'id' => 52,
                 'continent_id' => 3,
@@ -903,7 +903,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.dj',
                 'callingcode' => '253',
             ),
-            52 =>
+            52 => 
             array (
                 'id' => 53,
                 'continent_id' => 6,
@@ -920,7 +920,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gp',
                 'callingcode' => '590',
             ),
-            53 =>
+            53 => 
             array (
                 'id' => 54,
                 'continent_id' => 3,
@@ -937,7 +937,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gq',
                 'callingcode' => '240',
             ),
-            54 =>
+            54 => 
             array (
                 'id' => 55,
                 'continent_id' => 3,
@@ -954,7 +954,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sd',
                 'callingcode' => '249',
             ),
-            55 =>
+            55 => 
             array (
                 'id' => 56,
                 'continent_id' => 3,
@@ -971,7 +971,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ke',
                 'callingcode' => '254',
             ),
-            56 =>
+            56 => 
             array (
                 'id' => 57,
                 'continent_id' => 1,
@@ -988,7 +988,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sg',
                 'callingcode' => '65',
             ),
-            57 =>
+            57 => 
             array (
                 'id' => 58,
                 'continent_id' => 1,
@@ -1005,7 +1005,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.kr',
                 'callingcode' => '82',
             ),
-            58 =>
+            58 => 
             array (
                 'id' => 59,
                 'continent_id' => 1,
@@ -1022,7 +1022,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sy',
                 'callingcode' => '963',
             ),
-            59 =>
+            59 => 
             array (
                 'id' => 60,
                 'continent_id' => 1,
@@ -1039,7 +1039,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.uz',
                 'callingcode' => '998',
             ),
-            60 =>
+            60 => 
             array (
                 'id' => 61,
                 'continent_id' => 1,
@@ -1056,7 +1056,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bh',
                 'callingcode' => '973',
             ),
-            61 =>
+            61 => 
             array (
                 'id' => 62,
                 'continent_id' => 1,
@@ -1073,7 +1073,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.jp',
                 'callingcode' => '81',
             ),
-            62 =>
+            62 => 
             array (
                 'id' => 63,
                 'continent_id' => 1,
@@ -1090,7 +1090,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.jo',
                 'callingcode' => '962',
             ),
-            63 =>
+            63 => 
             array (
                 'id' => 64,
                 'continent_id' => 1,
@@ -1107,7 +1107,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.vn',
                 'callingcode' => '84',
             ),
-            64 =>
+            64 => 
             array (
                 'id' => 65,
                 'continent_id' => 1,
@@ -1124,7 +1124,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.kg',
                 'callingcode' => '996',
             ),
-            65 =>
+            65 => 
             array (
                 'id' => 66,
                 'continent_id' => 1,
@@ -1141,7 +1141,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.th',
                 'callingcode' => '66',
             ),
-            66 =>
+            66 => 
             array (
                 'id' => 67,
                 'continent_id' => 1,
@@ -1158,7 +1158,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.lk',
                 'callingcode' => '94',
             ),
-            67 =>
+            67 => 
             array (
                 'id' => 68,
                 'continent_id' => 1,
@@ -1175,7 +1175,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ae',
                 'callingcode' => '971',
             ),
-            68 =>
+            68 => 
             array (
                 'id' => 69,
                 'continent_id' => 1,
@@ -1192,7 +1192,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.la',
                 'callingcode' => '856',
             ),
-            69 =>
+            69 => 
             array (
                 'id' => 70,
                 'continent_id' => 1,
@@ -1209,7 +1209,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.af',
                 'callingcode' => '93',
             ),
-            70 =>
+            70 => 
             array (
                 'id' => 71,
                 'continent_id' => 1,
@@ -1226,7 +1226,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mo',
                 'callingcode' => '853',
             ),
-            71 =>
+            71 => 
             array (
                 'id' => 72,
                 'continent_id' => 1,
@@ -1243,7 +1243,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tj',
                 'callingcode' => '992',
             ),
-            72 =>
+            72 => 
             array (
                 'id' => 73,
                 'continent_id' => 1,
@@ -1260,7 +1260,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.kp',
                 'callingcode' => '850',
             ),
-            73 =>
+            73 => 
             array (
                 'id' => 74,
                 'continent_id' => 1,
@@ -1277,7 +1277,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ps',
                 'callingcode' => '970',
             ),
-            74 =>
+            74 => 
             array (
                 'id' => 75,
                 'continent_id' => 1,
@@ -1294,7 +1294,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.hk',
                 'callingcode' => '852',
             ),
-            75 =>
+            75 => 
             array (
                 'id' => 76,
                 'continent_id' => 1,
@@ -1311,7 +1311,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.iq',
                 'callingcode' => '964',
             ),
-            76 =>
+            76 => 
             array (
                 'id' => 77,
                 'continent_id' => 1,
@@ -1328,7 +1328,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.lb',
                 'callingcode' => '961',
             ),
-            77 =>
+            77 => 
             array (
                 'id' => 78,
                 'continent_id' => 1,
@@ -1345,7 +1345,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.kw',
                 'callingcode' => '965',
             ),
-            78 =>
+            78 => 
             array (
                 'id' => 79,
                 'continent_id' => 1,
@@ -1362,7 +1362,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bn',
                 'callingcode' => '673',
             ),
-            79 =>
+            79 => 
             array (
                 'id' => 80,
                 'continent_id' => 1,
@@ -1379,7 +1379,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mv',
                 'callingcode' => '960',
             ),
-            80 =>
+            80 => 
             array (
                 'id' => 81,
                 'continent_id' => 1,
@@ -1396,7 +1396,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.id',
                 'callingcode' => '62',
             ),
-            81 =>
+            81 => 
             array (
                 'id' => 82,
                 'continent_id' => 1,
@@ -1413,7 +1413,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.il',
                 'callingcode' => '972',
             ),
-            82 =>
+            82 => 
             array (
                 'id' => 83,
                 'continent_id' => 1,
@@ -1430,7 +1430,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mn',
                 'callingcode' => '976',
             ),
-            83 =>
+            83 => 
             array (
                 'id' => 84,
                 'continent_id' => 1,
@@ -1447,7 +1447,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.om',
                 'callingcode' => '968',
             ),
-            84 =>
+            84 => 
             array (
                 'id' => 85,
                 'continent_id' => 1,
@@ -1464,7 +1464,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.in',
                 'callingcode' => '91',
             ),
-            85 =>
+            85 => 
             array (
                 'id' => 86,
                 'continent_id' => 1,
@@ -1481,7 +1481,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mm',
                 'callingcode' => '95',
             ),
-            86 =>
+            86 => 
             array (
                 'id' => 87,
                 'continent_id' => 1,
@@ -1498,7 +1498,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.my',
                 'callingcode' => '60',
             ),
-            87 =>
+            87 => 
             array (
                 'id' => 88,
                 'continent_id' => 1,
@@ -1515,7 +1515,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tl',
                 'callingcode' => '670',
             ),
-            88 =>
+            88 => 
             array (
                 'id' => 89,
                 'continent_id' => 1,
@@ -1532,7 +1532,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ye',
                 'callingcode' => '967',
             ),
-            89 =>
+            89 => 
             array (
                 'id' => 90,
                 'continent_id' => 1,
@@ -1549,7 +1549,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bt',
                 'callingcode' => '975',
             ),
-            90 =>
+            90 => 
             array (
                 'id' => 91,
                 'continent_id' => 1,
@@ -1566,7 +1566,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.kh',
                 'callingcode' => '855',
             ),
-            91 =>
+            91 => 
             array (
                 'id' => 92,
                 'continent_id' => 1,
@@ -1583,7 +1583,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pk',
                 'callingcode' => '92',
             ),
-            92 =>
+            92 => 
             array (
                 'id' => 93,
                 'continent_id' => 1,
@@ -1600,7 +1600,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bd',
                 'callingcode' => '880',
             ),
-            93 =>
+            93 => 
             array (
                 'id' => 94,
                 'continent_id' => 1,
@@ -1617,7 +1617,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sa',
                 'callingcode' => '966',
             ),
-            94 =>
+            94 => 
             array (
                 'id' => 95,
                 'continent_id' => 1,
@@ -1634,7 +1634,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tm',
                 'callingcode' => '993',
             ),
-            95 =>
+            95 => 
             array (
                 'id' => 96,
                 'continent_id' => 1,
@@ -1651,7 +1651,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.qa',
                 'callingcode' => '974',
             ),
-            96 =>
+            96 => 
             array (
                 'id' => 97,
                 'continent_id' => 1,
@@ -1668,7 +1668,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.np',
                 'callingcode' => '977',
             ),
-            97 =>
+            97 => 
             array (
                 'id' => 98,
                 'continent_id' => 1,
@@ -1685,7 +1685,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.kz',
                 'callingcode' => '7',
             ),
-            98 =>
+            98 => 
             array (
                 'id' => 99,
                 'continent_id' => 1,
@@ -1702,7 +1702,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ph',
                 'callingcode' => '63',
             ),
-            99 =>
+            99 => 
             array (
                 'id' => 100,
                 'continent_id' => 1,
@@ -1719,7 +1719,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tw',
                 'callingcode' => '886',
             ),
-            100 =>
+            100 => 
             array (
                 'id' => 101,
                 'continent_id' => 1,
@@ -1736,7 +1736,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cn',
                 'callingcode' => '86',
             ),
-            101 =>
+            101 => 
             array (
                 'id' => 102,
                 'continent_id' => 1,
@@ -1753,7 +1753,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ir',
                 'callingcode' => '98',
             ),
-            102 =>
+            102 => 
             array (
                 'id' => 103,
                 'continent_id' => 6,
@@ -1770,7 +1770,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cr',
                 'callingcode' => '506',
             ),
-            103 =>
+            103 => 
             array (
                 'id' => 104,
                 'continent_id' => 6,
@@ -1787,7 +1787,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cu',
                 'callingcode' => '53',
             ),
-            104 =>
+            104 => 
             array (
                 'id' => 105,
                 'continent_id' => 6,
@@ -1804,7 +1804,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.do',
                 'callingcode' => '1809',
             ),
-            105 =>
+            105 => 
             array (
                 'id' => 106,
                 'continent_id' => 6,
@@ -1821,7 +1821,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mx',
                 'callingcode' => '52',
             ),
-            106 =>
+            106 => 
             array (
                 'id' => 107,
                 'continent_id' => 6,
@@ -1838,7 +1838,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ni',
                 'callingcode' => '505',
             ),
-            107 =>
+            107 => 
             array (
                 'id' => 108,
                 'continent_id' => 6,
@@ -1855,7 +1855,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pa',
                 'callingcode' => '507',
             ),
-            108 =>
+            108 => 
             array (
                 'id' => 109,
                 'continent_id' => 7,
@@ -1872,7 +1872,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => NULL,
                 'callingcode' => NULL,
             ),
-            109 =>
+            109 => 
             array (
                 'id' => 110,
                 'continent_id' => 6,
@@ -1889,7 +1889,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sv',
                 'callingcode' => '503',
             ),
-            110 =>
+            110 => 
             array (
                 'id' => 111,
                 'continent_id' => 6,
@@ -1906,7 +1906,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pr',
                 'callingcode' => '1787',
             ),
-            111 =>
+            111 => 
             array (
                 'id' => 112,
                 'continent_id' => 6,
@@ -1923,7 +1923,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.vc',
                 'callingcode' => '1784',
             ),
-            112 =>
+            112 => 
             array (
                 'id' => 113,
                 'continent_id' => 6,
@@ -1940,7 +1940,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.hn',
                 'callingcode' => '504',
             ),
-            113 =>
+            113 => 
             array (
                 'id' => 114,
                 'continent_id' => 6,
@@ -1957,7 +1957,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gt',
                 'callingcode' => '502',
             ),
-            114 =>
+            114 => 
             array (
                 'id' => 115,
                 'continent_id' => 1,
@@ -1974,7 +1974,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ge',
                 'callingcode' => '995',
             ),
-            115 =>
+            115 => 
             array (
                 'id' => 116,
                 'continent_id' => 1,
@@ -1991,7 +1991,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.am',
                 'callingcode' => '374',
             ),
-            116 =>
+            116 => 
             array (
                 'id' => 117,
                 'continent_id' => 1,
@@ -2008,7 +2008,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.az',
                 'callingcode' => '994',
             ),
-            117 =>
+            117 => 
             array (
                 'id' => 118,
                 'continent_id' => 2,
@@ -2025,7 +2025,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.by',
                 'callingcode' => '375',
             ),
-            118 =>
+            118 => 
             array (
                 'id' => 119,
                 'continent_id' => 2,
@@ -2042,7 +2042,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ru',
                 'callingcode' => '70',
             ),
-            119 =>
+            119 => 
             array (
                 'id' => 120,
                 'continent_id' => 2,
@@ -2059,7 +2059,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ua',
                 'callingcode' => '380',
             ),
-            120 =>
+            120 => 
             array (
                 'id' => 121,
                 'continent_id' => 2,
@@ -2076,7 +2076,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.hu',
                 'callingcode' => '36',
             ),
-            121 =>
+            121 => 
             array (
                 'id' => 122,
                 'continent_id' => 2,
@@ -2093,7 +2093,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.is',
                 'callingcode' => '354',
             ),
-            122 =>
+            122 => 
             array (
                 'id' => 123,
                 'continent_id' => 2,
@@ -2110,7 +2110,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mt',
                 'callingcode' => '356',
             ),
-            123 =>
+            123 => 
             array (
                 'id' => 124,
                 'continent_id' => 2,
@@ -2127,7 +2127,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mc',
                 'callingcode' => '377',
             ),
-            124 =>
+            124 => 
             array (
                 'id' => 125,
                 'continent_id' => 2,
@@ -2144,7 +2144,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.no',
                 'callingcode' => '47',
             ),
-            125 =>
+            125 => 
             array (
                 'id' => 126,
                 'continent_id' => 2,
@@ -2161,7 +2161,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ro',
                 'callingcode' => '40',
             ),
-            126 =>
+            126 => 
             array (
                 'id' => 127,
                 'continent_id' => 2,
@@ -2178,7 +2178,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sm',
                 'callingcode' => '378',
             ),
-            127 =>
+            127 => 
             array (
                 'id' => 128,
                 'continent_id' => 2,
@@ -2195,7 +2195,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.se',
                 'callingcode' => '46',
             ),
-            128 =>
+            128 => 
             array (
                 'id' => 129,
                 'continent_id' => 2,
@@ -2212,7 +2212,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ch',
                 'callingcode' => '41',
             ),
-            129 =>
+            129 => 
             array (
                 'id' => 130,
                 'continent_id' => 2,
@@ -2229,7 +2229,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ee',
                 'callingcode' => '372',
             ),
-            130 =>
+            130 => 
             array (
                 'id' => 131,
                 'continent_id' => 2,
@@ -2246,7 +2246,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.lv',
                 'callingcode' => '371',
             ),
-            131 =>
+            131 => 
             array (
                 'id' => 132,
                 'continent_id' => 2,
@@ -2263,7 +2263,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.lt',
                 'callingcode' => '370',
             ),
-            132 =>
+            132 => 
             array (
                 'id' => 133,
                 'continent_id' => 2,
@@ -2280,7 +2280,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.md',
                 'callingcode' => '373',
             ),
-            133 =>
+            133 => 
             array (
                 'id' => 134,
                 'continent_id' => 1,
@@ -2297,7 +2297,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tr',
                 'callingcode' => '90',
             ),
-            134 =>
+            134 => 
             array (
                 'id' => 135,
                 'continent_id' => 2,
@@ -2314,7 +2314,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.si',
                 'callingcode' => '386',
             ),
-            135 =>
+            135 => 
             array (
                 'id' => 136,
                 'continent_id' => 2,
@@ -2331,7 +2331,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cz',
                 'callingcode' => '420',
             ),
-            136 =>
+            136 => 
             array (
                 'id' => 137,
                 'continent_id' => 2,
@@ -2348,7 +2348,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sk',
                 'callingcode' => '421',
             ),
-            137 =>
+            137 => 
             array (
                 'id' => 138,
                 'continent_id' => 2,
@@ -2365,7 +2365,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mk',
                 'callingcode' => '389',
             ),
-            138 =>
+            138 => 
             array (
                 'id' => 139,
                 'continent_id' => 2,
@@ -2382,7 +2382,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ba',
                 'callingcode' => '387',
             ),
-            139 =>
+            139 => 
             array (
                 'id' => 140,
                 'continent_id' => 2,
@@ -2399,7 +2399,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.va',
                 'callingcode' => '39',
             ),
-            140 =>
+            140 => 
             array (
                 'id' => 141,
                 'continent_id' => 2,
@@ -2416,7 +2416,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.nl',
                 'callingcode' => '31',
             ),
-            141 =>
+            141 => 
             array (
                 'id' => 142,
                 'continent_id' => 2,
@@ -2433,7 +2433,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.hr',
                 'callingcode' => '385',
             ),
-            142 =>
+            142 => 
             array (
                 'id' => 143,
                 'continent_id' => 2,
@@ -2450,7 +2450,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gr',
                 'callingcode' => '30',
             ),
-            143 =>
+            143 => 
             array (
                 'id' => 144,
                 'continent_id' => 2,
@@ -2467,7 +2467,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ie',
                 'callingcode' => '353',
             ),
-            144 =>
+            144 => 
             array (
                 'id' => 145,
                 'continent_id' => 2,
@@ -2484,7 +2484,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.be',
                 'callingcode' => '32',
             ),
-            145 =>
+            145 => 
             array (
                 'id' => 146,
                 'continent_id' => 1,
@@ -2501,7 +2501,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cy',
                 'callingcode' => '357',
             ),
-            146 =>
+            146 => 
             array (
                 'id' => 147,
                 'continent_id' => 2,
@@ -2518,7 +2518,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.dk',
                 'callingcode' => '45',
             ),
-            147 =>
+            147 => 
             array (
                 'id' => 148,
                 'continent_id' => 2,
@@ -2535,7 +2535,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.uk',
                 'callingcode' => '44',
             ),
-            148 =>
+            148 => 
             array (
                 'id' => 149,
                 'continent_id' => 2,
@@ -2552,7 +2552,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.de',
                 'callingcode' => '49',
             ),
-            149 =>
+            149 => 
             array (
                 'id' => 150,
                 'continent_id' => 2,
@@ -2569,7 +2569,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.fr',
                 'callingcode' => '33',
             ),
-            150 =>
+            150 => 
             array (
                 'id' => 151,
                 'continent_id' => 2,
@@ -2586,7 +2586,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.it',
                 'callingcode' => '39',
             ),
-            151 =>
+            151 => 
             array (
                 'id' => 152,
                 'continent_id' => 2,
@@ -2603,7 +2603,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.lu',
                 'callingcode' => '352',
             ),
-            152 =>
+            152 => 
             array (
                 'id' => 153,
                 'continent_id' => 2,
@@ -2620,7 +2620,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pt',
                 'callingcode' => '351',
             ),
-            153 =>
+            153 => 
             array (
                 'id' => 154,
                 'continent_id' => 2,
@@ -2637,7 +2637,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pl',
                 'callingcode' => '48',
             ),
-            154 =>
+            154 => 
             array (
                 'id' => 155,
                 'continent_id' => 2,
@@ -2654,7 +2654,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.es',
                 'callingcode' => '34',
             ),
-            155 =>
+            155 => 
             array (
                 'id' => 156,
                 'continent_id' => 2,
@@ -2671,7 +2671,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.al',
                 'callingcode' => '355',
             ),
-            156 =>
+            156 => 
             array (
                 'id' => 157,
                 'continent_id' => 2,
@@ -2688,7 +2688,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ad',
                 'callingcode' => '376',
             ),
-            157 =>
+            157 => 
             array (
                 'id' => 158,
                 'continent_id' => 2,
@@ -2705,7 +2705,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.li',
                 'callingcode' => '423',
             ),
-            158 =>
+            158 => 
             array (
                 'id' => 159,
                 'continent_id' => 2,
@@ -2722,7 +2722,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.rs',
                 'callingcode' => '381',
             ),
-            159 =>
+            159 => 
             array (
                 'id' => 160,
                 'continent_id' => 2,
@@ -2739,7 +2739,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.at',
                 'callingcode' => '43',
             ),
-            160 =>
+            160 => 
             array (
                 'id' => 161,
                 'continent_id' => 2,
@@ -2756,7 +2756,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bg',
                 'callingcode' => '359',
             ),
-            161 =>
+            161 => 
             array (
                 'id' => 162,
                 'continent_id' => 2,
@@ -2773,7 +2773,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.fi',
                 'callingcode' => '358',
             ),
-            162 =>
+            162 => 
             array (
                 'id' => 163,
                 'continent_id' => 2,
@@ -2790,7 +2790,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gi',
                 'callingcode' => '350',
             ),
-            163 =>
+            163 => 
             array (
                 'id' => 164,
                 'continent_id' => 6,
@@ -2807,7 +2807,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.dm',
                 'callingcode' => '1767',
             ),
-            164 =>
+            164 => 
             array (
                 'id' => 165,
                 'continent_id' => 6,
@@ -2824,7 +2824,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bm',
                 'callingcode' => '1441',
             ),
-            165 =>
+            165 => 
             array (
                 'id' => 166,
                 'continent_id' => 6,
@@ -2841,7 +2841,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ca',
                 'callingcode' => '1',
             ),
-            166 =>
+            166 => 
             array (
                 'id' => 167,
                 'continent_id' => 6,
@@ -2858,7 +2858,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.us',
                 'callingcode' => '1',
             ),
-            167 =>
+            167 => 
             array (
                 'id' => 168,
                 'continent_id' => 6,
@@ -2875,7 +2875,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gl',
                 'callingcode' => '299',
             ),
-            168 =>
+            168 => 
             array (
                 'id' => 169,
                 'continent_id' => 4,
@@ -2892,7 +2892,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.to',
                 'callingcode' => '676',
             ),
-            169 =>
+            169 => 
             array (
                 'id' => 170,
                 'continent_id' => 4,
@@ -2909,7 +2909,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.au',
                 'callingcode' => '61',
             ),
-            170 =>
+            170 => 
             array (
                 'id' => 171,
                 'continent_id' => 4,
@@ -2926,7 +2926,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ck',
                 'callingcode' => '682',
             ),
-            171 =>
+            171 => 
             array (
                 'id' => 172,
                 'continent_id' => 4,
@@ -2943,7 +2943,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.nr',
                 'callingcode' => '674',
             ),
-            172 =>
+            172 => 
             array (
                 'id' => 173,
                 'continent_id' => 4,
@@ -2960,7 +2960,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.nc',
                 'callingcode' => '687',
             ),
-            173 =>
+            173 => 
             array (
                 'id' => 174,
                 'continent_id' => 4,
@@ -2977,7 +2977,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.vu',
                 'callingcode' => '678',
             ),
-            174 =>
+            174 => 
             array (
                 'id' => 175,
                 'continent_id' => 4,
@@ -2994,7 +2994,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sb',
                 'callingcode' => '677',
             ),
-            175 =>
+            175 => 
             array (
                 'id' => 176,
                 'continent_id' => 4,
@@ -3011,7 +3011,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ws',
                 'callingcode' => '685',
             ),
-            176 =>
+            176 => 
             array (
                 'id' => 177,
                 'continent_id' => 4,
@@ -3028,7 +3028,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tv',
                 'callingcode' => '688',
             ),
-            177 =>
+            177 => 
             array (
                 'id' => 178,
                 'continent_id' => 4,
@@ -3045,7 +3045,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.fm',
                 'callingcode' => '691',
             ),
-            178 =>
+            178 => 
             array (
                 'id' => 179,
                 'continent_id' => 4,
@@ -3062,7 +3062,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mh',
                 'callingcode' => '692',
             ),
-            179 =>
+            179 => 
             array (
                 'id' => 180,
                 'continent_id' => 4,
@@ -3079,7 +3079,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ki',
                 'callingcode' => '686',
             ),
-            180 =>
+            180 => 
             array (
                 'id' => 181,
                 'continent_id' => 4,
@@ -3096,7 +3096,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pf',
                 'callingcode' => '689',
             ),
-            181 =>
+            181 => 
             array (
                 'id' => 182,
                 'continent_id' => 4,
@@ -3113,7 +3113,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.nz',
                 'callingcode' => '64',
             ),
-            182 =>
+            182 => 
             array (
                 'id' => 183,
                 'continent_id' => 4,
@@ -3130,7 +3130,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.fj',
                 'callingcode' => '679',
             ),
-            183 =>
+            183 => 
             array (
                 'id' => 184,
                 'continent_id' => 4,
@@ -3147,7 +3147,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pg',
                 'callingcode' => '675',
             ),
-            184 =>
+            184 => 
             array (
                 'id' => 185,
                 'continent_id' => 4,
@@ -3164,7 +3164,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pw',
                 'callingcode' => '680',
             ),
-            185 =>
+            185 => 
             array (
                 'id' => 186,
                 'continent_id' => 7,
@@ -3181,7 +3181,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cl',
                 'callingcode' => '56',
             ),
-            186 =>
+            186 => 
             array (
                 'id' => 187,
                 'continent_id' => 7,
@@ -3198,7 +3198,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.co',
                 'callingcode' => '57',
             ),
-            187 =>
+            187 => 
             array (
                 'id' => 188,
                 'continent_id' => 7,
@@ -3215,7 +3215,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gy',
                 'callingcode' => '592',
             ),
-            188 =>
+            188 => 
             array (
                 'id' => 189,
                 'continent_id' => 7,
@@ -3232,7 +3232,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.py',
                 'callingcode' => '595',
             ),
-            189 =>
+            189 => 
             array (
                 'id' => 190,
                 'continent_id' => 7,
@@ -3249,7 +3249,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pe',
                 'callingcode' => '51',
             ),
-            190 =>
+            190 => 
             array (
                 'id' => 191,
                 'continent_id' => 7,
@@ -3266,7 +3266,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sr',
                 'callingcode' => '597',
             ),
-            191 =>
+            191 => 
             array (
                 'id' => 192,
                 'continent_id' => 7,
@@ -3283,7 +3283,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ve',
                 'callingcode' => '58',
             ),
-            192 =>
+            192 => 
             array (
                 'id' => 193,
                 'continent_id' => 7,
@@ -3300,7 +3300,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.uy',
                 'callingcode' => '598',
             ),
-            193 =>
+            193 => 
             array (
                 'id' => 194,
                 'continent_id' => 7,
@@ -3317,7 +3317,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ec',
                 'callingcode' => '593',
             ),
-            194 =>
+            194 => 
             array (
                 'id' => 195,
                 'continent_id' => 7,
@@ -3334,7 +3334,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ag',
                 'callingcode' => '1268',
             ),
-            195 =>
+            195 => 
             array (
                 'id' => 196,
                 'continent_id' => 7,
@@ -3351,7 +3351,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.aw',
                 'callingcode' => '297',
             ),
-            196 =>
+            196 => 
             array (
                 'id' => 197,
                 'continent_id' => 7,
@@ -3368,7 +3368,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bs',
                 'callingcode' => '1242',
             ),
-            197 =>
+            197 => 
             array (
                 'id' => 198,
                 'continent_id' => 7,
@@ -3385,7 +3385,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bb',
                 'callingcode' => '1246',
             ),
-            198 =>
+            198 => 
             array (
                 'id' => 199,
                 'continent_id' => 7,
@@ -3402,7 +3402,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ky',
                 'callingcode' => '1345',
             ),
-            199 =>
+            199 => 
             array (
                 'id' => 200,
                 'continent_id' => 7,
@@ -3419,7 +3419,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gd',
                 'callingcode' => '1473',
             ),
-            200 =>
+            200 => 
             array (
                 'id' => 201,
                 'continent_id' => 7,
@@ -3436,7 +3436,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ht',
                 'callingcode' => '509',
             ),
-            201 =>
+            201 => 
             array (
                 'id' => 202,
                 'continent_id' => 7,
@@ -3453,7 +3453,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.jm',
                 'callingcode' => '1876',
             ),
-            202 =>
+            202 => 
             array (
                 'id' => 203,
                 'continent_id' => 7,
@@ -3470,7 +3470,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mq',
                 'callingcode' => '596',
             ),
-            203 =>
+            203 => 
             array (
                 'id' => 204,
                 'continent_id' => 7,
@@ -3487,7 +3487,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ms',
                 'callingcode' => '1664',
             ),
-            204 =>
+            204 => 
             array (
                 'id' => 205,
                 'continent_id' => 7,
@@ -3504,7 +3504,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tt',
                 'callingcode' => '1868',
             ),
-            205 =>
+            205 => 
             array (
                 'id' => 206,
                 'continent_id' => 7,
@@ -3521,7 +3521,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.kn',
                 'callingcode' => '1869',
             ),
-            206 =>
+            206 => 
             array (
                 'id' => 207,
                 'continent_id' => 7,
@@ -3538,7 +3538,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pm',
                 'callingcode' => '508',
             ),
-            207 =>
+            207 => 
             array (
                 'id' => 208,
                 'continent_id' => 7,
@@ -3555,7 +3555,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ar',
                 'callingcode' => '54',
             ),
-            208 =>
+            208 => 
             array (
                 'id' => 209,
                 'continent_id' => 7,
@@ -3572,7 +3572,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bz',
                 'callingcode' => '501',
             ),
-            209 =>
+            209 => 
             array (
                 'id' => 210,
                 'continent_id' => 7,
@@ -3589,7 +3589,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bo',
                 'callingcode' => '591',
             ),
-            210 =>
+            210 => 
             array (
                 'id' => 211,
                 'continent_id' => 7,
@@ -3606,7 +3606,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.br',
                 'callingcode' => '55',
             ),
-            211 =>
+            211 => 
             array (
                 'id' => 212,
                 'continent_id' => 4,
@@ -3623,7 +3623,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.as',
                 'callingcode' => '1684',
             ),
-            212 =>
+            212 => 
             array (
                 'id' => 213,
                 'continent_id' => 2,
@@ -3640,7 +3640,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ax',
                 'callingcode' => '358',
             ),
-            213 =>
+            213 => 
             array (
                 'id' => 214,
                 'continent_id' => 6,
@@ -3657,7 +3657,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bl',
                 'callingcode' => '590',
             ),
-            214 =>
+            214 => 
             array (
                 'id' => 215,
                 'continent_id' => 6,
@@ -3674,7 +3674,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => NULL,
                 'callingcode' => NULL,
             ),
-            215 =>
+            215 => 
             array (
                 'id' => 216,
                 'continent_id' => 7,
@@ -3691,7 +3691,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.bv',
                 'callingcode' => NULL,
             ),
-            216 =>
+            216 => 
             array (
                 'id' => 217,
                 'continent_id' => 4,
@@ -3708,7 +3708,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cc',
                 'callingcode' => '61',
             ),
-            217 =>
+            217 => 
             array (
                 'id' => 218,
                 'continent_id' => 6,
@@ -3725,7 +3725,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cw',
                 'callingcode' => '5999',
             ),
-            218 =>
+            218 => 
             array (
                 'id' => 219,
                 'continent_id' => 4,
@@ -3742,7 +3742,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.cx',
                 'callingcode' => '61',
             ),
-            219 =>
+            219 => 
             array (
                 'id' => 220,
                 'continent_id' => 7,
@@ -3759,7 +3759,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.fk',
                 'callingcode' => '500',
             ),
-            220 =>
+            220 => 
             array (
                 'id' => 221,
                 'continent_id' => 2,
@@ -3776,7 +3776,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.fo',
                 'callingcode' => '298',
             ),
-            221 =>
+            221 => 
             array (
                 'id' => 222,
                 'continent_id' => 7,
@@ -3793,7 +3793,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gf',
                 'callingcode' => '594',
             ),
-            222 =>
+            222 => 
             array (
                 'id' => 223,
                 'continent_id' => 2,
@@ -3810,7 +3810,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gg',
                 'callingcode' => '44',
             ),
-            223 =>
+            223 => 
             array (
                 'id' => 224,
                 'continent_id' => 7,
@@ -3827,7 +3827,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gs',
                 'callingcode' => '500',
             ),
-            224 =>
+            224 => 
             array (
                 'id' => 225,
                 'continent_id' => 4,
@@ -3844,7 +3844,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.gu',
                 'callingcode' => '1671',
             ),
-            225 =>
+            225 => 
             array (
                 'id' => 226,
                 'continent_id' => 4,
@@ -3861,7 +3861,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.hm',
                 'callingcode' => NULL,
             ),
-            226 =>
+            226 => 
             array (
                 'id' => 227,
                 'continent_id' => 2,
@@ -3878,7 +3878,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.im',
                 'callingcode' => '44',
             ),
-            227 =>
+            227 => 
             array (
                 'id' => 228,
                 'continent_id' => 3,
@@ -3895,7 +3895,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.io',
                 'callingcode' => '246',
             ),
-            228 =>
+            228 => 
             array (
                 'id' => 229,
                 'continent_id' => 2,
@@ -3912,7 +3912,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.je',
                 'callingcode' => '44',
             ),
-            229 =>
+            229 => 
             array (
                 'id' => 230,
                 'continent_id' => 6,
@@ -3929,7 +3929,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.lc',
                 'callingcode' => '1758',
             ),
-            230 =>
+            230 => 
             array (
                 'id' => 231,
                 'continent_id' => 6,
@@ -3946,7 +3946,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.fr',
                 'callingcode' => '590',
             ),
-            231 =>
+            231 => 
             array (
                 'id' => 232,
                 'continent_id' => 4,
@@ -3963,7 +3963,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.mp',
                 'callingcode' => '1670',
             ),
-            232 =>
+            232 => 
             array (
                 'id' => 233,
                 'continent_id' => 4,
@@ -3980,7 +3980,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.nf',
                 'callingcode' => '672',
             ),
-            233 =>
+            233 => 
             array (
                 'id' => 234,
                 'continent_id' => 4,
@@ -3997,7 +3997,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.nu',
                 'callingcode' => '683',
             ),
-            234 =>
+            234 => 
             array (
                 'id' => 236,
                 'continent_id' => 4,
@@ -4014,7 +4014,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.pn',
                 'callingcode' => '64',
             ),
-            235 =>
+            235 => 
             array (
                 'id' => 237,
                 'continent_id' => 3,
@@ -4031,7 +4031,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => NULL,
                 'callingcode' => NULL,
             ),
-            236 =>
+            236 => 
             array (
                 'id' => 238,
                 'continent_id' => 2,
@@ -4048,7 +4048,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sj',
                 'callingcode' => '4779',
             ),
-            237 =>
+            237 => 
             array (
                 'id' => 239,
                 'continent_id' => 6,
@@ -4065,7 +4065,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.sx',
                 'callingcode' => '1721',
             ),
-            238 =>
+            238 => 
             array (
                 'id' => 240,
                 'continent_id' => 6,
@@ -4082,7 +4082,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tc',
                 'callingcode' => '1649',
             ),
-            239 =>
+            239 => 
             array (
                 'id' => 241,
                 'continent_id' => 3,
@@ -4099,7 +4099,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tf',
                 'callingcode' => NULL,
             ),
-            240 =>
+            240 => 
             array (
                 'id' => 242,
                 'continent_id' => 4,
@@ -4116,7 +4116,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.tk',
                 'callingcode' => '690',
             ),
-            241 =>
+            241 => 
             array (
                 'id' => 243,
                 'continent_id' => 4,
@@ -4133,7 +4133,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.us',
                 'callingcode' => '246',
             ),
-            242 =>
+            242 => 
             array (
                 'id' => 244,
                 'continent_id' => 6,
@@ -4150,7 +4150,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.vg',
                 'callingcode' => '1284',
             ),
-            243 =>
+            243 => 
             array (
                 'id' => 245,
                 'continent_id' => 6,
@@ -4167,7 +4167,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.vi',
                 'callingcode' => '1340',
             ),
-            244 =>
+            244 => 
             array (
                 'id' => 246,
                 'continent_id' => 4,
@@ -4184,7 +4184,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.wf',
                 'callingcode' => '681',
             ),
-            245 =>
+            245 => 
             array (
                 'id' => 247,
                 'continent_id' => 2,
@@ -4201,7 +4201,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => NULL,
                 'callingcode' => '383',
             ),
-            246 =>
+            246 => 
             array (
                 'id' => 248,
                 'continent_id' => 2,
@@ -4218,7 +4218,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.me',
                 'callingcode' => '382',
             ),
-            247 =>
+            247 => 
             array (
                 'id' => 249,
                 'continent_id' => 6,
@@ -4235,7 +4235,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ai',
                 'callingcode' => '1-264',
             ),
-            248 =>
+            248 => 
             array (
                 'id' => 250,
                 'continent_id' => 3,
@@ -4252,7 +4252,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => NULL,
                 'callingcode' => '220',
             ),
-            249 =>
+            249 => 
             array (
                 'id' => 251,
                 'continent_id' => 3,
@@ -4270,7 +4270,7 @@ class WorldCountriesTableSeeder extends Seeder
                 'callingcode' => '211',
             ),
         ));
-
-
+        
+        
     }
 }
