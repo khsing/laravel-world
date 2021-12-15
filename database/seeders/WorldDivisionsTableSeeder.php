@@ -16,7 +16,7 @@ class WorldDivisionsTableSeeder extends Seeder
     {
         
 
-        \DB::table('world_divisions')->delete();
+        \DB::table('world_divisions')->truncate();
         
         \DB::table('world_divisions')->insert(array (
             0 => 
@@ -2338,7 +2338,7 @@ class WorldDivisionsTableSeeder extends Seeder
                 'country_id' => 141,
                 'name' => 'Bonaire',
                 'full_name' => NULL,
-                'code' => NULL,
+                'code' => 'BQ-BO',
                 'has_city' => 1,
             ),
             258 => 
@@ -2347,7 +2347,7 @@ class WorldDivisionsTableSeeder extends Seeder
                 'country_id' => 141,
                 'name' => 'Saba',
                 'full_name' => NULL,
-                'code' => NULL,
+                'code' => 'BQ-SA',
                 'has_city' => 1,
             ),
             259 => 
@@ -2356,7 +2356,7 @@ class WorldDivisionsTableSeeder extends Seeder
                 'country_id' => 141,
                 'name' => 'Sint Eustatius',
                 'full_name' => NULL,
-                'code' => NULL,
+                'code' => 'BQ-SE',
                 'has_city' => 1,
             ),
             260 => 
@@ -2761,7 +2761,7 @@ class WorldDivisionsTableSeeder extends Seeder
                 'country_id' => 251,
                 'name' => 'Abyei Area',
                 'full_name' => NULL,
-                'code' => NULL,
+                'code' => '11',
                 'has_city' => 1,
             ),
             305 => 
@@ -2770,7 +2770,7 @@ class WorldDivisionsTableSeeder extends Seeder
                 'country_id' => 251,
                 'name' => 'Pibor Area',
                 'full_name' => NULL,
-                'code' => NULL,
+                'code' => '12',
                 'has_city' => 1,
             ),
             306 => 
@@ -2779,7 +2779,7 @@ class WorldDivisionsTableSeeder extends Seeder
                 'country_id' => 251,
                 'name' => 'Ruweng Area',
                 'full_name' => NULL,
-                'code' => NULL,
+                'code' => '13',
                 'has_city' => 1,
             ),
             307 => 
@@ -3632,8 +3632,8 @@ class WorldDivisionsTableSeeder extends Seeder
             array (
                 'id' => 432,
                 'country_id' => 94,
-                'name' => 'Asir Region',
-                'full_name' => NULL,
+                'name' => '\'Asir Region',
+                'full_name' => 'Asir Region',
                 'code' => '11',
                 'has_city' => 0,
             ),
@@ -23847,8 +23847,8 @@ class WorldDivisionsTableSeeder extends Seeder
             array (
                 'id' => 2702,
                 'country_id' => 84,
-                'name' => 'Al Wusţá',
-                'full_name' => NULL,
+                'name' => 'Al Wusta Governorate',
+                'full_name' => 'Al Wusţá',
                 'code' => '3',
                 'has_city' => 0,
             ),
@@ -23874,8 +23874,8 @@ class WorldDivisionsTableSeeder extends Seeder
             array (
                 'id' => 2705,
                 'country_id' => 84,
-                'name' => 'Musandam',
-                'full_name' => NULL,
+                'name' => 'Musandam Governorate',
+                'full_name' => 'Musandam Governorate',
                 'code' => '7',
                 'has_city' => 0,
             ),
@@ -23892,8 +23892,8 @@ class WorldDivisionsTableSeeder extends Seeder
             array (
                 'id' => 2707,
                 'country_id' => 84,
-                'name' => 'Az̧ Z̧āhirah',
-                'full_name' => NULL,
+                'name' => 'Ad Dhahirah',
+                'full_name' => 'Az̧ Z̧āhirah',
                 'code' => '9',
                 'has_city' => 0,
             ),
@@ -27044,8 +27044,8 @@ class WorldDivisionsTableSeeder extends Seeder
             array (
                 'id' => 3057,
                 'country_id' => 119,
-                'name' => 'Jaroslavl',
-                'full_name' => NULL,
+                'name' => 'Yaroslavl Oblast',
+                'full_name' => 'Jaroslavl',
                 'code' => '88',
                 'has_city' => 0,
             ),
@@ -35635,6 +35635,24 @@ class WorldDivisionsTableSeeder extends Seeder
                 'name' => 'Harare',
                 'full_name' => NULL,
                 'code' => '10',
+                'has_city' => 0,
+            ),
+            456 => 
+            array (
+                'id' => 4012,
+                'country_id' => 131,
+                'name' => 'South Kurzeme Municipality',
+                'full_name' => 'South Kurzeme Municipality',
+                'code' => 'DN',
+                'has_city' => 0,
+            ),
+            457 => 
+            array (
+                'id' => 4013,
+                'country_id' => 131,
+                'name' => 'Augšdaugava Municipality',
+                'full_name' => 'Augsdaugava Municipality',
+                'code' => 'AN',
                 'has_city' => 0,
             ),
         ));

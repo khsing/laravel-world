@@ -16,7 +16,7 @@ class WorldCountriesLocaleTableSeeder extends Seeder
     {
         
 
-        \DB::table('world_countries_locale')->delete();
+        \DB::table('world_countries_locale')->truncate();
         
         \DB::table('world_countries_locale')->insert(array (
             0 => 
