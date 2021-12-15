@@ -16,7 +16,7 @@ class WorldDivisionsLocaleTableSeeder extends Seeder
     {
         
 
-        \DB::table('world_divisions_locale')->delete();
+        \DB::table('world_divisions_locale')->truncate();
         
         \DB::table('world_divisions_locale')->insert(array (
             0 => 

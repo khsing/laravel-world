@@ -16,7 +16,7 @@ class WorldCountriesTableSeeder extends Seeder
     {
         
 
-        \DB::table('world_countries')->delete();
+        \DB::table('world_countries')->truncate();
         
         \DB::table('world_countries')->insert(array (
             0 => 
