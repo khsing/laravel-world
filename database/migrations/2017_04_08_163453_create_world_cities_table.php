@@ -17,9 +17,10 @@ class CreateWorldCitiesTable extends Migration
             $table->bigIncrements('id')->comment('Auto increase ID');
             $table->bigInteger('country_id')->unsigned()->comment('Country ID');
             $table->bigInteger('division_id')->unsigned()->nullable()->index('division_id')->comment('Division ID');
-            $table->string('name', 255)->default('')->comment('City Name');
-            $table->string('full_name', 255)->nullable()->comment('City Fullname');
-            $table->string('code', 64)->nullable()->comment('City Code');
+            // Shorter lengths to avoid "Specified key was too long" on MySQL utf8mb4
+            $table->string('name', 150)->default('')->comment('City Name');
+            $table->string('full_name', 191)->nullable()->comment('City Fullname');
+            $table->string('code', 32)->nullable()->comment('City Code');
             $table->index(['country_id','division_id','name'], 'uniq_city');
         });
     }

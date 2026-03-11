@@ -3,6 +3,7 @@
 namespace Khsing\World\Console;
 
 use Illuminate\Console\Command;
+use Khsing\World\Database\Seeders\WorldTablesSeeder;
 
 /**
  * Init Command.
@@ -42,7 +43,15 @@ class InitCommand extends Command
         $this->info('Execute migrate first, migrating...');
         $this->call('migrate');
         $this->info('Seeding datas');
-        $this->call('db:seed', ['--class'=>'WorldTablesSeeder']);
+
+        // Directly run the package seeder to avoid relying on the host app's
+        // Database\\Seeders namespace or class discovery.
+        if (! class_exists(WorldTablesSeeder::class)) {
+            require_once __DIR__.'/../../database/seeders/WorldTablesSeeder.php';
+        }
+
+        (new WorldTablesSeeder())->run();
+
         $this->info('Done!');
     }
 }

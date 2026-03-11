@@ -1,6 +1,6 @@
 <?php
 
-namespace Database\Seeders;
+namespace Khsing\World\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 
